@@ -1,8 +1,3 @@
-# encoding: utf-8
-
-require 'json'
-require 'nokogiri'
-require 'faraday'
 require 'roo'
 
 def self.parse_content()
@@ -41,25 +36,30 @@ def self.parse_content()
       actors = parse_actors(info1,1)
     end
 
-    if !actors.nil?
+    #parse country
+    country = parse_country(info2)
+
+
+    if !country.nil?
       count = count+1
     end
 
-    puts count
+     puts count
 
 
     #print some outputs
-     puts "ID: " +id.to_s
+    # puts "ID: " +id.to_s
     # puts "Stanica: " + television
     # puts "Datum: " + date.to_s
     # puts "Začiatočný čas: " + start_time.to_s
     # puts "Nazov: " + name.to_s
     # puts "Info1: " + info1.to_s
     # puts "Info2: " + info2.to_s
-    #puts "Režisér: " + director.to_s
-    #puts "Rok výroby: " +year.to_s
-    puts "Herci: " +actors.to_s
-    puts ""
+    # puts "Režisér: " + director.to_s
+    # puts "Rok výroby: " +year.to_s
+    # puts "Herci: " +actors.to_s
+    puts "Krajina pôvodu: " +country.to_s
+    # puts ""
 
   end
 end
@@ -123,6 +123,15 @@ def self.parse_actors(info,id)
     actors = actors.gsub(/ a další\.?/,"")
   end
   actors
+end
+
+#parse country
+def self.parse_country(info)
+  country = info.to_s[/[zZ]emě: [^<]*/]
+
+  if !country.nil?
+    country = country.gsub(/[zZ]emě: /,"")
+  end
 end
 
 #calling main funcion to process data input
