@@ -39,27 +39,32 @@ def self.parse_content()
     #parse country
     country = parse_country(info2)
 
+    #clear info1
+    if !info1.nil?
+      info1 = clear_info1(info1)
+    end
+
 
     if !country.nil?
       count = count+1
     end
 
-     puts count
+     # puts count
 
 
     #print some outputs
-    # puts "ID: " +id.to_s
-    # puts "Stanica: " + television
-    # puts "Datum: " + date.to_s
-    # puts "Začiatočný čas: " + start_time.to_s
-    # puts "Nazov: " + name.to_s
-    # puts "Info1: " + info1.to_s
-    # puts "Info2: " + info2.to_s
-    # puts "Režisér: " + director.to_s
-    # puts "Rok výroby: " +year.to_s
-    # puts "Herci: " +actors.to_s
+    puts "ID: " +id.to_s
+    puts "Stanica: " + television
+    puts "Datum: " + date.to_s
+    puts "Začiatočný čas: " + start_time.to_s
+    puts "Nazov: " + name.to_s
+    puts "Režisér: " + director.to_s
+    puts "Rok výroby: " +year.to_s
+    puts "Herci: " +actors.to_s
     puts "Krajina pôvodu: " +country.to_s
-    # puts ""
+    puts "Info1: " + info1.to_s
+    puts "Info2: " + info2.to_s
+    puts ""
 
   end
 end
@@ -132,6 +137,12 @@ def self.parse_country(info)
   if !country.nil?
     country = country.gsub(/[zZ]emě: /,"")
   end
+end
+
+#remove atributes from info1
+def self.clear_info1(info)
+  info = info.gsub(/Hrají:.* /,"")
+  info = info.gsub(/[rR].{0,1}ži[ea]:? .*/,"")
 end
 
 #calling main funcion to process data input
