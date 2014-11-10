@@ -21,21 +21,31 @@ def self.parse_content()
     info1 = row[5]
     info2 = row[6]
 
+    #parse director name
     director = parse_direcotor_name(info1,1)
     if director.nil?
       director = parse_direcotor_name(info2,2)
     end
 
+    #parse production year
+    year = parse_year(info1,1)
+    if year.nil?
+      year = parse_year(info2,2)
+    end
 
-    puts "ID: " +id.to_s
+
+    #print some outputs
+    # puts "ID: " +id.to_s
     # puts "Stanica: " + television
     # puts "Datum: " + date.to_s
     # puts "Začiatočný čas: " + start_time.to_s
     # puts "Nazov: " + name.to_s
     # puts "Info1: " + info1.to_s
     # puts "Info2: " + info2.to_s
-    puts "Režisér: " + director.to_s
-    puts ""
+    #puts "Režisér: " + director.to_s
+    puts "Rok výroby: " +year.to_s
+    #puts ""
+
   end
 end
 
@@ -52,21 +62,36 @@ end
 #parse name of director
 def self.parse_direcotor_name(info,id)
     if id == 1
-     director = info.to_s[/[rR].{0,1}ži[ea]:* .*/]
+     director = info.to_s[/[rR].{0,1}ži[ea]:? .*/]
     else
-      director = info.to_s[/[rR].{0,1}ži[ea]: [^<]*/]
+      director = info.to_s[/[rR].{0,1}ži[ea]:? [^<]*/]
     end
 
     if !director.nil?
       director = director.gsub("Režie","")
       director = director.gsub("režie","")
       director = director.gsub(":","").strip
+      director = director.gsub(/[\(\)\d]/,"")
 
       if director[-1] == "."
         director = director[0..-2]
       end
     end
   director
+end
+
+#parse production year
+def self.parse_year(info, id)
+  if id == 1
+    year = info.to_s[/\(\d{4}.?/]
+  else
+    year = info.to_s[/Rok výroby: \d{4}/]
+  end
+
+  if !year.nil?
+    year = year.gsub(/[^\d]/,"")
+  end
+  year
 end
 
 #calling main funcion to process data input
