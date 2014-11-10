@@ -9,6 +9,8 @@ def self.parse_content()
   document = Roo::Excelx.new("program.xlsx")
   document.default_sheet = document.sheets.first
 
+  count = 0;
+
 (document.first_row..document.last_row).each do |row_number|
   #process all rows except first row which represent sheet header
   if row_number != 1
@@ -22,20 +24,32 @@ def self.parse_content()
     info2 = row[6]
 
     #parse director name
-    director = parse_direcotor_name(info1,1)
+    director = parse_direcotor_name(info2,2)
     if director.nil?
-      director = parse_direcotor_name(info2,2)
+      director = parse_direcotor_name(info1,1)
     end
 
     #parse production year
-    year = parse_year(info1,1)
+    year = parse_year(info2,2)
     if year.nil?
-      year = parse_year(info2,2)
+      year = parse_year(info1,1)
     end
+
+    #parse actors
+    actors = parse_actors(info2,2)
+    if actors.nil?
+      actors = parse_actors(info1,1)
+    end
+
+    if !actors.nil?
+      count = count+1
+    end
+
+    puts count
 
 
     #print some outputs
-    # puts "ID: " +id.to_s
+     puts "ID: " +id.to_s
     # puts "Stanica: " + television
     # puts "Datum: " + date.to_s
     # puts "Začiatočný čas: " + start_time.to_s
@@ -43,8 +57,9 @@ def self.parse_content()
     # puts "Info1: " + info1.to_s
     # puts "Info2: " + info2.to_s
     #puts "Režisér: " + director.to_s
-    puts "Rok výroby: " +year.to_s
-    #puts ""
+    #puts "Rok výroby: " +year.to_s
+    puts "Herci: " +actors.to_s
+    puts ""
 
   end
 end
@@ -92,6 +107,22 @@ def self.parse_year(info, id)
     year = year.gsub(/[^\d]/,"")
   end
   year
+end
+
+#parse actors
+def self.parse_actors(info,id)
+  if id == 1
+    actors = info.to_s[/[hH]rají:? .*/]
+  else
+    actors = info.to_s[/[hH]rají:? [^<]*/]
+  end
+
+  if !actors.nil?
+    actors = actors.gsub("Hrají: ","")
+    actors = actors.gsub(/[rR].{0,1}ži[ea]:? .*/,"")
+    actors = actors.gsub(/ a další\.?/,"")
+  end
+  actors
 end
 
 #calling main funcion to process data input
