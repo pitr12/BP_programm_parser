@@ -4,8 +4,6 @@ def self.parse_content()
   document = Roo::Excelx.new("program.xlsx")
   document.default_sheet = document.sheets.first
 
-  count = 0;
-
 (document.first_row..document.last_row).each do |row_number|
   #process all rows except first row which represent sheet header
   if row_number != 1
@@ -43,13 +41,6 @@ def self.parse_content()
     if !info1.nil?
       info1 = clear_info1(info1)
     end
-
-
-    if !country.nil?
-      count = count+1
-    end
-
-     # puts count
 
 
     #print some outputs
