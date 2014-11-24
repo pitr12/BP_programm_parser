@@ -66,6 +66,43 @@ def self.parse_program_content(site)
   return program
 end
 
+#parse item type
+def self.parse_item_type(h1)
+  type = h1.search('.film-type')
+  if(!type.empty?)
+    type = type[0].text[1..-2].to_s
+  else
+    type = "TV film"
+  end
+
+  return type
+end
+
+#parse item origin (county, year, duration)
+def self.parse_item_origin(origin)
+  origin = origin.split(',')
+
+  countries = origin[0]
+  countries = countries.split('/')
+  countries.each do |item|
+    item.strip!
+  end
+
+  year = ""
+  if(origin.size > 1)
+    year = origin[1].to_s.strip
+  end
+
+  duration = ""
+  if(origin.size > 2)
+    duration = origin[2].to_s.strip
+    duration = duration.match(/\d*/).to_s
+  end
+
+  return {:countries => countries, :year => year, :duration => duration}
+
+end
+
 #Parse extended content from item URL
 def self.parse_item_content(url)
    # site = Faraday.get(url)
@@ -74,12 +111,8 @@ def self.parse_item_content(url)
 
   #parse item type
     h1 = body.css('h1')
-    type = h1.search('.film-type')
-    if(!type.empty?)
-      type = type[0].text[1..-2].to_s
-    else
-      type = "TV film"
-    end
+    type = parse_item_type(h1)
+
 
   #parse item genres
     genres = body.css('.genre').text
@@ -88,28 +121,17 @@ def self.parse_item_content(url)
      item.strip!
     end
 
-  #parse item origin (county, year, length)
+  #parse item origin (county, year, duration)
     origin = body.css('.origin').text
-    origin = origin.split(',')
+    origin = parse_item_origin(origin)
 
-    countries = origin[0]
-    countries = countries.split('/')
-    countries.each do |item|
-      item.strip!
-    end
+  #parse item creators (director, scriptwriter, camera, music, actors)
+    creators = body.css('.creators')
+    # puts creators
 
-    year = ""
-    if(origin.size > 1)
-      year = origin[1].to_s.strip
-    end
 
-    duration = ""
-    if(origin.size > 2)
-      duration = origin[2].to_s.strip
-      duration = duration.match(/\d*/).to_s
-    end
 
-  content = {:type => type, :genres => genres, :countries => countries, :year => year, :duration => duration}
+  content = {:type => type, :genres => genres, :countries => origin[:countries], :year => origin[:year], :duration => origin[:duration]}
 
   return content
 end
