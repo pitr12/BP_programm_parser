@@ -6,6 +6,7 @@ CHANNELS_LIST = {
     12 => 'AXN', 13 => 'Cinemax', 14 => 'FilmBox', 15 => 'Film+', 16 => 'CSfilm'
 }
 
+#Download site for specific Channel and day
 def self.download_site(channel, day)
 
   conn = Faraday.new(:url => 'http://www.csfd.cz') do |faraday|
@@ -26,8 +27,10 @@ def self.download_site(channel, day)
   return response2.body
 end
 
-def self.parse_content(site)
+#Parse basic content from program site
+def self.parse_program_content(site)
   body = Nokogiri::HTML(site)
+  program = []
 
   body.search('.box').each do |box|
     #parse start time
@@ -47,35 +50,74 @@ def self.parse_content(site)
       url = "http://www.csfd.cz" + link[0]["href"].to_s
     end
 
-    #if TV show than parse series and episode number
+    #if TV show than parse season and episode number
     series = box.search('.series').text[1..-2]
+    season = ""
+    episode = ""
     if(!series.nil?)
       season = series.match(/S\d*/).to_s
       episode = series.match(/E\d*/).to_s
     end
 
-    puts "Time: " + time.to_s
-    puts "Name: " + name
-    puts "URL: " + url
-    if(!episode.nil?)
-      puts "Season: " + season
-      puts "Episode: " + episode
-    end
-    puts ""
+    hash = {:time => time, :name => name, :url => url, :season => season, :episode => episode}
+    program << hash
+  end
+
+  return program
+end
+
+#Parse extended content from item URL
+def self.parse_item_content(url)
+  # site = Faraday.get(url)
+  site = File.read("noviny.txt")
+  body = Nokogiri::HTML(site)
+
+  #parse item type
+  h1 = body.css('h1')
+  type = h1.search('.film-type')
+  if(!type.empty?)
+    type = type[0].text[1..-2].to_s
+  else
+    type = "TV film"
+  end
+
+  #parse item genres
+  genres = body.css('.genre').text
+  genres = genres.split('/')
+  genres.each do |item|
+   item.strip!
   end
 
 
+  content = {:type => type, :genres => genres}
+
+  return content
 end
 
 #calling function to download site for set day and channel
   # day = 1 #tomorrow
   # channel = 6 #markiza
   # site = download_site(channel,day);
+  site = File.read("site_file.txt")
   # File.open("site_file.txt", 'w') { |file| file.write(site) }
 
-site = File.read("site_file.txt")
+program = parse_program_content(site)
 
+program.each do |item|
+  #print item attributes
+  puts "Time: " + item[:time].to_s
+  puts "Name: " + item[:name].to_s
+  puts "URL: " + item[:url].to_s
+  puts "Season: " + item[:season].to_s
+  puts "Episode: " + item[:episode].to_s
+  puts ""
 
-parse_content(site)
+  #find item in Database - if item is not in database parse more content from item URL and save it to DB
+    #item is not present in DB
+    extend_content = parse_item_content(item[:url].to_s)
+    puts "Extended parsing:"
+    puts extend_content
+  break
+end
 
 
