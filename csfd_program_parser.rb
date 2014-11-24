@@ -47,9 +47,20 @@ def self.parse_content(site)
       url = "http://www.csfd.cz" + link[0]["href"].to_s
     end
 
-    puts time
-    puts name
-    puts url
+    #if TV show than parse series and episode number
+    series = box.search('.series').text[1..-2]
+    if(!series.nil?)
+      season = series.match(/S\d*/).to_s
+      episode = series.match(/E\d*/).to_s
+    end
+
+    puts "Time: " + time.to_s
+    puts "Name: " + name
+    puts "URL: " + url
+    if(!episode.nil?)
+      puts "Season: " + season
+      puts "Episode: " + episode
+    end
     puts ""
   end
 
