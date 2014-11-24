@@ -68,28 +68,48 @@ end
 
 #Parse extended content from item URL
 def self.parse_item_content(url)
-  # site = Faraday.get(url)
-  site = File.read("noviny.txt")
+   # site = Faraday.get(url)
+  site = File.read("terminator.txt")
   body = Nokogiri::HTML(site)
 
   #parse item type
-  h1 = body.css('h1')
-  type = h1.search('.film-type')
-  if(!type.empty?)
-    type = type[0].text[1..-2].to_s
-  else
-    type = "TV film"
-  end
+    h1 = body.css('h1')
+    type = h1.search('.film-type')
+    if(!type.empty?)
+      type = type[0].text[1..-2].to_s
+    else
+      type = "TV film"
+    end
 
   #parse item genres
-  genres = body.css('.genre').text
-  genres = genres.split('/')
-  genres.each do |item|
-   item.strip!
-  end
+    genres = body.css('.genre').text
+    genres = genres.split('/')
+    genres.each do |item|
+     item.strip!
+    end
 
+  #parse item origin (county, year, length)
+    origin = body.css('.origin').text
+    origin = origin.split(',')
 
-  content = {:type => type, :genres => genres}
+    countries = origin[0]
+    countries = countries.split('/')
+    countries.each do |item|
+      item.strip!
+    end
+
+    year = ""
+    if(origin.size > 1)
+      year = origin[1].to_s.strip
+    end
+
+    duration = ""
+    if(origin.size > 2)
+      duration = origin[2].to_s.strip
+      duration = duration.match(/\d*/).to_s
+    end
+
+  content = {:type => type, :genres => genres, :countries => countries, :year => year, :duration => duration}
 
   return content
 end
