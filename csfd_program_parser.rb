@@ -30,20 +30,26 @@ def self.parse_content(site)
   body = Nokogiri::HTML(site)
 
   body.search('.box').each do |box|
-    time = box.search('.time')
-    puts "Time: " + time.text
+    #parse start time
+    time = box.search('.time').text
 
+    #parse name
     content = box.search('.name')
     name = content.css('a').text
-    # link = content.css('a')
-    # puts link[0]["href"]
-
     if(name.empty?)
       name = content.text
     end
 
+    #parse URL
+    url = ""
+    link = content.css('a')
+    if(!link.empty?)
+      url = "http://www.csfd.cz" + link[0]["href"].to_s
+    end
+
+    puts time
     puts name
-    # puts link
+    puts url
     puts ""
   end
 
