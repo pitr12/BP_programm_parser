@@ -103,10 +103,46 @@ def self.parse_item_origin(origin)
 
 end
 
+#parse item creators (director, scriptwriter, camera, music, actors)
+def self.parse_item_creators(creators)
+  directors = []
+  scriptwriters = []
+  camera = []
+  music = []
+  actors = []
+  artwork = []
+
+  divs = creators.css('div')
+
+  divs[1..-1].each do |div|
+    type = div.css('h4').text.to_s
+    links = div.css('a')
+
+    links.each do |link|
+      case type
+        when 'Režie:'
+          directors << link.text
+        when 'Scénář:'
+          scriptwriters << link.text
+        when 'Kamera:'
+          camera << link.text
+        when 'Hudba:'
+          music << link.text
+        when 'Hrají:'
+          actors << link.text
+        when 'Předloha:'
+          artwork << link.text
+      end
+    end
+  end
+
+  return {:directors => directors, :scriptwriters => scriptwriters, :camera => camera, :music => music, :actors => actors, :artwork => artwork}
+end
+
 #Parse extended content from item URL
 def self.parse_item_content(url)
    # site = Faraday.get(url)
-  site = File.read("terminator.txt")
+  site = File.read("noviny.txt")
   body = Nokogiri::HTML(site)
 
   #parse item type
@@ -127,11 +163,12 @@ def self.parse_item_content(url)
 
   #parse item creators (director, scriptwriter, camera, music, actors)
     creators = body.css('.creators')
-    # puts creators
+    creators = parse_item_creators(creators)
 
 
 
-  content = {:type => type, :genres => genres, :countries => origin[:countries], :year => origin[:year], :duration => origin[:duration]}
+  content = {:type => type, :genres => genres, :countries => origin[:countries], :year => origin[:year], :duration => origin[:duration], :directors => creators[:directors],
+             :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork]}
 
   return content
 end
