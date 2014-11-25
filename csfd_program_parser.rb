@@ -175,9 +175,23 @@ def self.parse_item_content(url)
       imdb_url = imdb_url[0]["href"].to_s
     end
 
+  #parse english title
+    en_title = ""
+    names_li = body.css('ul.names li')
+    if(!names_li.empty?)
+      names_li.each do |li|
+        img_alt = li.search('img')
+        if(!img_alt.empty?)
+          img_alt = img_alt[0]['alt'].to_s
+          if(img_alt.eql?("USA"))
+            en_title = li.css('h3').text
+          end
+        end
+      end
+    end
 
   content = {:type => type, :genres => genres, :countries => origin[:countries], :year => origin[:year], :duration => origin[:duration], :directors => creators[:directors],
-             :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork], :rating => rating, :imdb_url => imdb_url}
+             :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork], :csfd_rating => rating, :imdb_url => imdb_url, :en_title => en_title}
 
   return content
 end
