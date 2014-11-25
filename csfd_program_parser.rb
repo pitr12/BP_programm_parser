@@ -1,17 +1,24 @@
 require 'nokogiri'
 require 'faraday'
 
-#list of all available channels
-CHANNELS_LIST = {
-    'HBO' => 1, 'Nova' => 2, 'Prima' => 3, 'ČT1' => 4, 'ČT2' => 5, 'Markíza' => 6, 'JOJ' => 7, 'HBO2' => 8, 'Jednotka' => 9, 'Dvojka' => 10,
-    'AXN' => 12, 'Cinemax' => 13, 'FilmBox' => 14, 'Film+' => 15, 'CSfilm' => 16
-}
-
 #list of channels to be parsed
 PARSE_LIST = ['Markíza', 'HBO']
 
-#specify day for which should be program parsed
+#specify day for which should be program parsed (0 today, 1 tomorrow ....)
 DAY = 1
+
+#list of all available channels
+CHANNELS_LIST = {
+    'HBO' => 1, 'Nova' => 2, 'Prima' => 3, 'ČT1' => 4, 'ČT2' => 5, 'Markíza' => 6, 'JOJ' => 7, 'HBO2' => 8, 'Jednotka' => 9, 'Dvojka' => 10,
+    'AXN' => 12, 'Cinemax' => 13, 'FilmBox' => 14, 'Film+' => 15, 'CSfilm' => 16, 'MGM' => 17, 'HBO Comedy' => 18, 'Nova Cinema' => 19, 'FilmBox Plus' => 20,
+    'FilmBox HD' => 21, 'Cinemax2' => 22, 'Barrandov' => 24, 'Plus' => 25, 'Prima Cool' => 26, 'Doma' => 27, 'Universal Channel' => 28, 'Disney Channel' => 30,
+    'Kino CS' => 31, 'Doku CS' => 32, 'Prima Love' => 33, 'Minimax' => 34, 'Discovery Channel' => 37, 'History Channel' => 38, 'Spektrum' => 39, 'Animal Planet' => 40,
+    'Filmbox Family' => 41, 'Viasat Nature' => 42, 'Viasat Explorer' => 43, 'Viasat History' => 44, 'Viasat HD' => 45, 'Film Europe Channel' => 46, 'Fanda' => 48,
+    'Discovery Science' => 50, 'Discovery World' => 51, 'JimJam' => 52, 'Spektrum Home' => 53, 'Dajto' => 54, 'National Geographic' => 55, 'National Geographic Wild' => 56,
+    'CBS Drama' => 57, 'Smíchov' =>58, 'Prima ZOOM' => 60, 'Telka' => 61, 'Wau' => 63, 'ČT :D' => 64, 'ČT art' => 65, 'AXN Black' => 66, 'AXN White' => 67,
+    'Megamax' => 68, 'CBS Reality' => 69, 'Horor Film' => 70, 'National Geographic HD' => 71, 'Travel Channel' => 72, 'Nickelodeon' => 73, 'MTV CZ' => 74,
+    'Filmbox Extra' => 75, 'Kino Svět' => 76, 'ID Xtra' => 77, 'AMC' => 78
+}
 
 #Download site for specific Channel and day
 def self.download_site(channel, day)
@@ -200,7 +207,6 @@ def self.parse_item_content(url)
    #parse item description
     description = parse_item_description(body.css('div#plots'))
 
-  #return parsed data
   content = {:type => type, :genres => genres, :countries => origin[:countries], :year => origin[:year], :duration => origin[:duration], :directors => creators[:directors],
              :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork],
              :csfd_rating => rating, :imdb_url => imdb_url, :original_title => original_title, :description => description}
@@ -258,7 +264,7 @@ PARSE_LIST.each do |channel|
 
       print_extended_content(extend_content)
 
-      # break
+       break
   end
 end
 
