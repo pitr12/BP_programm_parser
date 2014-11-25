@@ -96,7 +96,6 @@ def self.parse_item_origin(origin)
   duration = ""
   if(origin.size > 2)
     duration = origin[2].to_s.strip
-    duration = duration.match(/\d*/).to_s
   end
 
   return {:countries => countries, :year => year, :duration => duration}
@@ -139,11 +138,29 @@ def self.parse_item_creators(creators)
   return {:directors => directors, :scriptwriters => scriptwriters, :camera => camera, :music => music, :actors => actors, :artwork => artwork}
 end
 
+#parse original title
+def self.parse_item_original_title(names_li)
+  original_title = ""
+  if(!names_li.empty?)
+    names_li.each do |li|
+      original_title = li.css('h3').text
+      break;
+    end
+  end
+  return original_title
+end
+
+#parse item description
+def self.parse_item_description(desc)
+  description = desc.css('div.content').css('div')[1].text.strip!
+  return description
+end
+
 #Parse extended content from item URL
 def self.parse_item_content(url)
-   # site = Faraday.get(url)
-  site = File.read("terminator.txt")
-  body = Nokogiri::HTML(site)
+  site = Faraday.get(url)
+  # site = File.read("noviny.txt")
+  body = Nokogiri::HTML(site.body)
 
   #parse item type
     h1 = body.css('h1')
@@ -158,12 +175,10 @@ def self.parse_item_content(url)
     end
 
   #parse item origin (county, year, duration)
-    origin = body.css('.origin').text
-    origin = parse_item_origin(origin)
+    origin = parse_item_origin(body.css('.origin').text)
 
   #parse item creators (director, scriptwriter, camera, music, actors)
-    creators = body.css('.creators')
-    creators = parse_item_creators(creators)
+    creators = parse_item_creators(body.css('.creators'))
 
   #parse item rating
     rating = body.css('h2.average').text
@@ -175,32 +190,25 @@ def self.parse_item_content(url)
       imdb_url = imdb_url[0]["href"].to_s
     end
 
-  #parse english title
-    en_title = ""
-    names_li = body.css('ul.names li')
-    if(!names_li.empty?)
-      names_li.each do |li|
-        img_alt = li.search('img')
-        if(!img_alt.empty?)
-          img_alt = img_alt[0]['alt'].to_s
-          if(img_alt.eql?("USA"))
-            en_title = li.css('h3').text
-          end
-        end
-      end
-    end
+  #parse original title
+    original_title = parse_item_original_title(body.css('ul.names li'))
 
+   #parse item description
+    description = parse_item_description(body.css('div#plots'))
+
+  #return parsed data
   content = {:type => type, :genres => genres, :countries => origin[:countries], :year => origin[:year], :duration => origin[:duration], :directors => creators[:directors],
-             :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork], :csfd_rating => rating, :imdb_url => imdb_url, :en_title => en_title}
+             :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork],
+             :csfd_rating => rating, :imdb_url => imdb_url, :original_title => original_title, :description => description}
 
   return content
 end
 
 #calling function to download site for set day and channel
-  # day = 1 #tomorrow
-  # channel = 6 #markiza
-  # site = download_site(channel,day);
-  site = File.read("site_file.txt")
+  day = 1 #tomorrow
+  channel = 6 #markiza
+  site = download_site(channel,day);
+  # site = File.read("site_file.txt")
   # File.open("site_file.txt", 'w') { |file| file.write(site) }
 
 program = parse_program_content(site)
@@ -216,10 +224,14 @@ program.each do |item|
 
   #find item in Database - if item is not in database parse more content from item URL and save it to DB
     #item is not present in DB
-    extend_content = parse_item_content(item[:url].to_s)
+    extend_content = {}
+    if(!item[:url].to_s.empty?)
+      extend_content = parse_item_content(item[:url].to_s)
+    end
     puts "Extended parsing:"
     puts extend_content
-  break
+    puts "\n\n\n\n\n"
+   # break
 end
 
 
