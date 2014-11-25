@@ -1,10 +1,17 @@
 require 'nokogiri'
 require 'faraday'
 
+#list of all available channels
 CHANNELS_LIST = {
-    1 => 'HBO', 2 => 'Nova', 3 => 'Prima', 4 => 'ČT1', 5 => 'ČT2', 6 => 'Markíza', 7 => 'JOJ', 8 => 'HBO2', 9 => 'Jednotka', 10 => 'Dvojka',
-    12 => 'AXN', 13 => 'Cinemax', 14 => 'FilmBox', 15 => 'Film+', 16 => 'CSfilm'
+    'HBO' => 1, 'Nova' => 2, 'Prima' => 3, 'ČT1' => 4, 'ČT2' => 5, 'Markíza' => 6, 'JOJ' => 7, 'HBO2' => 8, 'Jednotka' => 9, 'Dvojka' => 10,
+    'AXN' => 12, 'Cinemax' => 13, 'FilmBox' => 14, 'Film+' => 15, 'CSfilm' => 16
 }
+
+#list of channels to be parsed
+PARSE_LIST = ['Markíza', 'HBO']
+
+#specify day for which should be program parsed
+DAY = 1
 
 #Download site for specific Channel and day
 def self.download_site(channel, day)
@@ -82,8 +89,7 @@ end
 def self.parse_item_origin(origin)
   origin = origin.split(',')
 
-  countries = origin[0]
-  countries = countries.split('/')
+  countries = origin[0].split('/')
   countries.each do |item|
     item.strip!
   end
@@ -163,13 +169,11 @@ def self.parse_item_content(url)
   body = Nokogiri::HTML(site.body)
 
   #parse item type
-    h1 = body.css('h1')
-    type = parse_item_type(h1)
+    type = parse_item_type(body.css('h1'))
 
 
   #parse item genres
-    genres = body.css('.genre').text
-    genres = genres.split('/')
+    genres = body.css('.genre').text.split('/')
     genres.each do |item|
      item.strip!
     end
@@ -204,34 +208,58 @@ def self.parse_item_content(url)
   return content
 end
 
-#calling function to download site for set day and channel
-  day = 1 #tomorrow
-  channel = 6 #markiza
-  site = download_site(channel,day);
-  # site = File.read("site_file.txt")
-  # File.open("site_file.txt", 'w') { |file| file.write(site) }
+def self.print_extended_content(content)
+  puts "Type: " + content[:type].to_s
+  puts "Genres: " + content[:genres].to_s
+  puts "Countries: " + content[:countries].to_s
+  puts "Year: " + content[:year].to_s
+  puts "Duration: " + content[:duration].to_s
+  puts "Directors: " + content[:directors].to_s
+  puts "Scriptwriters: " + content[:scriptwriters].to_s
+  puts "Camera: " + content[:camera].to_s
+  puts "Music: " + content[:music].to_s
+  puts "Actors: " + content[:actors].to_s
+  puts "Artwork: " + content[:artwork].to_s
+  puts "CSFD rating: " + content[:csfd_rating].to_s
+  puts "IMDB url: " + content[:imdb_url].to_s
+  puts "Original title: " + content[:original_title].to_s
+  puts "Description: " + content[:description].to_s
+  puts "\n\n\n\n\n"
+end
 
-program = parse_program_content(site)
 
-program.each do |item|
-  #print item attributes
-  puts "Time: " + item[:time].to_s
-  puts "Name: " + item[:name].to_s
-  puts "URL: " + item[:url].to_s
-  puts "Season: " + item[:season].to_s
-  puts "Episode: " + item[:episode].to_s
-  puts ""
+PARSE_LIST.each do |channel|
+  #calling function to download site for set day and channel
+    site = download_site(CHANNELS_LIST[channel],DAY);
+    # site = File.read("site_file.txt")
+    # File.open("site_file.txt", 'w') { |file| file.write(site) }
 
-  #find item in Database - if item is not in database parse more content from item URL and save it to DB
-    #item is not present in DB
-    extend_content = {}
-    if(!item[:url].to_s.empty?)
-      extend_content = parse_item_content(item[:url].to_s)
-    end
-    puts "Extended parsing:"
-    puts extend_content
-    puts "\n\n\n\n\n"
-   # break
+  #parse program for specific channel and day
+  program = parse_program_content(site)
+
+  puts "\n\n\n\n\n"
+  puts "///////////// CHANNEL: #{channel} //////////////////"
+
+  program.each do |item|
+    #print item attributes
+    puts "Time: " + item[:time].to_s
+    puts "Name: " + item[:name].to_s
+    puts "URL: " + item[:url].to_s
+    puts "Season: " + item[:season].to_s
+    puts "Episode: " + item[:episode].to_s
+    puts "\n"
+
+    #find item in Database - if item is not in database parse more content from item URL and save it to DB
+      #item is not present in DB
+      extend_content = {}
+      if(!item[:url].to_s.empty?)
+        extend_content = parse_item_content(item[:url].to_s)
+      end
+
+      print_extended_content(extend_content)
+
+      # break
+  end
 end
 
 
