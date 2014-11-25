@@ -142,7 +142,7 @@ end
 #Parse extended content from item URL
 def self.parse_item_content(url)
    # site = Faraday.get(url)
-  site = File.read("noviny.txt")
+  site = File.read("terminator.txt")
   body = Nokogiri::HTML(site)
 
   #parse item type
@@ -165,10 +165,13 @@ def self.parse_item_content(url)
     creators = body.css('.creators')
     creators = parse_item_creators(creators)
 
+  #parse item rating
+    rating = body.css('h2.average').text
+    rating.gsub!(/[^\d]/,'')
 
 
   content = {:type => type, :genres => genres, :countries => origin[:countries], :year => origin[:year], :duration => origin[:duration], :directors => creators[:directors],
-             :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork]}
+             :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork], :rating => rating}
 
   return content
 end
