@@ -169,9 +169,15 @@ def self.parse_item_content(url)
     rating = body.css('h2.average').text
     rating.gsub!(/[^\d]/,'')
 
+  #parse IMDB url
+    imdb_url = body.css('a[title="profil na IMDb.com"]')
+    if(!imdb_url.empty?)
+      imdb_url = imdb_url[0]["href"].to_s
+    end
+
 
   content = {:type => type, :genres => genres, :countries => origin[:countries], :year => origin[:year], :duration => origin[:duration], :directors => creators[:directors],
-             :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork], :rating => rating}
+             :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork], :rating => rating, :imdb_url => imdb_url}
 
   return content
 end
