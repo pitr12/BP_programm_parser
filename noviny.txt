@@ -1,0 +1,773 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Televízne noviny sú hlavnou spravodajskou reláciou TV Markíza. Prinášajú aktuálne a dynamické informácie z oblasti politiky a zo spoločensko-kultúrnej sféry z domova i zo zahraničia." />
+	<meta name="keywords" content=", televízne noviny" />
+
+
+	<title>Televízne noviny (TV pořad) (1996) | ČSFD.cz</title>
+
+	<link rel="shortcut icon" href="http://img.csfd.cz/assets/b1247/images/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="http://img.csfd.cz/assets/b1247/images/apple_touch_icon.png" />
+
+
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css" type="text/css" />
+	<link rel="stylesheet" href="http://img.csfd.cz/assets/b1247/modules/web/styles/styles.css" />
+	<link rel="stylesheet" type="text/css" href="http://img.csfd.cz/assets/b1247/styles/print.css" media="print" />
+
+		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script> 
+	<script type="text/javascript"> if (window.jQuery === undefined) { document.write(decodeURI(
+			"%3Clink rel=\"stylesheet\" href=\"http://img.csfd.cz/assets/b1247/libs/jqueryui/themes/base/jquery-ui.css\" type=\"text/css\" /%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1247/libs/jquery/jquery.min.js\" type=\"text/javascript\">%3C/script%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1247/libs/jqueryui/jquery-ui.min.js\" type=\"text/javascript\">%3C/script%3E"
+		)); }
+	</script> 
+	<script type="text/javascript" charset="utf-8" src="http://img.csfd.cz/assets/b1247/modules/web/scripts/scripts.js"></script>
+
+	
+		<script type="text/javascript">
+		CSFD.app.action.id = ":Web:Film:default";
+		CSFD.app.action.data = {"id":267353,"genre":[33],"origin":[2],"year":1996,"creators":[49655,58394,75766,56907,70427,137785]};
+		
+		CSFD.app.visitor = {"country":[2]};
+		
+	</script>
+
+	
+	<meta property="og:site_name" content="ČSFD.cz" />
+	<meta property="og:image" content="http://img.csfd.cz/files/images/film/photos/000/162/162532_8b6baa.jpg?w370h370" />
+	<meta property="og:image" content="http://img.csfd.cz/files/images/film/photos/000/110/110438_ac9e9d.jpg?w370h370" />
+	<meta property="og:image" content="http://img.csfd.cz/files/images/film/photos/000/088/88671_799efd.jpg?w370h370" />
+	<meta property="og:description" content="Televízne noviny sú hlavnou spravodajskou reláciou TV Markíza. Prinášajú aktuálne a dynamické informácie z oblasti politiky a zo spoločensko-kultúrnej sféry z domova i zo zahraničia." />
+	<meta property="og:title" content="Televízne noviny (TV pořad) (1996)" />
+	<meta property="og:type" content="movie" />
+	<meta property="fb:app_id" content="260163667481043" />
+
+<link rel="canonical" href="http://www.csfd.cz/film/267353-televizne-noviny/" />
+	<link rel="search" type="application/opensearchdescription+xml" title="ČSFD.cz" href="http://img.csfd.cz/assets/b1247/modules/web/misc/opensearch.xml" />
+
+	<meta name="application-name" content="ČSFD.cz" />
+	<meta name="msapplication-tooltip" content="ČSFD.cz" />
+	<meta name="msapplication-starturl" content="http://www.csfd.cz/" />
+	<meta name="msapplication-navbutton-color" content="#BB0011" />
+
+	<meta name="msapplication-task" content="name=Přihlášení;action-uri=/prihlaseni/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico" />
+	<meta name="msapplication-task" content="name=Novinky;action-uri=/novinky/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico" />
+	<meta name="msapplication-task" content="name=Žebříčky;action-uri=/zebricky/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico" />
+	<meta name="msapplication-task" content="name=Televize;action-uri=/televize/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico" />
+
+
+</head>
+
+<body class="no-js th-2 ap-web" id="ap-web-film">
+	<script type="text/javascript">
+		$('body').removeClass('no-js').addClass('js');
+	</script>
+
+		<div id="ad-wrapper">
+
+<div id="bmone2n-19877.2.1.5" class="ui-advert ad-ibillboard ad-ibillboard-videobanner" data-code="19877.2.1.5">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/5/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/5/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+		<div id="ad-leaderboard"><div class="ad-pmg ad-pmg-leaderboard" data-element-type="leaderboard">
+	
+<div id="bmone2n-19877.2.1.1" class="ui-advert ad-ibillboard ad-ibillboard-leaderboard" data-code="19877.2.1.1">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/1/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/1/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		<div class="ad-pmg-skyscraper-left-wrapper">
+			<div id="ad-skyscraper-left"><div class="ad-pmg ad-pmg-skyscraper-left" data-element-type="skyscraper-left">
+	
+<div id="bmone2n-19877.2.1.2" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-left" data-code="19877.2.1.2">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/2/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/2/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		</div>
+		<div id="ad-skyscraper-right"><div class="ad-pmg ad-pmg-skyscraper-right" data-element-type="skyscraper-right">
+	
+<div id="bmone2n-19877.2.1.7" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-right" data-code="19877.2.1.7">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/7/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/7/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+	</div>
+
+
+	<div id="page-wrapper">
+		<div id="page-header">
+			<div id="logo">
+				<a href="/" title="ČSFD.cz">
+					<img src="http://img.csfd.cz/assets/b1247/images/logo.png" alt="ČSFD.cz" width="330" height="75" />
+				</a>
+				<h2 class="hidden">Česko-Slovenská filmová databáze</h2>
+			</div>
+
+			
+	<div id="user-menu" class="unlogged">
+		<h3>Uživatelská zóna</h3>
+		<ul>
+			<li><a href="/prihlaseni/">Přihlásit</a></li>
+			<li><a href="/registrace/">Registrovat</a></li>
+			<li><a href="/registrace/ztracene-heslo/">Ztracené heslo</a></li>
+		</ul>
+	</div>
+
+
+	<div id="main-search">
+		<form action="/hledat/" method="get">
+			<div>
+				<input type="text" class="text" name="q" value="" id="mainSearch" size="20" placeholder="Hledat" />
+				<input type="submit" class="submit" title="Hledat" value="" />
+			</div>
+		</form>
+		<a class="advanced-search" href="/podrobne-vyhledavani/">podrobné vyhledávání &rarr;</a>
+	</div>
+
+
+			<ul id="main-menu" class="bottom-menu">
+				
+	<li><a href="/novinky/">Novinky</a></li>
+	<li><a href="/videa/">Videa</a></li>
+	<li><a href="/televize/">Televize</a></li>
+	<li><a href="/kino/">Kino</a></li>
+	<li><a href="/filmy-online/">Filmy online</a></li>
+	<li><a href="/dvd-a-bluray/">DVD &amp; Blu-ray</a></li>
+	<li><a href="/tvurci/">Tvůrci</a></li>
+	<li><a href="/zebricky/">Žebříčky</a></li>
+	<li><a href="/filmoteky/">Filmotéky</a></li>
+	<li><a href="/uzivatele/">Uživatelé</a></li>
+	<li><a href="/diskuze/">Diskuze</a></li>
+
+			</ul>
+
+				<div id="activity-message">
+	</div>
+
+		</div>
+
+
+		<div class="page-content" id="pg-web-film" itemscope itemtype="http://schema.org/Movie">
+
+
+
+<div id="main">
+	<div id="profile" class="ct-general th ui-profile with-relations">
+		<ul class="relations">
+			<li class="content g1">
+				<a href="/televize/2003479/">Markíza 24.11.2014  17:00</a>
+							</li>
+			<li class="content g1">
+				<a href="/televize/2003482/">Markíza 24.11.2014  19:00</a>
+							</li>
+		</ul>
+
+		<div class="content">
+			<div id="poster" class="image">
+					<img src="//img.csfd.cz/files/images/film/posters/000/063/63269_674a07.jpg?h180" alt="poster" class="film-poster" width="320" height="180" />
+			</div>
+			<div class="info">
+				<ul class="links">
+				</ul>
+				<h1>
+						Televízne noviny <span class="film-type">(TV pořad)</span>
+						
+					
+				</h1>
+
+				<script type="text/javascript">CSFD.runHook("filmHideNames", []);</script>
+
+				<p class="genre">Publicistický</p>
+				
+				
+				
+
+				
+				
+
+				<p class="origin">Slovensko, 1996</p>
+
+				<div class="creators">
+					<div>
+						<h4>Hrají:</h4>
+						<span data-truncate="340">
+							<a href="/tvurce/49655-marianna-durianova/">Marianna Ďurianová</a>, <a href="/tvurce/58394-martina-simkovicova/">Martina Šimkovičová</a>, <a href="/tvurce/75766-maria-pietrova/">Mária Pietrová</a>, <a href="/tvurce/56907-andrea-vadkerti/">Andrea Vadkerti</a>, <a href="/tvurce/70427-henrich-krejca/">Henrich Krejča</a>, <a href="/tvurce/137785-zlatica-puskarova/">Zlatica Puškárová</a>
+						</span>
+					</div>
+					<script type="text/javascript">CSFD.runHook("truncate", []);</script>
+				</div>
+				<script type="text/javascript">CSFD.runHook("filmShowCreators", []);</script>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="footer"></div>
+	</div>
+
+	<script type="text/javascript">CSFD.runHook("filmPosters", []);</script>
+
+	<div id="plots" class="ct-related">
+		<div class="header">
+			<h3>Obsah
+			</h3>
+		</div>
+		<div class="content">
+			<ul>
+				<li>
+					<div data-truncate="570">
+							<img src="http://img.csfd.cz/assets/b1247/images/li.gif" width="10" height="10" alt="Odrážka"  class="dot hidden"/>
+
+						Televízne noviny sú hlavnou spravodajskou reláciou TV Markíza. Prinášajú aktuálne a dynamické informácie z oblasti politiky a zo spoločensko-kultúrnej sféry z domova i zo zahraničia.<span class="source">(oficiální text distributora)</span>
+
+					</div>
+				</li>
+			</ul>
+			<script type="text/javascript">CSFD.runHook("truncate", []);</script>
+		</div>
+	</div>
+	<script type="text/javascript">CSFD.runHook("filmPlots", []);</script>
+
+	<div class="ct-general th with-navigation default">
+<div class="navigation">
+		<ul>
+			<li class="comments default selected">
+				<a href="/film/267353-televizne-noviny/"><span>komentáře</span></a>
+			</li>
+			<li class="trivia">
+				<a href="/film/267353-televizne-noviny/zajimavosti/"><span>zajímavosti</span></a>
+			</li>
+			<li class="reviews disabled">
+<span>ext. recenze</span>			</li>
+			<li class="photos">
+				<a href="/film/267353-televizne-noviny/galerie/"><span>galerie</span></a>
+			</li>
+			<li class="videos disabled">
+<span>videa</span>			</li>
+			<li class="disabled bazaar disabled">
+<span>v bazaru</span>			</li>
+			<li class="disabled collection disabled">
+<span>ve filmotéce</span>			</li>
+			<li class="forum last">
+				<a href="/film/267353-televizne-noviny/diskuze/"><span>diskuze</span></a>
+			</li>
+		</ul>
+</div><div class="header">
+	<h2>Komentáře uživatelů k filmu <span class="count">(68)</span></h2>
+	<div class="controls">
+		<div class="orderer select">
+<form action="/film/267353-televizne-noviny/?do=pof-ordererSelectForm-submit" method="post" id="frm-pof-ordererSelectForm">
+
+
+
+	<label for="frmordererSelectForm-order"></label>
+
+	<select name="order" id="frmordererSelectForm-order" class="submitter"><option value="points">seřadit podle počtu bodů uživatele</option><option value="datetime">seřadit od nejnovějších po nejstarší</option><option value="rating">seřadit podle hodnocení</option></select>
+
+
+
+	
+
+	
+		<noscript><input type="submit" name="ok" id="frmordererSelectForm-ok" value="OK" /></noscript>
+	
+
+
+
+<input type="hidden" name="params" id="frmordererSelectForm-params" value="a:4:{s:2:&quot;id&quot;;s:6:&quot;267353&quot;;s:3:&quot;seo&quot;;s:16:&quot;televizne-noviny&quot;;s:6:&quot;action&quot;;s:7:&quot;default&quot;;s:7:&quot;urlMess&quot;;N;}" /><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+</div>
+
+	</div>
+</div>
+
+<div class="ad">
+<div class="ad-pmg ad-pmg-stripe" data-element-type="stripe">
+	
+</div>
+</div>
+
+<script type="text/javascript">CSFD.runHook("collapsible", []);</script>
+
+<div class="content" style="padding-top: 0">
+	<ul class="ui-posts-list">
+		<li id="comment-8420466">
+			<div class="info">
+				<a href="/uzivatel/175524-dever/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/175524-dever/">Dever</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />
+			<p class="post">Informácie, ktoré bohužiaľ v dnešnej dobe nájdeme aj všade na internete. TV nepozerám už 4 roky, takže tak.<span class="date desc">(6.5.2011)</span></p>
+		</li>
+		<li id="comment-985478">
+			<div class="info">
+				<a href="/uzivatel/48748-teeage/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/48748-teeage/">TeeAge</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />
+			<p class="post">Jediné Sk telkové noviny, ktoré som mal to nešťastie vidieť. Mám pocit, že ani s tými ostatnými som nič nestratil. Obsah silne politický a celebkový. Niečo ako Nový čas v bezpapierovej forme. A ktomu ako bonus nevkusné 2D pozadia z dielne 3D Maxu (nič proti userom softu :)<span class="date desc">(27.11.2009)</span></p>
+		</li>
+		<li id="comment-942477">
+			<div class="info">
+				<a href="/uzivatel/83579-mm-ramone/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/83579-mm-ramone/">MM_Ramone</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />
+			<p class="post">"Televízne noviny" sú publicistickou reláciou, ktorú v pravidelnom podvečernom čase vysiela súkromná televízna stanica Markíza. Je to najsledovanejšia komerčná televízia na Slovensku. Podľa toho vyzerá aj jej spravodajstvo. Na úvod niečo málo z politiky a ďalej už len samé tragédie. Čím viacej mŕtvol, krvy a násilia tým lepšie. Kde sa kto pobil, kde koho zabili, dopravné nehody a furt dokola. Samozrejme vždy na záver príde reportáž s roztomilým, ale úplne stupindným, námetom. Zvyčajne o nejakom medvedíkovy, srnke, veselom bábätku alebo voľajaká pobodná banalita. Táto ich každodenná, ani nie dvadsať minútová, fraška nemá s objektívnym spravodajstvom takmer nič spoločné. *<span class="date desc">(15.10.2009)</span></p>
+		</li>
+		<li id="comment-8406062">
+			<div class="info">
+				<a href="/uzivatel/108031-psy-cho/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/108031-psy-cho/">psy.cho</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />
+			<p class="post">Toto su najlepšie TV noviny aké je možné na Slovensku vidieť.<span class="date desc">(24.4.2011)</span></p>
+		</li>
+		<li id="comment-950375">
+			<div class="info">
+				<a href="/uzivatel/72798-smok/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/72798-smok/">Smok</a></h5>
+			<strong class="rating">odpad!</strong>
+			<p class="post">Kedysi dávnejšie som písal komentár ku Televíznym novinám na Tv Nova. S kľudným svedomím ho tu môžem pastnúť aj k tomuto "vrcholu" slovenského "nestranného" spravodajstva. Tu je: "Každý večer treba na seba pustiť dávku tých najnegatívnejších vecí, ktoré sa v našich krajinách prihodili za posledných 24 hodín, vraj sa potom lepšie zaspáva a človek zabudne na vlastné problémy, keď vidí suseda pod kolesami auta." Ku jednej z moderátoriek, ktorá tu svieti v účinkujúcich (Marry-Ann Ďurianová) si radšej zahryznem do klávesnice, lebo by som musel použiť invektíva a to ja nerád, alebo upraviť hodnotenie na mínusové... Ešte by som si dovolil každému doporučiť najväčšie Mariankine prianie a samozrejme riadiť sa aj jej receptom na úspech :-DDD <a href="http://www.markiza.sk/clanok-relacia/televizne-noviny/431109-durianova-marianna">Nech sa páči</a><span class="date desc">(24.10.2009)</span></p>
+		</li>
+		<li id="comment-8508465">
+			<div class="info">
+				<a href="/uzivatel/232060-wandrwall/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/232060-wandrwall/">WANDRWALL</a></h5>
+			
+			<p class="post">Výborné TV noviny, nejlepší na Markýze.<span class="date desc">(16.7.2011)</span></p>
+		</li>
+		<li id="comment-8905853">
+			<div class="info">
+				<a href="/uzivatel/303232-momo-desu/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/303232-momo-desu/">Momo_desu</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />
+			<p class="post">Stále lepšie ako noviny na JOJ.<span class="date desc">(4.6.2012)</span></p>
+		</li>
+		<li id="comment-1069745">
+			<div class="info">
+				<a href="/uzivatel/80905-cappuccino/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/80905-cappuccino/">Cappuccino</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />
+			<p class="post">No, čím začať. TV Markíza mi odjakživa bola proti srsti (komerčina). Občas "zažiaria" aj nejakou  rozumnou reportážou, ale rozoberanie rómov a H1N1 (prasacina)? Ďakujem, neprosím.<span class="date desc">(5.2.2010)</span></p>
+		</li>
+		<li id="comment-1131064">
+			<div class="info">
+				<a href="/uzivatel/83084-bigdeal/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/83084-bigdeal/">BigDeal</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/3.gif" class="rating" width="24" alt="***" />
+			<p class="post">Síce je markíza komerčná a podľa toho vyzerajú aj správy, nedá sa im odoprieť profesionálnosť a elegantnosť. Podľa mňa najlepšie spravodajstvo na slovenských televíziách (aj keď toho výberu veľa nie je). Kto nesúhlasí, nech si pozrie (bulvár) správy na JOJ-ke.<span class="date desc">(5.4.2010)</span></p>
+		</li>
+		<li id="comment-9520182">
+			<div class="info">
+				<a href="/uzivatel/307902-mikecool/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/307902-mikecool/">MikeCool</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />
+			<p class="post"><strong>TV-pořad.</strong> <strong>|</strong> <strong>Průměr všech zhlédnutých (odvysílaných) epizod: 25% (1*) <strong>|</strong></strong><span class="date desc">(24.10.2013)</span></p>
+		</li>
+		<li id="comment-8618602">
+			<div class="info">
+				<a href="/uzivatel/186830-karamanlis/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/186830-karamanlis/">Karamanlis</a></h5>
+			<strong class="rating">odpad!</strong>
+			<p class="post">Spravodajstvo bulvárneho charakteru, bazírujúce na ľudskom nešťastí, kriminalite, dianí v slovenskej politickej žumpe a pepkovyskočovskom informovaní o situácii vo svete... samozrejme nechýba neodmysliteľná každodenná sonda do života východoslovenských rómov...<span class="date desc">(13.10.2011)</span></p>
+		</li>
+		<li id="comment-9889666">
+			<div class="info">
+				<a href="/uzivatel/335918-gillwander/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/335918-gillwander/">GILLWANDER</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />
+			<p class="post">Sem tam správy zaujmú no vždy to skazí nejaký ten redaktor svojim trápnym vystúpením. A tie titulky až sa tlačí slza do očí... Prehnané a 75% správ úplne zbytočných a nezaujímavých...15%<span class="date desc">(15.10.2014)</span></p>
+		</li>
+		<li id="comment-950538">
+			<div class="info">
+				<a href="/uzivatel/90701-corona/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/90701-corona/">corona</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />
+			<p class="post">Nie som fanúšička TV Markíza a už vôbec nie jej modrátorov (najmä tria Ďurianová,Bartošíková a Švajda) ale tieto TN sú predsa len o trocha lepšie a serióznejšie ako TN TV JOJ, ktoré sú už totálna žumpa, napr. vyvolávanie paniky s chrípkou, strkanie mikrofónu pozostalým, nový jav, ktorý súvisí s oteplovaním (obyčajné haló okolo mesiaca), mäsožravé netopiere na Slovensku a pod. A zvieratko na konci bola špecialita JOJ (ktorá to prebrala z NOVY) a nie Markízy a bola to vždy najobjektívnejšia správa tých novín.<span class="date desc">(24.10.2009)</span></p>
+		</li>
+		<li id="comment-937393">
+			<div class="info">
+				<a href="/uzivatel/128355-hares/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/128355-hares/">HareS</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />
+			<p class="post">Politické komerčné televízne noviny na Markíze... treba niečo dodávať? 20 minút sledovať negatívne "správy" (to, že nejaký pako niekde havaroval ma fakt nezaujíma a nepovažujem to za správu), pričom pravdivá je asi 1/10 chce odvahu. Nenáročnosť slovenského diváka podtrhuje to, že pár rokov ide o najsledovanejší program najsledovanejšej komerčnej televízie. Dennodenný nedôstojný výjav štylizujúci ľudí do pozície pohodlných pasívnych prijímateľov, banalizujúci, zveličujúci a udalosti si na svoj obraz prispôsobujúci. Jedna * iba z milosti, inak priezračný odpad! 10%<span class="date desc">(9.10.2009)</span></p>
+		</li>
+		<li id="comment-8851525">
+			<div class="info">
+				<a href="/uzivatel/317812-marek1991/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/317812-marek1991/">Marek1991</a></h5>
+			<strong class="rating">odpad!</strong>
+			<p class="post">Tak, ako som si spočiatku myslel, že je to skvelé, tak mi s pribúdajúcim rozumom došlo, že je to vrchol všetkého hrozného, čo na Slovensku v televízii ide. Pozrite si môj komentár k televíznym novinám TV JOJ, tam som to vystihol. Túto reláciu by som mohol nazvať jednoducho propaganda! Ak chce niekto vedieť ako vyzerá propaganda a nečítal hlavné znaky propagandy podľa Noaha Chomského, tak mu stačí, nech si pozrie toto. Čistý otras, hnus, klamstvo, zahmlievanie, robenie z ľudí ovce, neobjektivita, komercia, účelovosť a najmä provlastníckosť, takisto tvrdo bojujúce voči iným názorom a silné dezinformácie, ale psíčkovia a mačičky na konci zahoja všetky tie vraždy však? No otras, hanba a ten názov, čo za to ľudia dali markíze je trefný TV Narkóza! Nemyslím si, že som až tak hlúpy, aby som tomu dal iné hodnotenie, keď vidím, čo to je zač. Jednoducho nič iné, než propaganda! Asi najväčší odpad aký som kedy dal na tejto stránke! Zatiaľ to vnímam tak, že ak Vykúpenie z väznice Shawshank je to najlepšie, je tu na ČSFD, tak Televízne noviny od televízie Markíza sú tým najhorším, čo tu je. Toto je zlo!<span class="date desc">(15.4.2012)</span></p>
+		</li>
+		<li id="comment-1045126">
+			<div class="info">
+				<a href="/uzivatel/88267-johnrambo/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/88267-johnrambo/">JohnRambo</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />
+			<p class="post">Umelé ženské ktoré kotkodákajú kto kedy a čo v Luniku 9 apod. Koho to zaujíma. Ale predsa len. Keď je niekde niečo zaujímavé tak nejakú tu reportáž zlepia.<span class="date desc">(17.1.2010)</span></p>
+		</li>
+		<li id="comment-9286102">
+			<div class="info">
+				<a href="/uzivatel/204004-dyfur/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/204004-dyfur/">dyfur</a></h5>
+			<strong class="rating">odpad!</strong>
+			<p class="post">...nič nehovoriace informácie....<span class="date desc">(28.3.2013)</span></p>
+		</li>
+		<li id="comment-9281266">
+			<div class="info">
+				<a href="/uzivatel/350068-danco123/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/350068-danco123/">danco123</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />
+			<p class="post">Tak toto je absolútna hrôza, a ešte horšie to je odvety čo dávajú medzi vysielaním novín aj reklamu!<span class="date desc">(24.3.2013)</span></p>
+		</li>
+		<li id="comment-8689814">
+			<div class="info">
+				<a href="/uzivatel/296810-morena-jea/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/296810-morena-jea/">morena.jea</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />
+			<p class="post">Kedysi sa dali správy pozerať, boli v nich rôzne dôležité informácie z celého sveta. Kto chcel mať trochu rozhľad žiadne správy nevynechal. Ale dnes nestoja za nič. Kde sa kto vybúral + počet mŕtvych, živelné katastrovy + počet mŕtvych, prepady + počet mŕtvych a znásilnených, krádeže + ukradnutá suma peňazí. Ďalej ekonomická a hospodárska kríza, aká krajina skrachovala, ktorá mena padá a pod. Niečo z parlamentu, čo schválili, čo neschválili, čo sa bude zdražovať. Samé negatíva. Citovo labilný človek aby šiel potom skočiť z mosta. Priblblý záver v podobe šteniatka to nezachráni.<span class="date desc">(14.12.2011)</span></p>
+		</li>
+		<li id="comment-9308627">
+			<div class="info">
+				<a href="/uzivatel/408838-peiton/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/408838-peiton/">peiton</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />
+			<p class="post">Nechutné divadlo,ktorým nás krmi spravodajstvo Markizy sa len tak ľahko nevidí,.ok,..ja chápem,konkurenčné stanice šliapu na päty,sú silným,superom a motiváciou.Ale spadnúť tak hlboko do lacinej komerčnosti je pod moju úroveň a myslieť si,že tým upútajú pozornosť je úbohé.Fajn u niekoho to fungovať môže,ale u  mňa rozhodne nie!Radšej ak chcú niečo meniť,im poradím,nech zmenia tých opotrebovaných moderátorov,ktorý sa tam držia zubami - nechtami od ,,veky - vekov"  (príklad ; nosiť XY rokov stále to isté tričko je otravné a nudné..). Potrebovalo by to prestriedať,vniesť nový,čerstvý vietor do plachiet.Myslím,že viete o čom hovorím,ked poviem,že Markíza si pohoršila v poslednom období a už dávno nekraľuje v rebríčku najsledovanejších staníc na Slovensku.<span class="date desc">(13.4.2013)</span></p>
+		</li>
+	</ul>
+	
+<div class="paginator text">
+		<span class="button previous">&lt;&lt; předchozí</span>
+
+			<span class="current">1</span>
+			<a href="/film/267353-televizne-noviny/strana-2/">2</a>
+			<a href="/film/267353-televizne-noviny/strana-3/">3</a>
+			<a href="/film/267353-televizne-noviny/strana-4/">4</a>
+
+		<a class="next" href="/film/267353-televizne-noviny/strana-2/">následující &gt;&gt;</a>
+</div>
+
+</div>
+
+<div class="footer">
+	<a href="/film/267353-televizne-noviny/?all=1">zobrazit všechny komentáře</a>
+</div>
+
+
+<div id="bmone2n-19877.2.1.14" class="ui-advert ad-ibillboard ad-ibillboard-rectangle" data-code="19877.2.1.14">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/14/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/14/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+	</div>
+</div>
+
+
+<div id="sidebar">
+	<div id="rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+		<h2 class="average">34%</h2>
+		<meta itemprop="worstRating" content="0" />
+		<meta itemprop="bestRating" content="100" />
+		<meta itemprop="ratingValue" content="34" />
+		<meta itemprop="ratingCount" content="1507" />
+	</div>
+
+	<script type="text/javascript">CSFD.runHook("filmRating", []);</script>
+
+	<div id="ratings" class="ct-related ui-profile-user-list">
+		<h3 class="header">Hodnocení uživatelů</h3>
+		<div class="content">
+				<ul>
+					<li>
+<a href="/uzivatel/75-gouryella/">gouryella</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/12308-t2/">T2</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/175524-dever/">Dever</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/23-gimli/">Gimli</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/112774-david3141/">DaviD3141</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/34562-flipper/">Flipper</a><strong class="rating">odpad!</strong>						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/44793-m-a-t-t/">M.a.t.t.</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/17284-genetique/">genetique</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/3.gif" class="rating" width="24" alt="***" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/48748-teeage/">TeeAge</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/1.gif" class="rating" width="8" alt="*" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/4253-le-chuck/">Le_Chuck</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/2.gif" class="rating" width="16" alt="**" />						<div class="clear"></div>
+					</li>
+				</ul>
+				<div class="clear"></div>
+
+				<div class="count">
+					<a id="rating-count-link" rel="nofollow" href="/film/267353-televizne-noviny/?expandUserList=1">všechna hodnocení</a><br />(1 507)
+				</div>
+		</div>
+	</div>
+
+	<div id="fanclub" class="ct-related ui-profile-user-list">
+		<h3 class="header">Fanklub filmu</h3>
+		<div class="content">
+				<ul>
+					<li>
+						<a href="/uzivatel/350314-bjjoba/oblibene-porady/">bjjoba</a>
+					</li>
+					<li>
+						<a href="/uzivatel/10351-toto/oblibene-porady/">Toto</a>
+					</li>
+					<li>
+						<a href="/uzivatel/266672-le0/oblibene-porady/">LE0</a>
+					</li>
+					<li>
+						<a href="/uzivatel/195211-beast999/oblibene-porady/">Beast999</a>
+					</li>
+					<li>
+						<a href="/uzivatel/235773-blizzardsc/oblibene-porady/">blizzardSC</a>
+					</li>
+					<li>
+						<a href="/uzivatel/314222-lobotommy/oblibene-porady/">Lobotommy</a>
+					</li>
+					<li>
+						<a href="/uzivatel/260382-orcus100/oblibene-porady/">orcus100</a>
+					</li>
+					<li>
+						<a href="/uzivatel/218967-incantator/oblibene-porady/">Incantator</a>
+					</li>
+					<li>
+						<a href="/uzivatel/346677-pepe9391/oblibene-porady/">pepe9391</a>
+					</li>
+					<li>
+						<a href="/uzivatel/179433-black3r/oblibene-porady/">Black3R</a>
+					</li>
+				</ul>
+				<div class="clear"></div>
+
+				<div class="count">
+					<a id="fanclub-count-link" rel="nofollow" href="/film/267353-televizne-noviny/?expandUserList=1">všichni fanoušci</a><br />(35)
+				</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+
+
+	<script type="text/javascript">CSFD.runHook("filmPrivateNote", []);</script>
+
+	<div id="share">
+		<ul>
+			<li class="plusone">
+				<div class="g-plusone" data-size="medium" data-count="false" data-href="http://www.csfd.cz/film/267353-televizne-noviny/"></div>
+				<script type="text/javascript">
+					window.___gcfg = { lang: 'cs'};
+
+					(function() {
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = 'https://apis.google.com/js/plusone.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					})();
+				</script>
+			</li>
+			<li>
+				<a href="http://twitter.com/intent/tweet?text=Telev%C3%ADzne%20noviny%20-%20http%3A%2F%2Fwww.csfd.cz%2Ffilm%2F267353%2F"
+					data-width="550" data-height="350" title="Sdílet na Twitteru">
+					<img src="http://img.csfd.cz/assets/b1247/images/share/twitter.png" alt="Sdílet na Twitteru" />
+				</a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.csfd.cz%2Ffilm%2F267353-televizne-noviny%2F" title="Sdílet na Facebooku">
+					<img src="http://img.csfd.cz/assets/b1247/images/share/facebook.png" alt="Sdílet na Facebooku" />
+				</a>
+			</li>
+			<li>
+				<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.csfd.cz%2Ffilm%2F267353-televizne-noviny%2F&amp;layout=button_count&amp;show_faces=false&amp;width=95&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21&amp;locale=cs_CZ"
+					scrolling="no" frameborder="0" height="21" width="95" allowTransparency="true"></iframe>
+			</li>
+		</ul>
+		<ul class="links">
+		</ul>
+		<div class="clear"></div>
+	</div>
+
+<div class="ad-pmg ad-pmg-square" data-element-type="square">
+	
+<div id="bmone2n-19877.2.1.4" class="ui-advert ad-ibillboard ad-ibillboard-square" data-code="19877.2.1.4">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/4/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/4/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+</div>
+
+
+	<div class="ct-related similar">
+		<h3 class="header">Podobné </h3>
+		<div class="content">
+			<ul>
+				<li>
+					<a href="/film/333064-hlavni-zpravy/" class="film c3">Hlavní zprávy</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2013)</span>
+				</li>
+				<li>
+					<a href="/film/310947-zpravy-v-ceskem-znakovem-jazyce/" class="film c2">Zprávy v českém znakovém jazyce</a> <span class="film-year">(2003)</span>
+				</li>
+				<li>
+					<a href="/film/278610-noviny-tv-joj/" class="film c3">Noviny TV JOJ</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2002)</span>
+				</li>
+				<li>
+					<a href="/film/292284-udalosti-plus/" class="film c2">Události plus</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2001)</span>
+				</li>
+				<li>
+					<a href="/film/260777-zpravicky-ze-sveta/" class="film c2">Zprávičky ze světa</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2000)</span>
+				</li>
+				<li>
+					<a href="/film/273045-zpravy-tv-prima/" class="film c2">Zprávy TV Prima</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1997)</span>
+				</li>
+				<li>
+					<a href="/film/313006-televizni-zpravy/" class="film c3">Televizní zprávy</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1997)</span>
+				</li>
+				<li>
+					<a href="/film/259340-televizni-noviny/" class="film c3">Televizní noviny</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1994)</span>
+				</li>
+				<li>
+					<a href="/film/293630-21/" class="film c2">„21“</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1994)</span>
+				</li>
+				<li>
+					<a href="/film/273681-sportovni-noviny/" class="film c3">Sportovní noviny</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1994)</span>
+				</li>
+				<li>
+					<a href="/film/307811-premiera-zpravy/" class="film c3">Premiéra zprávy</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1993)</span>
+				</li>
+				<li>
+					<a href="/film/307812-premiera-sport/" class="film c2">Premiéra sport</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1993)</span>
+				</li>
+				<li>
+					<a href="/film/264758-udalosti/" class="film c2">Udalosti ČT</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1993)</span>
+				</li>
+				<li>
+					<a href="/film/278460-udalosti-komentare/" class="film c1">Události, komentáře</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1990)</span>
+				</li>
+				<li>
+					<a href="/film/273043-branky-body-vteriny/" class="film c1">Branky, body, vteřiny</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1956)</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">CSFD.runHook("filmSimilar", []);</script>
+
+
+</div>
+			<div class="clear"></div>
+		</div>
+
+		<div id="page-footer">
+			<p>Česko-Slovenská filmová databáze © 2001-2014 <strong>POMO Media Group s.r.o.</strong> Všechna práva vyhrazena.</p>
+				<p>
+		<a href="/provozovatel-a-redakce/">Provozovatel a redakce</a> | <a href="/reklama-a-marketing/">Reklama a marketing</a> |
+		 <a href="/kontakt/">Napište nám</a> |
+		<a href="/posledni-hledane-vyrazy/">Poslední hledané výrazy</a> | Server hosting zajišťuje <a href="http://www.vshosting.cz">VSHosting s.r.o.</a>
+	</p>
+	<p>
+		Doporučujeme: <a href="http://www.supito.cz">překlady</a>, <a href="http://www.indexreality.cz/">prodej nemovitostí</a>,
+		<a href="http://www.indexreality.cz/pronajem/">pronájem reality</a>, <a href="http://www.quickexpert.cz/">realitní kancelář</a>, <a href="http://az-europe.eu/cz/e">Eshop AZ-europe.eu</a>
+	</p>
+
+		</div>
+
+	</div>
+
+	<!-- load ads data -->
+<script type="text/javascript" src="//img.csfd.cz/ads/pmg/data.js"></script>
+<script type="text/javascript">
+	CSFD.ads.provider.pmg.load();
+</script>
+<script type="text/javascript" src="http://go.cz.bbelements.com/bb/bb_one2n.js" onerror="CSFD.ads.blocked = true"></script>
+<script type="text/javascript">
+	try {
+		var bbkeywords = '';
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.addPosition("19877.2.1.5", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.addPosition("19877.2.1.1", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.addPosition("19877.2.1.2", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.addPosition("19877.2.1.7", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.14")) bmone2n.addPosition("19877.2.1.14", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.4")) bmone2n.addPosition("19877.2.1.4", '');
+		bmone2n.getAd('go.cz.bbelements.com', bbkeywords, '' + (typeof(bburlparam) == 'string' ? '&' + bburlparam : ''), 'utf-8');
+	}
+	catch (e) {}
+</script>
+<div id="bmone2t-19877.2.1.5" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.makeAd("19877.2.1.5"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.1" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.makeAd("19877.2.1.1"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.2" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.makeAd("19877.2.1.2"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.7" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.makeAd("19877.2.1.7"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.14" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.14")) bmone2n.makeAd("19877.2.1.14"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.4" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.4")) bmone2n.makeAd("19877.2.1.4"); } catch (e) {} </script></div>
+<script type="text/javascript"> try { bmone2n.moveAd(); } catch (e) {} </script>
+
+		<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+		var pp_gemius_identifier = '.Xo70CM6eCnBhv6vp5QQNcR77xEWf47KiIqfXU6rmdf.e7';
+		// lines below shouldn't be edited
+		function gemius_pending(i) { window[i] = window[i] || function() { var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+		gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+		(function(d,t) { try { var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+		gt.setAttribute('defer','defer'); gt.src=l+'://spir.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) { }})(document,'script');
+		//--><!]]>
+	</script>
+
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-11601932-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>

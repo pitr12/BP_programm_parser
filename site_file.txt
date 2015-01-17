@@ -1,0 +1,882 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="ČSFD.cz">
+
+
+	<title>Televize | ČSFD.cz</title>
+
+	<link rel="shortcut icon" href="http://img.csfd.cz/assets/b1247/images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="http://img.csfd.cz/assets/b1247/images/apple_touch_icon.png">
+
+
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css" type="text/css">
+	<link rel="stylesheet" href="http://img.csfd.cz/assets/b1247/modules/web/styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="http://img.csfd.cz/assets/b1247/styles/print.css" media="print">
+
+		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script> 
+	<script type="text/javascript"> if (window.jQuery === undefined) { document.write(decodeURI(
+			"%3Clink rel=\"stylesheet\" href=\"http://img.csfd.cz/assets/b1247/libs/jqueryui/themes/base/jquery-ui.css\" type=\"text/css\" /%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1247/libs/jquery/jquery.min.js\" type=\"text/javascript\">%3C/script%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1247/libs/jqueryui/jquery-ui.min.js\" type=\"text/javascript\">%3C/script%3E"
+		)); }
+	</script> 
+	<script type="text/javascript" charset="utf-8" src="http://img.csfd.cz/assets/b1247/modules/web/scripts/scripts.js"></script>
+
+	
+		<script type="text/javascript">
+		CSFD.app.action.id = ":Web:Tv:default";
+		
+		
+		CSFD.app.visitor = {"country":[2]};
+		
+	</script>
+
+	
+	<meta property="og:site_name" content="ČSFD.cz">
+	<meta property="og:image" content="http://img.csfd.cz/assets/b1247/modules/web/images/facebook_csfd.png?1">
+	<meta property="og:description" content="ČSFD.cz">
+	<meta property="og:title" content="Televize">
+	<meta property="fb:app_id" content="260163667481043">
+
+	<link rel="canonical" href="http://www.csfd.cz/televize/?day=1">
+	<link rel="search" type="application/opensearchdescription+xml" title="ČSFD.cz" href="http://img.csfd.cz/assets/b1247/modules/web/misc/opensearch.xml">
+
+	<meta name="application-name" content="ČSFD.cz">
+	<meta name="msapplication-tooltip" content="ČSFD.cz">
+	<meta name="msapplication-starturl" content="http://www.csfd.cz/">
+	<meta name="msapplication-navbutton-color" content="#BB0011">
+
+	<meta name="msapplication-task" content="name=Přihlášení;action-uri=/prihlaseni/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico">
+	<meta name="msapplication-task" content="name=Novinky;action-uri=/novinky/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico">
+	<meta name="msapplication-task" content="name=Žebříčky;action-uri=/zebricky/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico">
+	<meta name="msapplication-task" content="name=Televize;action-uri=/televize/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico">
+
+
+</head>
+
+<body class="no-js ap-web" id="ap-web-tv">
+	<script type="text/javascript">
+		$('body').removeClass('no-js').addClass('js');
+	</script>
+
+		<div id="ad-wrapper">
+
+<div id="bmone2n-19877.2.1.5" class="ui-advert ad-ibillboard ad-ibillboard-videobanner" data-code="19877.2.1.5">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/5/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/5/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+		<div id="ad-leaderboard">
+<div class="ad-pmg ad-pmg-leaderboard" data-element-type="leaderboard">
+	
+<div id="bmone2n-19877.2.1.1" class="ui-advert ad-ibillboard ad-ibillboard-leaderboard" data-code="19877.2.1.1">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/1/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/1/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		<div class="ad-pmg-skyscraper-left-wrapper">
+			<div id="ad-skyscraper-left">
+<div class="ad-pmg ad-pmg-skyscraper-left" data-element-type="skyscraper-left">
+	
+<div id="bmone2n-19877.2.1.2" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-left" data-code="19877.2.1.2">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/2/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/2/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		</div>
+		<div id="ad-skyscraper-right">
+<div class="ad-pmg ad-pmg-skyscraper-right" data-element-type="skyscraper-right">
+	
+<div id="bmone2n-19877.2.1.7" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-right" data-code="19877.2.1.7">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/7/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/7/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+	</div>
+
+
+	<div id="page-wrapper">
+		<div id="page-header">
+			<div id="logo">
+				<a href="/" title="ČSFD.cz">
+					<img src="http://img.csfd.cz/assets/b1247/images/logo.png" alt="ČSFD.cz" width="330" height="75">
+				</a>
+				<h2 class="hidden">Česko-Slovenská filmová databáze</h2>
+			</div>
+
+			
+	<div id="user-menu" class="unlogged">
+		<h3>Uživatelská zóna</h3>
+		<ul>
+			<li><a href="/prihlaseni/">Přihlásit</a></li>
+			<li><a href="/registrace/">Registrovat</a></li>
+			<li><a href="/registrace/ztracene-heslo/">Ztracené heslo</a></li>
+		</ul>
+	</div>
+
+
+	<div id="main-search">
+		<form action="/hledat/" method="get">
+			<div>
+				<input type="text" class="text" name="q" value="" id="mainSearch" size="20" placeholder="Hledat">
+				<input type="submit" class="submit" title="Hledat" value="">
+			</div>
+		</form>
+		<a class="advanced-search" href="/podrobne-vyhledavani/">podrobné vyhledávání →</a>
+	</div>
+
+
+			<ul id="main-menu" class="bottom-menu">
+				
+	<li><a href="/novinky/">Novinky</a></li>
+	<li><a href="/videa/">Videa</a></li>
+	<li><a href="/televize/">Televize</a></li>
+	<li><a href="/kino/">Kino</a></li>
+	<li><a href="/filmy-online/">Filmy online</a></li>
+	<li><a href="/dvd-a-bluray/">DVD &amp; Blu-ray</a></li>
+	<li><a href="/tvurci/">Tvůrci</a></li>
+	<li><a href="/zebricky/">Žebříčky</a></li>
+	<li><a href="/filmoteky/">Filmotéky</a></li>
+	<li><a href="/uzivatele/">Uživatelé</a></li>
+	<li><a href="/diskuze/">Diskuze</a></li>
+
+			</ul>
+
+				<div id="activity-message">
+	</div>
+
+		</div>
+
+
+		<div class="page-content" id="pg-web-tv">
+<h1>Televize</h1>
+
+<div class="ad-pmg ad-pmg-section-partner" data-element-type="section-partner">
+	
+</div>
+
+<p class="intro">Zde si můžeš navolit svůj výběr libovolného počtu televizních
+stanic, ze kterých ti bude ČSFD.cz každý den doporučovat ty nejlepší filmy
+(TV Tipy) s hodnocením nad 60%. Výběr stanic ti zůstává v cookies internetového
+prohlížeče i po jeho zavření. Pořadí sloupečků s TV stanicemi můžeš měnit
+jednoduchým přetažením za šipku doprava nebo doleva. Kliknutím na logo TV
+stanice tuto stanici můžeš změnit na jinou. <strong>Pokud máš nastavených více
+než pět TV stanic (jejich počet je neomezen), do stran se posuneš jednoduchým
+kliknutím kamkoliv do prázdné plochy sloupečku a potažením do stran.</strong></p>
+
+<div class="navigation">
+		<ul>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-12"><span>středa 12.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-11"><span>čtvrtek 13.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-10"><span>pátek 14.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-9"><span>sobota 15.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-8"><span>neděle 16.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-7"><span>pondělí 17.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-6"><span>úterý 18.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-5"><span>středa 19.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-4"><span>čtvrtek 20.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-3"><span>pátek 21.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-2"><span>předevčírem</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=-1"><span>včera</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=0"><span>dnes</span></a>
+			</li>
+			<li class="selected">
+				<a href="/televize/?genre-filter=0&amp;day=1"><span>zítra</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=2"><span>pozítří</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=3"><span>čtvrtek 27.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=4"><span>pátek 28.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=5"><span>sobota 29.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=6"><span>neděle 30.11.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=7"><span>pondělí 1.12.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=8"><span>úterý 2.12.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=9"><span>středa 3.12.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=10"><span>čtvrtek 4.12.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=11"><span>pátek 5.12.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=12"><span>sobota 6.12.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=13"><span>neděle 7.12.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=14"><span>pondělí 8.12.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=15"><span>úterý 9.12.</span></a>
+			</li>
+			<li>
+				<a href="/televize/?genre-filter=0&amp;day=16"><span>středa 10.12.</span></a>
+			</li>
+			<li class="last">
+				<a href="/televize/?genre-filter=0&amp;day=17"><span>čtvrtek 11.12.</span></a>
+			</li>
+		</ul>
+</div>
+<script type="text/javascript">CSFD.runHook("tvHideNavigation", []);</script>
+
+<div class="navigation">
+	<ul>
+		<li>
+<a href="#t08" rel="scroller" data-offset="-150">08:00</a> </li>
+		<li>
+<a href="#t12" rel="scroller" data-offset="-150">12:00</a> </li>
+		<li>
+<a href="#t16" rel="scroller" data-offset="-150">16:00</a> </li>
+		<li>
+<a href="#t20" rel="scroller" data-offset="-150">20:00</a> </li>
+		<li class="last"><a href="#t00" rel="scroller" data-offset="-150">00:00</a></li>
+	</ul>
+</div>
+
+<div class="ct-general th-1" id="tips">
+	<div class="header">
+		<h2>TV tipy</h2>
+		<div class="controls">
+<div class="orderer select">
+<form action="/televize/?day=1&amp;do=pof-ordererSelectForm-submit" method="post" id="frm-pof-ordererSelectForm">
+
+
+
+	<label for="frmordererSelectForm-order"></label>
+
+	<select name="order" id="frmordererSelectForm-order" class="submitter"><option value="time">seřadit chronologicky</option>
+<option value="rating">seřadit podle hodnocení</option></select>
+
+
+
+	
+
+	
+		<noscript><input type="submit" name="ok" id="frmordererSelectForm-ok" value="OK"></noscript>
+	
+
+
+
+<input type="hidden" name="params" id="frmordererSelectForm-params" value='a:3:{s:6:"action";s:7:"default";s:7:"urlMess";N;s:3:"day";s:1:"1";}'><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+</div>
+		</div>
+	</div>
+	<p class="content not-found">Na vybraných TV stanicích v tento den nepoběží žádný film s hodnocením nad 60%.</p>
+	<div class="footer"></div>
+</div>
+
+<div class="ct-general th-1" id="program">
+	<div class="header">
+		<h2>TV program - zítra</h2>
+		<div class="controls">
+<div class="filter select">
+<form action="/televize/?day=1&amp;do=genre-filterSelectForm-submit" method="post" id="frm-genre-filterSelectForm">
+
+
+
+	<label for="frmfilterSelectForm-filter">Žánr:</label>
+
+	<select name="filter" id="frmfilterSelectForm-filter" class="submitter"><option value="0" selected>-všechny-</option>
+<option value="1">Akční</option>
+<option value="3">Animovaný</option>
+<option value="11">Dobrodružný</option>
+<option value="13">Dokumentární</option>
+<option value="2">Drama</option>
+<option value="10">Erotický</option>
+<option value="26">Experimentální</option>
+<option value="4">Fantasy</option>
+<option value="20">Film-Noir</option>
+<option value="21">Historický</option>
+<option value="5">Horor</option>
+<option value="22">Hudební</option>
+<option value="28">IMAX</option>
+<option value="39">Katastrofický</option>
+<option value="9">Komedie</option>
+<option value="14">Krátkometrážní</option>
+<option value="18">Krimi</option>
+<option value="23">Loutkový</option>
+<option value="12">Muzikál</option>
+<option value="16">Mysteriózní</option>
+<option value="25">Podobenství</option>
+<option value="27">Poetický</option>
+<option value="30">Pohádka</option>
+<option value="29">Povídkový</option>
+<option value="31">Psychologický</option>
+<option value="33">Publicistický</option>
+<option value="35">Reality-TV</option>
+<option value="40">Road movie</option>
+<option value="6">Rodinný</option>
+<option value="15">Romantický</option>
+<option value="7">Sci-Fi</option>
+<option value="36">Soutěžní</option>
+<option value="32">Sportovní</option>
+<option value="34">Talk-show</option>
+<option value="38">Telenovela</option>
+<option value="8">Thriller</option>
+<option value="17">Válečný</option>
+<option value="19">Western</option>
+<option value="37">Životopisný</option></select>
+
+
+
+	
+
+	
+		<noscript><input type="submit" name="ok" id="frmfilterSelectForm-ok" value="OK"></noscript>
+	
+
+
+
+<input type="hidden" name="params" id="frmfilterSelectForm-params" value='a:3:{s:6:"action";s:7:"default";s:7:"urlMess";N;s:3:"day";s:1:"1";}'><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+</div>
+<form action="/televize/?day=1&amp;do=filterForm-submit" method="post" id="frm-filterForm">
+
+
+
+	
+
+	<input type="checkbox" class="submitter" name="films" id="frmfilterForm-films" checked><label class="checkbox" for="frmfilterForm-films">filmy</label>
+
+
+
+	
+
+	<input type="checkbox" class="submitter" name="series" id="frmfilterForm-series" checked><label class="checkbox" for="frmfilterForm-series">seriály</label>
+
+
+
+	
+
+	<input type="checkbox" class="submitter" name="others" id="frmfilterForm-others" checked><label class="checkbox" for="frmfilterForm-others">ostatní</label>
+
+
+
+	
+
+	
+		<noscript><input type="submit" name="ok" id="frmfilterForm-ok" value="Uložit"></noscript>
+	
+
+
+
+<!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+</div>
+	</div>
+
+	<div id="t00" class="time-caption"></div>
+	<div id="t08" class="time-caption"></div>
+	<div id="t12" class="time-caption"></div>
+	<div id="t16" class="time-caption"></div>
+	<div id="t20" class="time-caption"></div>
+	<div class="wrapper" style="height: 2955px;">
+		<div class="scrollLeft"></div>
+		<div class="scrollRight"></div>
+		<div class="scroller">
+			<form action="/televize/?day=1&amp;do=stationSelectForm-submit" method="post" id="frm-stationSelectForm" class="no-double-submit-check">
+			
+			<ul class="sortable" style="width: 280px;" data-url="/televize/?day=1&amp;do=positions">
+				<li data-id="6" class="station sort">
+					<div class="station-name">
+						<select class="submitter" name="station0" id="frmstationSelectForm-station0"><option value="">- odebrat stanici -</option>
+<option value="78">AMC</option>
+<option value="40">Animal Planet</option>
+<option value="12">AXN</option>
+<option value="66">AXN Black</option>
+<option value="67">AXN White</option>
+<option value="24">Barrandov</option>
+<option value="57">CBS Drama</option>
+<option value="69">CBS Reality</option>
+<option value="13">Cinemax</option>
+<option value="22">Cinemax2</option>
+<option value="16">CSfilm</option>
+<option value="65">ČT art</option>
+<option value="64">ČT :D</option>
+<option value="4">ČT1</option>
+<option value="5">ČT2</option>
+<option value="54">Dajto</option>
+<option value="37">Discovery Channel</option>
+<option value="50">Discovery Science</option>
+<option value="51">Discovery World</option>
+<option value="30">Disney Channel</option>
+<option value="32">Doku CS</option>
+<option value="27">Doma</option>
+<option value="10">Dvojka</option>
+<option value="48">Fanda</option>
+<option value="15">Film+</option>
+<option value="14">FilmBox</option>
+<option value="75">Filmbox Extra</option>
+<option value="41">Filmbox Family</option>
+<option value="21">FilmBox HD</option>
+<option value="20">FilmBox Plus</option>
+<option value="46">Film Europe Channel</option>
+<option value="1">HBO</option>
+<option value="18">HBO Comedy</option>
+<option value="8">HBO2</option>
+<option value="38">History Channel</option>
+<option value="70">Horor Film</option>
+<option value="77">ID Xtra</option>
+<option value="9">Jednotka</option>
+<option value="52">JimJam</option>
+<option value="7">JOJ</option>
+<option value="31">Kino CS</option>
+<option value="76">Kino Svět</option>
+<option value="6" selected>Markíza</option>
+<option value="68">Megamax</option>
+<option value="17">MGM</option>
+<option value="34">Minimax</option>
+<option value="74">MTV CZ</option>
+<option value="55">National Geographic</option>
+<option value="71">National Geographic HD</option>
+<option value="56">National Geographic Wild</option>
+<option value="73">Nickelodeon</option>
+<option value="2">Nova</option>
+<option value="19">Nova Cinema</option>
+<option value="25">Plus</option>
+<option value="3">Prima</option>
+<option value="26">Prima Cool</option>
+<option value="33">Prima Love</option>
+<option value="60">Prima ZOOM</option>
+<option value="58">Smíchov</option>
+<option value="39">Spektrum</option>
+<option value="53">Spektrum Home</option>
+<option value="61">Telka</option>
+<option value="72">Travel Channel</option>
+<option value="28">Universal Channel</option>
+<option value="43">Viasat Explorer</option>
+<option value="45">Viasat HD</option>
+<option value="44">Viasat History</option>
+<option value="42">Viasat Nature</option>
+<option value="63">Wau</option></select>
+						<img src="//img.csfd.cz/files/images/tv_station/logos/158/191/158191977_f755f3.png?h22" alt="Markíza" class="logo">
+					</div>
+					<div class="column" style="height: 2900px;">
+							<div id="box-2003495" style="height: 108px; top: 130px;" class="box odd">
+								<p class="time">05:05</p>
+								<div class="text">
+									<span class="name"><a href="/film/267353-televizne-noviny/" class="film c2">Televízne noviny</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1996)</span></span>
+									<div class="genres">Publicistický</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003496" style="height: 299px; top: 240px; border-top: 0;" class="box">
+								<p class="time">06:00</p>
+								<div class="text">
+									<span class="name"><a href="/film/270808-telerano/" class="film c2">Teleráno</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2002)</span></span>
+									<div class="genres">Publicistický / Rodinný</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003497" style="height: 139px; top: 540px; border-top: 0;" class="box odd">
+								<p class="time">08:30</p>
+								<div class="text">
+									<span class="name"><a href="/film/331230-burlive-vino/" class="film c3">Búrlivé víno</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2012)</span></span>
+									<div class="genres">Drama / Rodinný</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003498" style="height: 129px; top: 680px; border-top: 0;" class="box">
+								<p class="time">09:40</p>
+								<div class="text">
+									<span class="name"><a href="/film/229783-ordinacia-v-ruzovej-zahrade/" class="film c3">Ordinácia v ružovej záhrade</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2007)</span></span>
+									<div class="genres">Drama / Romantický</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003499" style="height: 129px; top: 810px; border-top: 0;" class="box odd">
+								<p class="time">10:45</p>
+								<div class="text">
+									<span class="name"><a href="/film/349302-chlapi-neplacu/" class="film c3">Chlapi neplačú</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2013)</span></span>
+									<div class="genres">Drama / Rodinný</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003500" style="height: 109px; top: 940px; border-top: 0;" class="box">
+								<p class="time">11:50</p>
+								<div class="text">
+									<span class="name"><a href="/film/215295-dr-house/" class="film c1">Dr. House</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2004)</span></span>
+									<span class="series">(S2 E11)</span>
+									<div class="genres">Drama / Mysteriózní</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003501" style="height: 129px; top: 1050px; border-top: 0;" class="box odd">
+								<p class="time">12:45</p>
+								<div class="text">
+									<span class="name"><a href="/film/112550-kobra-11/" class="film c2">Kobra 11</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1996)</span></span>
+									<span class="series">(S14 E3)</span>
+									<div class="genres">Akční / Krimi</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003502" style="height: 149px; top: 1180px; border-top: 0;" class="box">
+								<p class="time">13:50</p>
+								<div class="text">
+									<span class="name"><a href="/film/268181-farma/" class="film c3">Farma</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2011)</span></span>
+									<div class="genres">Reality-TV</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003503" style="height: 49px; top: 1330px; border-top: 0;" class="box odd">
+								<p class="time">15:05</p>
+								<div class="text">
+									<span class="name"><a href="/film/313803-anger-management/" class="film c1">Kurz sebaovládania</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2012)</span></span>
+									<span class="series">(E47)</span>
+									<div class="genres">Komedie</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003504" style="height: 59px; top: 1380px; border-top: 0;" class="box">
+								<p class="time">15:30</p>
+								<div class="text">
+									<span class="name"><a href="/film/135284-dva-a-pul-chlapa/" class="film c1">Dva a pol chlapa</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2003)</span></span>
+									<span class="series">(S11 E7)</span>
+									<div class="genres">Komedie</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003505" style="height: 111px; top: 1440px; border-top: 0;" class="box odd">
+								<p class="time">16:00</p>
+								<div class="text">
+									<span class="name"><a href="/film/244268-mentalista/" class="film c2">Mentalista</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2008)</span></span>
+									<span class="series">(S5 E3)</span>
+									<div class="genres">Drama / Krimi</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003506" style="height: 7px; top: 1552px; border-top: 0;" class="box">
+								<p class="time">16:56</p>
+								<div class="text">
+									<span class="name"><a href="/film/393386-hra-o-nike/" class="film c3">Hra o Niké</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2014)</span></span>
+									<div class="genres">Soutěžní</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003507" style="height: 49px; top: 1560px; border-top: 0;" class="box odd">
+								<p class="time">17:00</p>
+								<div class="text">
+									<span class="name"><a href="/film/267353-televizne-noviny/" class="film c2">Televízne noviny</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1996)</span></span>
+									<div class="genres">Publicistický</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003508" style="height: 49px; top: 1610px; border-top: 0;" class="box">
+								<p class="time">17:25</p>
+								<div class="text">
+									<span class="name"><a href="/film/276940-reflex/" class="film c3">Reflex</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2008)</span></span>
+									<div class="genres">Publicistický / Rodinný</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003509" style="height: 139px; top: 1660px; border-top: 0;" class="box odd">
+								<p class="time">17:50</p>
+								<div class="text">
+									<span class="name"><a href="/film/349302-chlapi-neplacu/" class="film c3">Chlapi neplačú</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2013)</span></span>
+									<div class="genres">Drama / Rodinný</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003510" style="height: 119px; top: 1800px; border-top: 0;" class="box">
+								<p class="time">19:00</p>
+								<div class="text">
+									<span class="name"><a href="/film/267353-televizne-noviny/" class="film c2">Televízne noviny</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1996)</span></span>
+									<div class="genres">Publicistický</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003511" style="height: 19px; top: 1920px; border-top: 0;" class="box odd">
+								<p class="time">20:00</p>
+								<div class="text">
+									<span class="name"><a href="/film/276817-sportove-noviny/" class="film c2">Športové noviny</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1996)</span></span>
+									<div class="genres">Publicistický / Sportovní</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003512" style="height: 39px; top: 1940px; border-top: 0;" class="box">
+								<p class="time">20:10</p>
+								<div class="text">
+									<span class="name">Počasie</span>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003513" style="height: 139px; top: 1980px; border-top: 0;" class="box odd">
+								<p class="time">20:30</p>
+								<div class="text">
+									<span class="name"><a href="/film/331230-burlive-vino/" class="film c3">Búrlivé víno</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2012)</span></span>
+									<div class="genres">Drama / Rodinný</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003514" style="height: 159px; top: 2120px; border-top: 0;" class="box">
+								<p class="time">21:40</p>
+								<div class="text">
+									<span class="name"><a href="/film/268181-farma/" class="film c3">Farma</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2011)</span></span>
+									<div class="genres">Reality-TV</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003515" style="height: 229px; top: 2280px; border-top: 0;" class="box odd">
+								<p class="time">23:00</p>
+								<div class="text">
+									<span class="name"><a href="/film/317538-revoluce/" class="film c2">Revolúcia</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2012)</span></span>
+									<div class="genres">Sci-Fi</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003516" style="height: 89px; top: 2510px; border-top: 0;" class="box">
+								<p class="time">00:55</p>
+								<div class="text">
+									<span class="name"><a href="/film/244268-mentalista/" class="film c2">Mentalista</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2008)</span></span>
+									<span class="series">(S5 E3)</span>
+									<div class="genres">Drama / Krimi</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003517" style="height: 89px; top: 2600px; border-top: 0;" class="box odd">
+								<p class="time">01:40</p>
+								<div class="text">
+									<span class="name"><a href="/film/112550-kobra-11/" class="film c2">Kobra 11</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1996)</span></span>
+									<span class="series">(S14 E3)</span>
+									<div class="genres">Akční / Krimi</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003518" style="height: 89px; top: 2690px; border-top: 0;" class="box">
+								<p class="time">02:25</p>
+								<div class="text">
+									<span class="name"><a href="/film/224293-hrdinove/" class="film c1">Hrdinovia</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(2006)</span></span>
+									<span class="series">(S4 E17)</span>
+									<div class="genres">Drama / Sci-Fi</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div id="box-2003519" style="height: 99px; top: 2780px; border-top: 0;" class="box odd">
+								<p class="time">03:10</p>
+								<div class="text">
+									<span class="name"><a href="/film/268181-farma/" class="film c3">Farma</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2011)</span></span>
+									<div class="genres">Reality-TV</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						<p class="end" style="top: 2880px;">04:00</p>
+					</div>
+				</li>
+				<li class="station new">
+					<div class="station-name">
+						<select class="submitter" name="stationNew" id="frmstationSelectForm-stationNew"><option value="">- přidat stanici -</option>
+<option value="78">AMC</option>
+<option value="40">Animal Planet</option>
+<option value="12">AXN</option>
+<option value="66">AXN Black</option>
+<option value="67">AXN White</option>
+<option value="24">Barrandov</option>
+<option value="57">CBS Drama</option>
+<option value="69">CBS Reality</option>
+<option value="13">Cinemax</option>
+<option value="22">Cinemax2</option>
+<option value="16">CSfilm</option>
+<option value="65">ČT art</option>
+<option value="64">ČT :D</option>
+<option value="4">ČT1</option>
+<option value="5">ČT2</option>
+<option value="54">Dajto</option>
+<option value="37">Discovery Channel</option>
+<option value="50">Discovery Science</option>
+<option value="51">Discovery World</option>
+<option value="30">Disney Channel</option>
+<option value="32">Doku CS</option>
+<option value="27">Doma</option>
+<option value="10">Dvojka</option>
+<option value="48">Fanda</option>
+<option value="15">Film+</option>
+<option value="14">FilmBox</option>
+<option value="75">Filmbox Extra</option>
+<option value="41">Filmbox Family</option>
+<option value="21">FilmBox HD</option>
+<option value="20">FilmBox Plus</option>
+<option value="46">Film Europe Channel</option>
+<option value="1">HBO</option>
+<option value="18">HBO Comedy</option>
+<option value="8">HBO2</option>
+<option value="38">History Channel</option>
+<option value="70">Horor Film</option>
+<option value="77">ID Xtra</option>
+<option value="9">Jednotka</option>
+<option value="52">JimJam</option>
+<option value="7">JOJ</option>
+<option value="31">Kino CS</option>
+<option value="76">Kino Svět</option>
+<option value="6">Markíza</option>
+<option value="68">Megamax</option>
+<option value="17">MGM</option>
+<option value="34">Minimax</option>
+<option value="74">MTV CZ</option>
+<option value="55">National Geographic</option>
+<option value="71">National Geographic HD</option>
+<option value="56">National Geographic Wild</option>
+<option value="73">Nickelodeon</option>
+<option value="2">Nova</option>
+<option value="19">Nova Cinema</option>
+<option value="25">Plus</option>
+<option value="3">Prima</option>
+<option value="26">Prima Cool</option>
+<option value="33">Prima Love</option>
+<option value="60">Prima ZOOM</option>
+<option value="58">Smíchov</option>
+<option value="39">Spektrum</option>
+<option value="53">Spektrum Home</option>
+<option value="61">Telka</option>
+<option value="72">Travel Channel</option>
+<option value="28">Universal Channel</option>
+<option value="43">Viasat Explorer</option>
+<option value="45">Viasat HD</option>
+<option value="44">Viasat History</option>
+<option value="42">Viasat Nature</option>
+<option value="63">Wau</option></select>
+					</div>
+					<div class="column" style="height: 2900px;"></div>
+				</li>
+			</ul>
+			<script type="text/javascript">CSFD.runHook("sortable", [{
+				axis: "x",
+				cursor: "auto",
+				items: "li:not(.new)",
+				imgClass: "action-drag",
+				successCallback: function() {
+					var selects = $(this).find(".sort .station-name select");
+					for (var i = 0; i < selects.length; i++) {
+						$(selects[i]).attr("name", "station" + i);
+					}
+				}
+			}]);</script>
+			<div><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]--></div>
+</form>
+
+		</div>
+	</div>
+	<div class="footer"></div>
+</div>
+			<div class="clear"></div>
+		</div>
+
+		<div id="page-footer">
+			<p>Česko-Slovenská filmová databáze © 2001-2014 <strong>POMO Media Group s.r.o.</strong> Všechna práva vyhrazena.</p>
+				<p>
+		<a href="/provozovatel-a-redakce/">Provozovatel a redakce</a> | <a href="/reklama-a-marketing/">Reklama a marketing</a> |
+		 <a href="/kontakt/">Napište nám</a> |
+		<a href="/posledni-hledane-vyrazy/">Poslední hledané výrazy</a> | Server hosting zajišťuje <a href="http://www.vshosting.cz">VSHosting s.r.o.</a>
+	</p>
+	<p>
+		Doporučujeme: <a href="http://www.supito.cz">překlady</a>, <a href="http://www.indexreality.cz/">prodej nemovitostí</a>,
+		<a href="http://www.indexreality.cz/pronajem/">pronájem reality</a>, <a href="http://www.quickexpert.cz/">realitní kancelář</a>, <a href="http://az-europe.eu/cz/e">Eshop AZ-europe.eu</a>
+	</p>
+
+		</div>
+
+	</div>
+
+	<!-- load ads data -->
+<script type="text/javascript" src="//img.csfd.cz/ads/pmg/data.js"></script>
+<script type="text/javascript">
+	CSFD.ads.provider.pmg.load();
+</script>
+<script type="text/javascript" src="http://go.cz.bbelements.com/bb/bb_one2n.js" onerror="CSFD.ads.blocked = true"></script>
+<script type="text/javascript">
+	try {
+		var bbkeywords = '';
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.addPosition("19877.2.1.5", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.addPosition("19877.2.1.1", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.addPosition("19877.2.1.2", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.addPosition("19877.2.1.7", '');
+		bmone2n.getAd('go.cz.bbelements.com', bbkeywords, '' + (typeof(bburlparam) == 'string' ? '&' + bburlparam : ''), 'utf-8');
+	}
+	catch (e) {}
+</script>
+<div id="bmone2t-19877.2.1.5" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.makeAd("19877.2.1.5"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.1" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.makeAd("19877.2.1.1"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.2" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.makeAd("19877.2.1.2"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.7" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.makeAd("19877.2.1.7"); } catch (e) {} </script></div>
+<script type="text/javascript"> try { bmone2n.moveAd(); } catch (e) {} </script>
+
+		<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+		var pp_gemius_identifier = '.Xo70CM6eCnBhv6vp5QQNcR77xEWf47KiIqfXU6rmdf.e7';
+		// lines below shouldn't be edited
+		function gemius_pending(i) { window[i] = window[i] || function() { var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+		gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+		(function(d,t) { try { var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+		gt.setAttribute('defer','defer'); gt.src=l+'://spir.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) { }})(document,'script');
+		//--><!]]>
+	</script>
+
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-11601932-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>

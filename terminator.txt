@@ -1,0 +1,991 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Z roku 2029 je do Los Angeles roku 1984 vyslán zabijácký stroj podobný člověku. Má za úkol zabít Sarah Connorovou dřív, než přivede na svět syna, který se má později stát vůdcem lidí ve válce proti strojům. Lidé žijící v budoucnosti ovšem do…" />
+	<meta name="keywords" content="terminátor, terminator, the" />
+
+
+	<title>Terminátor / Terminator, The (1984) | ČSFD.cz</title>
+
+	<link rel="shortcut icon" href="http://img.csfd.cz/assets/b1247/images/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="http://img.csfd.cz/assets/b1247/images/apple_touch_icon.png" />
+
+
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css" type="text/css" />
+	<link rel="stylesheet" href="http://img.csfd.cz/assets/b1247/modules/web/styles/styles.css" />
+	<link rel="stylesheet" type="text/css" href="http://img.csfd.cz/assets/b1247/styles/print.css" media="print" />
+
+		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script> 
+	<script type="text/javascript"> if (window.jQuery === undefined) { document.write(decodeURI(
+			"%3Clink rel=\"stylesheet\" href=\"http://img.csfd.cz/assets/b1247/libs/jqueryui/themes/base/jquery-ui.css\" type=\"text/css\" /%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1247/libs/jquery/jquery.min.js\" type=\"text/javascript\">%3C/script%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1247/libs/jqueryui/jquery-ui.min.js\" type=\"text/javascript\">%3C/script%3E"
+		)); }
+	</script> 
+	<script type="text/javascript" charset="utf-8" src="http://img.csfd.cz/assets/b1247/modules/web/scripts/scripts.js"></script>
+
+	
+		<script type="text/javascript">
+		CSFD.app.action.id = ":Web:Film:default";
+		CSFD.app.action.data = {"id":1249,"genre":[1,7,8],"origin":[172,179],"year":1984,"creators":[2840,76296,76013,39522,34,178,64,7211,263,5884,53234,34587,54281,20,37343,39965,63334]};
+		
+		CSFD.app.visitor = {"country":[2]};
+		
+	</script>
+
+	
+	<meta property="og:site_name" content="ČSFD.cz" />
+	<meta property="og:image" content="http://img.csfd.cz/files/images/film/photos/000/204/204294_711137.jpg?w370h370" />
+	<meta property="og:image" content="http://img.csfd.cz/files/images/film/photos/158/769/158769280_522786.jpg?w370h370" />
+	<meta property="og:image" content="http://img.csfd.cz/files/images/film/photos/000/202/202522_25faa0.jpg?w370h370" />
+	<meta property="og:description" content="Z roku 2029 je do Los Angeles roku 1984 vyslán zabijácký stroj podobný člověku. Má za úkol zabít Sarah Connorovou dřív, než přivede na svět syna, který se má později stát vůdcem lidí ve válce proti strojům. Lidé žijící v budoucnosti ovšem do…" />
+	<meta property="og:title" content="Terminátor / Terminator, The (1984)" />
+	<meta property="og:type" content="movie" />
+	<meta property="fb:app_id" content="260163667481043" />
+
+<link rel="canonical" href="http://www.csfd.cz/film/1249-terminator/" />
+	<link rel="search" type="application/opensearchdescription+xml" title="ČSFD.cz" href="http://img.csfd.cz/assets/b1247/modules/web/misc/opensearch.xml" />
+
+	<meta name="application-name" content="ČSFD.cz" />
+	<meta name="msapplication-tooltip" content="ČSFD.cz" />
+	<meta name="msapplication-starturl" content="http://www.csfd.cz/" />
+	<meta name="msapplication-navbutton-color" content="#BB0011" />
+
+	<meta name="msapplication-task" content="name=Přihlášení;action-uri=/prihlaseni/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico" />
+	<meta name="msapplication-task" content="name=Novinky;action-uri=/novinky/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico" />
+	<meta name="msapplication-task" content="name=Žebříčky;action-uri=/zebricky/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico" />
+	<meta name="msapplication-task" content="name=Televize;action-uri=/televize/;icon-uri=http://img.csfd.cz/assets/b1247/images/favicon.ico" />
+
+
+</head>
+
+<body class="no-js th-1 ap-web" id="ap-web-film">
+	<script type="text/javascript">
+		$('body').removeClass('no-js').addClass('js');
+	</script>
+
+		<div id="ad-wrapper">
+
+<div id="bmone2n-19877.2.1.5" class="ui-advert ad-ibillboard ad-ibillboard-videobanner" data-code="19877.2.1.5">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/5/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/5/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+		<div id="ad-leaderboard"><div class="ad-pmg ad-pmg-leaderboard" data-element-type="leaderboard">
+	
+<div id="bmone2n-19877.2.1.1" class="ui-advert ad-ibillboard ad-ibillboard-leaderboard" data-code="19877.2.1.1">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/1/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/1/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		<div class="ad-pmg-skyscraper-left-wrapper">
+			<div id="ad-skyscraper-left"><div class="ad-pmg ad-pmg-skyscraper-left" data-element-type="skyscraper-left">
+	
+<div id="bmone2n-19877.2.1.2" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-left" data-code="19877.2.1.2">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/2/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/2/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		</div>
+		<div id="ad-skyscraper-right"><div class="ad-pmg ad-pmg-skyscraper-right" data-element-type="skyscraper-right">
+	
+<div id="bmone2n-19877.2.1.7" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-right" data-code="19877.2.1.7">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/7/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/7/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+	</div>
+
+
+	<div id="page-wrapper">
+		<div id="page-header">
+			<div id="logo">
+				<a href="/" title="ČSFD.cz">
+					<img src="http://img.csfd.cz/assets/b1247/images/logo.png" alt="ČSFD.cz" width="330" height="75" />
+				</a>
+				<h2 class="hidden">Česko-Slovenská filmová databáze</h2>
+			</div>
+
+			
+	<div id="user-menu" class="unlogged">
+		<h3>Uživatelská zóna</h3>
+		<ul>
+			<li><a href="/prihlaseni/">Přihlásit</a></li>
+			<li><a href="/registrace/">Registrovat</a></li>
+			<li><a href="/registrace/ztracene-heslo/">Ztracené heslo</a></li>
+		</ul>
+	</div>
+
+
+	<div id="main-search">
+		<form action="/hledat/" method="get">
+			<div>
+				<input type="text" class="text" name="q" value="" id="mainSearch" size="20" placeholder="Hledat" />
+				<input type="submit" class="submit" title="Hledat" value="" />
+			</div>
+		</form>
+		<a class="advanced-search" href="/podrobne-vyhledavani/">podrobné vyhledávání &rarr;</a>
+	</div>
+
+
+			<ul id="main-menu" class="bottom-menu">
+				
+	<li><a href="/novinky/">Novinky</a></li>
+	<li><a href="/videa/">Videa</a></li>
+	<li><a href="/televize/">Televize</a></li>
+	<li><a href="/kino/">Kino</a></li>
+	<li><a href="/filmy-online/">Filmy online</a></li>
+	<li><a href="/dvd-a-bluray/">DVD &amp; Blu-ray</a></li>
+	<li><a href="/tvurci/">Tvůrci</a></li>
+	<li><a href="/zebricky/">Žebříčky</a></li>
+	<li><a href="/filmoteky/">Filmotéky</a></li>
+	<li><a href="/uzivatele/">Uživatelé</a></li>
+	<li><a href="/diskuze/">Diskuze</a></li>
+
+			</ul>
+
+				<div id="activity-message">
+	</div>
+
+		</div>
+
+
+		<div class="page-content" id="pg-web-film" itemscope itemtype="http://schema.org/Movie">
+
+
+
+<div id="main">
+	<div id="profile" class="ct-general th ui-profile with-relations">
+		<ul class="relations">
+			<li class="content g1">
+				<a href="/televize/2013658/">Nova Cinema 29.11.2014  22:20</a>
+							</li>
+			<li class="content g1">
+				<a href="/televize/2013662/">Nova Cinema 30.11.2014  03:55</a>
+							</li>
+		</ul>
+
+		<div class="content">
+			<div id="poster" class="image">
+					<img src="//img.csfd.cz/files/images/film/posters/000/001/1251_697bf1.jpg?h180" alt="poster" class="film-poster" width="127" height="180" />
+			</div>
+			<div class="info">
+				<ul class="links">
+					<li><a href="http://filmy.heureka.cz/terminator-bd/#utm_source=csfd.cz&amp;utm_medium=cooperation&amp;utm_campaign=csfd_movies_feed" class="disc-bluray" title="koupit Blu-ray TERMINÁTOR BD" data-ga-event="sales-heureka|film|bluray"><span>koupit Blu-ray</span></a></li>
+				</ul>
+				<h1>
+						Terminátor
+						
+					
+				</h1>
+
+				<ul class="names">
+					<li>
+						<img src="http://img.csfd.cz/assets/b1247/images/flags/flag_USA.gif" alt="USA"  />
+						<h3>Terminator, The</h3>
+								
+							
+					</li>
+					<li>
+						<img src="http://img.csfd.cz/assets/b1247/images/flags/flag_34.gif" alt="CZ název"  />
+						<h3>Terminátor</h3>
+								
+							
+					</li>
+				</ul>
+				<script type="text/javascript">CSFD.runHook("filmHideNames", []);</script>
+
+				<p class="genre">Akční / Sci-Fi / Thriller</p>
+				
+				
+				
+
+				
+				
+
+				<p class="origin">USA / Velká Británie, 1984, 107 min</p>
+
+				<div class="creators">
+					<div>
+						<h4>Režie:</h4>
+						<span data-truncate="60">
+							<a href="/tvurce/2840-james-cameron/">James Cameron</a>
+						</span>
+					</div>
+					<div>
+						<h4>Scénář:</h4>
+						<span data-truncate="60">
+							<a href="/tvurce/2840-james-cameron/">James Cameron</a>, <a href="/tvurce/76296-gale-anne-hurd/">Gale Anne Hurd</a>
+						</span>
+					</div>
+					<div>
+						<h4>Kamera:</h4>
+						<span data-truncate="60">
+							<a href="/tvurce/76013-adam-greenberg/">Adam Greenberg</a>
+						</span>
+					</div>
+					<div>
+						<h4>Hudba:</h4>
+						<span data-truncate="60">
+							<a href="/tvurce/39522-brad-fiedel/">Brad Fiedel</a>
+						</span>
+					</div>
+					<div>
+						<h4>Hrají:</h4>
+						<span data-truncate="340">
+							<a href="/tvurce/34-arnold-schwarzenegger/">Arnold Schwarzenegger</a>, <a href="/tvurce/178-michael-biehn/">Michael Biehn</a>, <a href="/tvurce/64-linda-hamilton/">Linda Hamilton</a>, <a href="/tvurce/7211-paul-winfield/">Paul Winfield</a>, <a href="/tvurce/263-lance-henriksen/">Lance Henriksen</a>, <a href="/tvurce/5884-rick-rossovich/">Rick Rossovich</a>, <a href="/tvurce/53234-earl-boen/">Earl Boen</a>, <a href="/tvurce/34587-dick-miller/">Dick Miller</a>, <a href="/tvurce/54281-franco-columbu/">Franco Columbu</a>, <a href="/tvurce/20-bill-paxton/">Bill Paxton</a>, <a href="/tvurce/37343-marianne-muellerleile/">Marianne Muellerleile</a>, <a href="/tvurce/39965-brian-thompson/">Brian Thompson</a>, <a href="/tvurce/63334-harriet-medin/">Harriet Medin</a>
+						</span>
+					</div>
+					<script type="text/javascript">CSFD.runHook("truncate", []);</script>
+				</div>
+				<script type="text/javascript">CSFD.runHook("filmShowCreators", []);</script>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="footer"></div>
+	</div>
+
+	<div id="posters" class="ct-related">
+		<div class="header">
+			<h3>Plakáty</h3>
+		</div>
+		<div class="content">
+			<div class="wrapper">
+				<table>
+					<tr>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/000\/001\/1251_697bf1\.jpg\?h180'); width: 127px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/000\/001\/1252_d81c8c\.jpg\?h180'); width: 125px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/105\/793\/105793011_f0f47a\.jpg\?h180'); width: 108px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/158\/311\/158311921_0fc9b1\.jpg\?h180'); width: 130px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/000\/001\/1254_d732f1\.jpg\?h180'); width: 288px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/158\/528\/158528231_08d48c\.jpg\?h180'); width: 126px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/158\/540\/158540389_9877c7\.jpg\?h180'); width: 123px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/158\/540\/158540391_c8f32c\.jpg\?h180'); width: 236px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/158\/047\/158047325_0d19ed\.jpg\?h180'); width: 126px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/158\/311\/158311922_ea0670\.jpg\?h180'); width: 125px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/158\/540\/158540388_2205b4\.jpg\?h180'); width: 117px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/000\/001\/1256_e5b0a8\.jpg\?h180'); width: 136px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/158\/540\/158540390_cef9b7\.jpg\?h180'); width: 126px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/000\/001\/1257_3da5c4\.jpg\?h180'); width: 115px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/000\/001\/1258_b27891\.jpg\?h180'); width: 114px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/000\/002\/2162_9c4f67\.jpg\?h180'); width: 125px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/000\/458\/458010_e087be\.jpg\?h180'); width: 123px; height: 180px"></div>
+						</td>
+						<td>
+							<div class="image" style="background-image: url('\/\/img\.csfd\.cz\/files\/images\/film\/posters\/087\/190\/87190225_2789cb\.jpg\?h180'); width: 121px; height: 180px"></div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">CSFD.runHook("filmPosters", []);</script>
+
+	<div id="plots" class="ct-related">
+		<div class="header">
+			<h3>Obsah
+			</h3>
+		</div>
+		<div class="content">
+			<ul>
+				<li>
+					<div data-truncate="570">
+							<img src="http://img.csfd.cz/assets/b1247/images/li.gif" width="10" height="10" alt="Odrážka"  class="dot hidden"/>
+
+						Z roku 2029 je do Los Angeles roku 1984 vyslán zabijácký stroj podobný člověku. Má za úkol zabít Sarah Connorovou dřív, než přivede na svět syna, který se má později stát vůdcem lidí ve válce proti strojům. Lidé žijící v budoucnosti ovšem do současnosti také vyslali svého muže, který se bude snažit Sarah zachránit.<span class="source">(oficiální text distributora)</span>
+
+					</div>
+				</li>
+			</ul>
+			<script type="text/javascript">CSFD.runHook("truncate", []);</script>
+		</div>
+	</div>
+	<script type="text/javascript">CSFD.runHook("filmPlots", []);</script>
+
+	<div class="ct-general th with-navigation default">
+<div class="navigation">
+		<ul>
+			<li class="comments default selected">
+				<a href="/film/1249-terminator/"><span>komentáře</span></a>
+			</li>
+			<li class="trivia">
+				<a href="/film/1249-terminator/zajimavosti/"><span>zajímavosti</span></a>
+			</li>
+			<li class="reviews">
+				<a href="/film/1249-terminator/recenze/"><span>ext. recenze</span></a>
+			</li>
+			<li class="photos">
+				<a href="/film/1249-terminator/galerie/"><span>galerie</span></a>
+			</li>
+			<li class="videos">
+				<a href="/film/1249-terminator/videa/"><span>videa</span></a>
+			</li>
+			<li class="bazaar">
+				<a href="/film/1249-terminator/bazar/"><span>v bazaru</span></a>
+			</li>
+			<li class="collection">
+				<a href="/film/1249-terminator/filmoteka/"><span>ve filmotéce</span></a>
+			</li>
+			<li class="forum last">
+				<a href="/film/1249-terminator/diskuze/"><span>diskuze</span></a>
+			</li>
+		</ul>
+</div><div class="header">
+	<h2>Komentáře uživatelů k filmu <span class="count">(1 027)</span></h2>
+	<div class="controls">
+		<div class="orderer select">
+<form action="/film/1249-terminator/?do=pof-ordererSelectForm-submit" method="post" id="frm-pof-ordererSelectForm">
+
+
+
+	<label for="frmordererSelectForm-order"></label>
+
+	<select name="order" id="frmordererSelectForm-order" class="submitter"><option value="points">seřadit podle počtu bodů uživatele</option><option value="datetime">seřadit od nejnovějších po nejstarší</option><option value="rating">seřadit podle hodnocení</option></select>
+
+
+
+	
+
+	
+		<noscript><input type="submit" name="ok" id="frmordererSelectForm-ok" value="OK" /></noscript>
+	
+
+
+
+<input type="hidden" name="params" id="frmordererSelectForm-params" value="a:4:{s:2:&quot;id&quot;;s:4:&quot;1249&quot;;s:3:&quot;seo&quot;;s:10:&quot;terminator&quot;;s:6:&quot;action&quot;;s:7:&quot;default&quot;;s:7:&quot;urlMess&quot;;N;}" /><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+</div>
+
+	</div>
+</div>
+
+<div class="ad">
+<div class="ad-pmg ad-pmg-stripe" data-element-type="stripe">
+	
+</div>
+</div>
+
+<script type="text/javascript">CSFD.runHook("collapsible", []);</script>
+
+<div class="content" style="padding-top: 0">
+	<ul class="ui-posts-list">
+		<li id="comment-46113">
+			<div class="info">
+				<a href="/uzivatel/390-houdini/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/390-houdini/">Houdini</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">NFR 2008, .... .....    ......   ...   
+
+
+
+Terminátor = hranice temné strany Měsíce<span class="date desc">(9.4.2004)</span></p>
+		</li>
+		<li id="comment-17491">
+			<div class="info">
+				<a href="/uzivatel/87-lima/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/87-lima/">Lima</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/4.gif" class="rating" width="32" alt="****" />
+			<p class="post">John Cameron v rozmezí let 81-84 zřejmě prodělal transplantaci mozku, jinak si nedovedu vysvětlit, jak je možné že tři roky po tak megapříšerné megasračce, jakou je jeho debut Piraňa 2, natočil něco tak zábavného, jako je jednička Terminátora. Za málo peněz hodně muziky, ve svý době naprostá akční bomba.<span class="date desc">(11.5.2003)</span></p>
+		</li>
+		<li id="comment-33255">
+			<div class="info">
+				<a href="/uzivatel/535-galadriel/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/535-galadriel/">Galadriel</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">Fantastický triumf Jamese Camerona v jednom z nejlepších akčních filmů všech dob.<span class="date desc">(21.11.2003)</span></p>
+		</li>
+		<li id="comment-13535">
+			<div class="info">
+				<a href="/uzivatel/604-gemini/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/604-gemini/">Gemini</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/4.gif" class="rating" width="32" alt="****" />
+			<p class="post">Špičková role pro Michaela Biehna, málokdo zahraje mariňáka takhle dobře:) A Arnoldova slavná záporná role, to je přece klasika, kterou musíte vidět...nejlepší na tom je, že je to teprve začátek jedné z nejslavnějších temných vizí budoucnosti, proti které hrdinové neustále bojují...<span class="date desc">(27.3.2003)</span></p>
+		</li>
+		<li id="comment-262289">
+			<div class="info">
+				<a href="/uzivatel/111-tosim/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/111-tosim/">Tosim</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/3.gif" class="rating" width="24" alt="***" />
+			<p class="post">Je mi líto, ale tenhle film se pro mě nikdy nadprůměrně zábavným nestane. Má několik dobrých hlášek, to ano, ale dějově je velice prostinký a tohle u mě rozhoduje i kdyby měl kdo ví jaké triky (i navzdory době či rozpočtu.) Nejvíc mě tedy odpudila ta hnusná a jednotvárná kybernetická hudba.<span class="date desc">(19.2.2007)</span></p>
+		</li>
+		<li id="comment-21988">
+			<div class="info">
+				<a href="/uzivatel/151-radyo/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/151-radyo/">Radyo</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/4.gif" class="rating" width="32" alt="****" />
+			<p class="post">V 80.letech klasika nelegálně kopírovaných videokazet. Film, který chtěl vidět tehdy snad každý filmový nadšenec. Nutno říci, že když bych tuto sci-fi hodnotil tehdejšíma očima, tak je to jasně za 5*. Ale dneska už jsem "přecpaný" spoustou filmů a proto u mě Terminátor malinko spadnul na žebříčku. Přesto se stále jedná o jednu z nejlepších scifáren posledních 20 let minulého století. Arnold Schwarzenegger je totálně záporný, což mu podle mě sedí více, než obrácená role ve dvojce. Také další postavy mají své neodmyslitelné místo v ději a skoro všichni herci je hrají výborně. Atmosféra se podařila Jamesi Cameronovi vybudovat skvěle a také po trikové stránce se nedá skoro nic vytknout. Čili pokud si nechcete u filmu zavařit mozek od neustálého přemýšlení "wo co gou", tak lze tento snímek jen a jen doporučit.<span class="date desc">(9.7.2003)</span></p>
+		</li>
+		<li id="comment-84295">
+			<div class="info">
+				<a href="/uzivatel/2008-matty/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/2008-matty/">Matty</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">Kolik znáte filmů, jež dokonale vystihuje hláška „Fuck you, asshole!“? 95% <strong>Zajímavé komentáře:</strong> Lima, Paldini, flanker.27, arkie, JohnO.O<span class="date desc">(6.4.2005)</span></p>
+		</li>
+		<li id="comment-50844">
+			<div class="info">
+				<a href="/uzivatel/4597-djkoma/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/4597-djkoma/">Djkoma</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">Svět bez Terminátora?????To je svět bez sci-fi !!! Tenhle film je dílo jenž změnilo co mohlo a dokázalo, že hora svalů Arnold je opravdu Železný muž :o)) Tohle je bomba a pokračování je.... :)<span class="date desc">(5.6.2004)</span></p>
+		</li>
+		<li id="comment-2431">
+			<div class="info">
+				<a href="/uzivatel/75-gouryella/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/75-gouryella/">gouryella</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/4.gif" class="rating" width="32" alt="****" />
+			<p class="post">Vyborna sci-fi, ktera ukazala, ze Arnolda muze mit clovek rad i kdyz hrat vubec neumi a jeste k tomu ma zapornou roli.<span class="date desc">(27.7.2002)</span></p>
+		</li>
+		<li id="comment-83547">
+			<div class="info">
+				<a href="/uzivatel/3399-renton/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/3399-renton/">Renton</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/4.gif" class="rating" width="32" alt="****" />
+			<p class="post">Scénář: <a href="http://www.imdb.com/name/nm0000116/">James Cameron</a>, <a href="http://www.imdb.com/name/nm0005036/">Gale Anne Hurd</a> .. <em>„I´ll be back.“</em> _ Výtečný temný námět, který zpracovalo rodící se režijní eso Cameron. Výsledek je kultovní, drsná akční sci-fi, které dnes ovšem nemohu dát víc než 80%, protože přišel den, <a href="http://www.csfd.cz/film/1248">Den zúčtování</a>!<span class="date desc">(1.4.2005)</span></p>
+		</li>
+		<li id="comment-864100">
+			<div class="info">
+				<a href="/uzivatel/6811-enspigl/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/6811-enspigl/">Enšpígl</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">Svalnatý stroj bez přirození nekompromisně masakruje lidi s přirozením.<span class="date desc">(20.7.2009)</span></p>
+		</li>
+		<li id="comment-84499">
+			<div class="info">
+				<a href="/uzivatel/2107-marigold/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/2107-marigold/">Marigold</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/4.gif" class="rating" width="32" alt="****" />
+			<p class="post">Po těch letech jsem si na to nachystal preventivně zdvižené obočí, abych si na něj posléze ani nevzpomněl. Jen synťákový soundtrack Brada Fiedela brutálně zastaral, jinak se Cameronovu kyborgovi stále daří skvěle. I když efekty spíše rozesmívají, Cameronův jedinečný cit pro napětí a působivé postavy se vyjímá jako kovový skelet nad hromadou lidských lebek. Perfektní práce kamery, skvělý střih a hodně dobří herci v čele s Arniem, který působí jako neurvalý nácek na výletě. Scénář nezkouší žádné velké fígle, přesto je příběh o záchraně budoucnosti nesmírně působivý a pohledy do apokalyptického věku mají i po letech naléhavost a pořádně dekadentní náladu. Nenacházím, co bych vytkl, Terminátor každým coulem ztělesňuje poetiku 80. let a dodnes by měl hitmakerům sloužit jako nepřekonatelná učebnice dramatické akční podívané. Jasný zlatý fond, filmařská extratřída bez kompromisů.<span class="date desc">(7.4.2005)</span></p>
+		</li>
+		<li id="comment-91044">
+			<div class="info">
+				<a href="/uzivatel/12308-t2/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/12308-t2/">T2</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">║<strong>Rozpočet $6,4milióna</strong>║<strong>Tržby USA $38,371,200</strong>║<strong>Tržby Celosvetovo $78,371,200</strong>║ <strong>James Cameron stvoril neskutočný kult!</strong> Film čo svojím nosným obsahom dozrieva každým rokom a aj dnes zatieňuje svojím príbehom a prevedeným čokoľvek čo vzniká dnes. Za minimálny rozpočet Cameron stvoril monštrozitu, ktorá je trikovo fascinujúca, doplnená silnou hudobnou melódiou, skvelým obsadeným, .... proste dokonalosť sama. <strong>/100%/</strong><span class="date desc">(18.5.2005)</span></p>
+		</li>
+		<li id="comment-24112">
+			<div class="info">
+				<a href="/uzivatel/1476-anthony/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/1476-anthony/">Anthony</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">Arnoldova nejlepší role a především Cameronův majstrštyk - takové tempo a spád má i dnes málokterý film. Terminátor na policejní stanici to je opravdu sousto. Snímek, který se právem stal klasikou. Na festivalu fantastických filmů v Avoriazu získal Velkou cenu.<span class="date desc">(5.8.2003)</span></p>
+		</li>
+		<li id="comment-361804">
+			<div class="info">
+				<a href="/uzivatel/46674-radek99/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/46674-radek99/">Radek99</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/3.gif" class="rating" width="24" alt="***" />
+			<p class="post">Naprosto přeceňovaný film, který byl ve videoéře 80. let naprostým fenoménem. Rychlým vývojem žánru však jako vše v něm zastaral...<span class="date desc">(10.10.2007)</span></p>
+		</li>
+		<li id="comment-498090">
+			<div class="info">
+				<a href="/uzivatel/33300-angelangie/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/33300-angelangie/">AngelAngie</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">T je klasika, Arnold mu vtiskl nesmazatelnou tvář.<span class="date desc">(3.6.2008)</span></p>
+		</li>
+		<li id="comment-233080">
+			<div class="info">
+				<a href="/uzivatel/27877-mandes/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/27877-mandes/">mandes</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">rozpočet :  $6.4 million  tržby celosvetovo :  $78,371,200<span class="date desc">(18.12.2006)</span></p>
+		</li>
+		<li id="comment-8427919">
+			<div class="info">
+				<a href="/uzivatel/175524-dever/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/175524-dever/">Dever</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post"><strong> Soundtrack Brad Fiedel:</strong> 1.	The Terminator Theme [4:25]
+,2.	Terminator Arrival [2:35]
+,3.	Tunnel Chase [2:49]
+,4.	Love Scene [1:16]
+,5.	Future Remembered [2:29]
+,6.	Factory Chase [3:53]
+,7.	You Can't Do That - Tahnee Cain/Tryanglz [3:26]
+,8.	Burnin' in the Third Degree - Tahnee Cain/Tryanglz [3:33]
+,9.	Pictures of You - Jay Ferguson/16mm [3:58]
+,10.	Photoplay - Tahnee Cain/Tryanglz [3:33]
+,11.	Intimacy - Linn Van Hek [3:36],<span class="date desc">(13.5.2011)</span></p>
+		</li>
+		<li id="comment-64102">
+			<div class="info">
+				<a href="/uzivatel/5720-tron/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/5720-tron/">tron</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post"><em>„Ja sa vrátim.“</em> Legendárny a kultový akčný sci-fi triler začínajúceho Jamesa Camerona rozpráva originálny príbeh o boji o budúcnosť v minulosti. Strhujúco energický triler si razí cestu počas jednej jedinej noci, počas ktorej stihne zdemolovať kompletnú policajnú stanicu, predstaviť divákom začínajúceho rakúskeho herca Arnolda Schwarzeneggera a postaviť proti nemu slabučkú čašníčku Lindu Hamiltonovú a atletického šviháka (a následne Cameronovho dvorného herca) Michaela Biehnea. K tomu „ksichty“ v podporných rolách (Lance Henriksen mal pôvodne hrať T-800), výnimočné triky Stana Winstona (v tom čase tiež plus mínus začínajúceho) a zárodok pôsobivej ságy, ktorú nedokázal úplne sprasiť ani Hollywood. Viac na mojom ex-blogu: <a href="http://ivokucera.blog.sme.sk/c/156787/Terminator-teaser-na-Terminatora-4-100.html">http://ivokucera.blog.sme.sk/c/156787/Terminator-teaser-na-Terminatora-4-100.html</a><span class="date desc">(2.11.2004)</span></p>
+		</li>
+		<li id="comment-158244">
+			<div class="info">
+				<a href="/uzivatel/7387-novoten/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/7387-novoten/">novoten</a></h5>
+			<img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />
+			<p class="post">Dusivá i adrenalinová sci-fi, kterou zub času ne a ne ohlodat. Arnold asi už nikdy nebudil tolik respektu a strachu. Navíc časové paradoxy i celý vědeckofantastický žánr by bez téhle série dnes byly úplně jinde. Nápady jako ten o robotovi, který má změnit minulost, aby změnil budoucnost, totiž občas přijdou, ale dosadit je do správného scénáře, to už je filmové umění.<span class="date desc">(2.4.2006)</span></p>
+		</li>
+	</ul>
+	
+<div class="paginator text">
+		<span class="button previous">&lt;&lt; předchozí</span>
+
+			<span class="current">1</span>
+			<a href="/film/1249-terminator/strana-2/">2</a>
+			<a href="/film/1249-terminator/strana-3/">3</a>
+			<a href="/film/1249-terminator/strana-4/">4</a>
+		<span>…</span>
+			<a href="/film/1249-terminator/strana-14/">14</a>
+		<span>…</span>
+			<a href="/film/1249-terminator/strana-27/">27</a>
+		<span>…</span>
+			<a href="/film/1249-terminator/strana-39/">39</a>
+		<span>…</span>
+			<a href="/film/1249-terminator/strana-52/">52</a>
+
+		<a class="next" href="/film/1249-terminator/strana-2/">následující &gt;&gt;</a>
+</div>
+
+</div>
+
+<div class="footer">
+	<a href="/film/1249-terminator/?all=1">zobrazit všechny komentáře</a>
+</div>
+
+
+<div id="bmone2n-19877.2.1.14" class="ui-advert ad-ibillboard ad-ibillboard-rectangle" data-code="19877.2.1.14">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/14/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/14/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+	</div>
+</div>
+
+
+<div id="sidebar">
+	<div id="rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+		<h2 class="average">87%</h2>
+		<p class="charts">
+	 
+	<a href="/zebricky/nejlepsi-filmy/?show=complete#highlight-chart-1249">110. nejlepší film</a>
+	 
+	<a href="/zebricky/nejoblibenejsi-filmy/?show=complete#highlight-chart-1249">119. nejoblíbenější film</a>
+		</p>
+		<meta itemprop="worstRating" content="0" />
+		<meta itemprop="bestRating" content="100" />
+		<meta itemprop="ratingValue" content="87" />
+		<meta itemprop="ratingCount" content="51962" />
+	</div>
+
+	<script type="text/javascript">CSFD.runHook("filmRating", []);</script>
+
+	<div id="ratings" class="ct-related ui-profile-user-list">
+		<h3 class="header">Hodnocení uživatelů</h3>
+		<div class="content">
+				<ul>
+					<li>
+<a href="/uzivatel/95-golfista/">golfista</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/1-pomo/">POMO</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/1263-kleopatra/">kleopatra</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/4.gif" class="rating" width="32" alt="****" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/5-kevspa/">KevSpa</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/38-cival/">Cival</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/11567-don-corleone/">don corleone</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/390-houdini/">Houdini</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/4-douglas/">Douglas</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/69-kocour/">kOCOUR</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/5.gif" class="rating" width="40" alt="*****" />						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/87-lima/">Lima</a><img src="http://img.csfd.cz/assets/b1247/images/rating/stars/4.gif" class="rating" width="32" alt="****" />						<div class="clear"></div>
+					</li>
+				</ul>
+				<div class="clear"></div>
+
+				<div class="count">
+					<a id="rating-count-link" rel="nofollow" href="/film/1249-terminator/?expandUserList=1">všechna hodnocení</a><br />(51 962)
+				</div>
+		</div>
+	</div>
+
+	<div id="fanclub" class="ct-related ui-profile-user-list">
+		<h3 class="header">Fanklub filmu</h3>
+		<div class="content">
+				<ul>
+					<li>
+						<a href="/uzivatel/160232-viktooorka/oblibene-filmy/">Viktooorka</a>
+					</li>
+					<li>
+						<a href="/uzivatel/7011-petero/oblibene-filmy/">petero</a>
+					</li>
+					<li>
+						<a href="/uzivatel/1962-visac/oblibene-filmy/">Visáč</a>
+					</li>
+					<li>
+						<a href="/uzivatel/225339-darth-sidious/oblibene-filmy/">Darth Sidious</a>
+					</li>
+					<li>
+						<a href="/uzivatel/323755-wacoslav1/oblibene-filmy/">Wacoslav1</a>
+					</li>
+					<li>
+						<a href="/uzivatel/5068-ladylucifer/oblibene-filmy/">ladylucifer</a>
+					</li>
+					<li>
+						<a href="/uzivatel/34788-oli/oblibene-filmy/">oLí</a>
+					</li>
+					<li>
+						<a href="/uzivatel/149415-arnoldj/oblibene-filmy/">ArnoldJ</a>
+					</li>
+					<li>
+						<a href="/uzivatel/48894-vaca/oblibene-filmy/">váca</a>
+					</li>
+					<li>
+						<a href="/uzivatel/130142-istvan87/oblibene-filmy/">Ištván87</a>
+					</li>
+				</ul>
+				<div class="clear"></div>
+
+				<div class="count">
+					<a id="fanclub-count-link" rel="nofollow" href="/film/1249-terminator/?expandUserList=1">všichni fanoušci</a><br />(1 234)
+				</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+
+	<div id="releases" class="ct-related">
+		<h3 class="header">Premiéry </h3>
+		<div class="content">
+			<table>
+					
+					<tr>
+						<th>
+								<img src="http://img.csfd.cz/assets/b1247/images/flags/flag_CZE.gif" class="no-title" title="Česko" alt="Česko"  />
+							V kinech
+							 od:
+						</th>
+						<td class="date">
+							01.09.1990 
+						</td>
+					</tr>
+					
+					<tr class="separator">
+						<th>
+								<img src="http://img.csfd.cz/assets/b1247/images/flags/flag_CZE.gif" class="no-title" title="Česko" alt="Česko"  />
+							Na DVD
+							 od:
+						</th>
+						<td class="date">
+							01.03.2005 Bonton
+						</td>
+					</tr>
+					
+					<tr>
+						<th>
+								<img src="http://img.csfd.cz/assets/b1247/images/flags/flag_CZE.gif" class="no-title" title="Česko" alt="Česko"  />
+							Na DVD
+							 od:
+						</th>
+						<td class="date">
+							21.05.2010 Bonton
+						</td>
+					</tr>
+					
+					<tr>
+						<th>
+								<img src="http://img.csfd.cz/assets/b1247/images/flags/flag_CZE.gif" class="no-title" title="Česko" alt="Česko"  />
+							Na DVD
+							 od:
+						</th>
+						<td class="date">
+							15.06.2011 Bonton
+						</td>
+					</tr>
+					
+					<tr>
+						<th>
+								<img src="http://img.csfd.cz/assets/b1247/images/flags/flag_CZE.gif" class="no-title" title="Česko" alt="Česko"  />
+							Na Blu-ray
+							 od:
+						</th>
+						<td class="date">
+							03.10.2012 Bonton
+						</td>
+					</tr>
+					
+					<tr>
+						<th>
+								<img src="http://img.csfd.cz/assets/b1247/images/flags/flag_CZE.gif" class="no-title" title="Česko" alt="Česko"  />
+							Na Blu-ray
+							 od:
+						</th>
+						<td class="date">
+							28.11.2012 Bonton
+						</td>
+					</tr>
+					
+					<tr>
+						<th>
+								<img src="http://img.csfd.cz/assets/b1247/images/flags/flag_CZE.gif" class="no-title" title="Česko" alt="Česko"  />
+							Na Blu-ray
+							 od:
+						</th>
+						<td class="date">
+							05.12.2012 Bonton
+						</td>
+					</tr>
+			</table>
+		</div>
+	</div>
+
+	<script type="text/javascript">CSFD.runHook("filmPrivateNote", []);</script>
+
+	<div id="share">
+		<ul>
+			<li class="plusone">
+				<div class="g-plusone" data-size="medium" data-count="false" data-href="http://www.csfd.cz/film/1249-terminator/"></div>
+				<script type="text/javascript">
+					window.___gcfg = { lang: 'cs'};
+
+					(function() {
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = 'https://apis.google.com/js/plusone.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					})();
+				</script>
+			</li>
+			<li>
+				<a href="http://twitter.com/intent/tweet?text=Termin%C3%A1tor%20-%20http%3A%2F%2Fwww.csfd.cz%2Ffilm%2F1249%2F"
+					data-width="550" data-height="350" title="Sdílet na Twitteru">
+					<img src="http://img.csfd.cz/assets/b1247/images/share/twitter.png" alt="Sdílet na Twitteru" />
+				</a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.csfd.cz%2Ffilm%2F1249-terminator%2F" title="Sdílet na Facebooku">
+					<img src="http://img.csfd.cz/assets/b1247/images/share/facebook.png" alt="Sdílet na Facebooku" />
+				</a>
+			</li>
+			<li>
+				<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.csfd.cz%2Ffilm%2F1249-terminator%2F&amp;layout=button_count&amp;show_faces=false&amp;width=95&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21&amp;locale=cs_CZ"
+					scrolling="no" frameborder="0" height="21" width="95" allowTransparency="true"></iframe>
+			</li>
+		</ul>
+		<ul class="links">
+			<li>
+				<a href="http://www.imdb.com/title/tt0088247/" data-ga-event="imdb-film|click|unlogged" title="profil na IMDb.com">
+					<img src="http://img.csfd.cz/assets/b1247/images/blank.gif" class="imdb" alt="IMDb" />
+				</a>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+
+<div class="ad-pmg ad-pmg-square" data-element-type="square">
+	
+<div id="bmone2n-19877.2.1.4" class="ui-advert ad-ibillboard ad-ibillboard-square" data-code="19877.2.1.4">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/4/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/4/?typkodu=img&keywords=" style="border-width: 0" alt="" /></a></div>
+	</noscript>
+</div>
+
+</div>
+
+	<div class="ct-related related">
+		<h3 class="header">Související </h3>
+		<div class="content">
+			<ul>
+				<li>
+					<a href="/film/366498-terminator-6/" class="film c0">Terminator 6</a> <span class="film-year">(2017)</span>
+				</li>
+				<li>
+					<a href="/film/263921-terminator-genisys/" class="film c0">Terminátor Genisys</a> <span class="film-year">(2015)</span>
+				</li>
+				<li>
+					<a href="/film/268365-terminator-salvation-temny-pocatek/" class="film c2" title="Terminator Salvation: The Machinima Series">Terminator Salvation: The Machinima …</a> <span class="film-year">(2009)</span>
+				</li>
+				<li>
+					<a href="/film/227774-terminator-salvation/" class="film c2">Terminator Salvation</a> <span class="film-year">(2009)</span>
+				</li>
+				<li>
+					<a href="/film/230905-terminator-pribeh-sary-connorove/" class="film c2">Terminátor: Príbeh Sáry Connorovej</a> <span class="film-year">(2008)</span>
+				</li>
+				<li>
+					<a href="/film/15908-terminator-3-vzpoura-stroju/" class="film c1">Terminátor 3: Vzbura strojov</a> <span class="film-year">(2003)</span>
+				</li>
+				<li>
+					<a href="/film/42922-t2-3-d-battle-across-time/" class="film c1">T2 3-D: Battle Across Time</a> <span class="film-year">(1996)</span>
+				</li>
+				<li>
+					<a href="/film/1248-terminator-2-den-zuctovani/" class="film c1">Terminátor 2: Deň zúčtovania</a> <span class="film-year">(1991)</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript">CSFD.runHook("filmSimilar", []);</script>
+
+	<div class="ct-related tags">
+		<h3 class="header">Tagy </h3>
+		<div class="content">
+			<div>
+					<a href="/podrobne-vyhledavani/?tag=198&amp;_form_=film#highlight-tagcontrol">motorky</a>, 
+					<a href="/podrobne-vyhledavani/?tag=231&amp;_form_=film#highlight-tagcontrol">roboti</a>, 
+					<a href="/podrobne-vyhledavani/?tag=97&amp;_form_=film#highlight-tagcontrol">zbraně</a>, 
+					<a href="/podrobne-vyhledavani/?tag=212&amp;_form_=film#highlight-tagcontrol">cestování časem</a>, 
+					<a href="/podrobne-vyhledavani/?tag=202&amp;_form_=film#highlight-tagcontrol">nadvláda počítačů</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+			<div class="clear"></div>
+		</div>
+
+		<div id="page-footer">
+			<p>Česko-Slovenská filmová databáze © 2001-2014 <strong>POMO Media Group s.r.o.</strong> Všechna práva vyhrazena.</p>
+				<p>
+		<a href="/provozovatel-a-redakce/">Provozovatel a redakce</a> | <a href="/reklama-a-marketing/">Reklama a marketing</a> |
+		 <a href="/kontakt/">Napište nám</a> |
+		<a href="/posledni-hledane-vyrazy/">Poslední hledané výrazy</a> | Server hosting zajišťuje <a href="http://www.vshosting.cz">VSHosting s.r.o.</a>
+	</p>
+	<p>
+		Doporučujeme: <a href="http://www.supito.cz">překlady</a>, <a href="http://www.indexreality.cz/">prodej nemovitostí</a>,
+		<a href="http://www.indexreality.cz/pronajem/">pronájem reality</a>, <a href="http://www.quickexpert.cz/">realitní kancelář</a>, <a href="http://az-europe.eu/cz/e">Eshop AZ-europe.eu</a>
+	</p>
+
+		</div>
+
+	</div>
+
+	<!-- load ads data -->
+<script type="text/javascript" src="//img.csfd.cz/ads/pmg/data.js"></script>
+<script type="text/javascript">
+	CSFD.ads.provider.pmg.load();
+</script>
+<script type="text/javascript" src="http://go.cz.bbelements.com/bb/bb_one2n.js" onerror="CSFD.ads.blocked = true"></script>
+<script type="text/javascript">
+	try {
+		var bbkeywords = '';
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.addPosition("19877.2.1.5", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.addPosition("19877.2.1.1", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.addPosition("19877.2.1.2", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.addPosition("19877.2.1.7", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.14")) bmone2n.addPosition("19877.2.1.14", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.4")) bmone2n.addPosition("19877.2.1.4", '');
+		bmone2n.getAd('go.cz.bbelements.com', bbkeywords, '' + (typeof(bburlparam) == 'string' ? '&' + bburlparam : ''), 'utf-8');
+	}
+	catch (e) {}
+</script>
+<div id="bmone2t-19877.2.1.5" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.makeAd("19877.2.1.5"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.1" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.makeAd("19877.2.1.1"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.2" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.makeAd("19877.2.1.2"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.7" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.makeAd("19877.2.1.7"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.14" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.14")) bmone2n.makeAd("19877.2.1.14"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.4" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.4")) bmone2n.makeAd("19877.2.1.4"); } catch (e) {} </script></div>
+<script type="text/javascript"> try { bmone2n.moveAd(); } catch (e) {} </script>
+
+		<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+		var pp_gemius_identifier = '.Xo70CM6eCnBhv6vp5QQNcR77xEWf47KiIqfXU6rmdf.e7';
+		// lines below shouldn't be edited
+		function gemius_pending(i) { window[i] = window[i] || function() { var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+		gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+		(function(d,t) { try { var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+		gt.setAttribute('defer','defer'); gt.src=l+'://spir.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) { }})(document,'script');
+		//--><!]]>
+	</script>
+
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-11601932-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>
