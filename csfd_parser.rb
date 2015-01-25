@@ -120,9 +120,12 @@ class Csfd_Parser
     rating.gsub!(/[^\d]/,'')
 
     #parse IMDB url
+    imdb_id = ""
     imdb_url = body.css('a[title="profil na IMDb.com"]')
     if(!imdb_url.empty?)
       imdb_url = imdb_url[0]["href"].to_s
+      imdb_id = imdb_url.match(/\/\w*\/$/).to_s
+      imdb_id.gsub!(/\//,"").strip!
     end
 
     #parse original title
@@ -133,7 +136,7 @@ class Csfd_Parser
 
     content = {:type => type, :genres => genres, :countries => origin[:countries], :year => origin[:year], :duration => origin[:duration], :directors => creators[:directors],
                :scriptwriters => creators[:scriptwriters], :camera => creators[:camera], :music => creators[:music], :actors => creators[:actors], :artwork => creators[:artwork],
-               :csfd_rating => rating, :imdb_url => imdb_url, :original_title => original_title, :description => description}
+               :csfd_rating => rating, :imdb_id => imdb_id, :original_title => original_title, :description => description}
 
     return content
   end

@@ -1,5 +1,6 @@
 require_relative File.dirname(__FILE__) + '/csfd_downloader.rb'
 require_relative File.dirname(__FILE__) + '/csfd_parser.rb'
+require_relative File.dirname(__FILE__) + '/imdb_parser.rb'
 
 #list of channels to be parsed
 PARSE_LIST = ['JOJ']
@@ -33,7 +34,7 @@ def self.print_extended_content(content)
   puts "Actors: " + content[:actors].to_s
   puts "Artwork: " + content[:artwork].to_s
   puts "CSFD rating: " + content[:csfd_rating].to_s
-  puts "IMDB url: " + content[:imdb_url].to_s
+  puts "IMDB id: " + content[:imdb_id].to_s
   puts "Original title: " + content[:original_title].to_s
   puts "Description: " + content[:description].to_s
   puts "\n\n\n\n\n"
@@ -62,12 +63,19 @@ PARSE_LIST.each do |channel|
 
     #find item in Database - if item is not in database parse more content from item URL and save it to DB
     #item is not present in DB
-    extend_content = {}
+    extend_csfd_content = {}
     if(!item[:url].to_s.empty?)
-      extend_content = Csfd_Parser.parse_item_content(item[:url].to_s)
+      extend_csfd_content = Csfd_Parser.parse_item_content(item[:url].to_s)
+
+      imdb_content = {}
+      if(!extend_csfd_content[:imdb_id].to_s.empty?)
+        imdb_site = Imdb_Parser.download_main_page(extend_csfd_content[:imdb_id].to_s)
+        imdb_content = Imdb_Parser.parse_site_content(imdb_site)
+        Imdb_Parser.print_data(imdb_content)
+      end
     end
 
-    print_extended_content(extend_content)
+    print_extended_content(extend_csfd_content)
 
     #break
   end
