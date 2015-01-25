@@ -80,7 +80,17 @@ class Imdb_Parser
         end
       end
 
-        imdb_data = {:title => title, :year => year, :description => description, :rating => rating, :director => director, :cast => cast, :storyline => storyline, :genres => genres, :countries => countries}
+      runtime = body.search('div#titleDetails')
+      if(!runtime.empty?)
+        runtime = runtime.css('time[itemprop="duration"]')
+        if(!runtime.empty?)
+          runtime = runtime[0].text
+          runtime.gsub!(/\D/, "").strip!
+        end
+      end
+
+        imdb_data = {:title => title, :year => year, :description => description, :rating => rating, :director => director, :cast => cast, :storyline => storyline,
+                     :genres => genres, :countries => countries, :runtime => runtime}
         return imdb_data
 
     end
@@ -96,6 +106,7 @@ class Imdb_Parser
       puts "Storyline: " + data[:storyline] if(!data[:storyline].empty?)
       puts "Genres: " + data[:genres].inspect if(!data[:genres].empty?)
       puts "Countries: " + data[:countries].inspect if(!data[:countries].empty?)
+      puts "Runtime: " + data[:runtime] if(!data[:runtime].empty?)
     end
 
   # site = download_main_page("tt1874735")
