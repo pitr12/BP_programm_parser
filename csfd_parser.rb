@@ -86,7 +86,10 @@ class Csfd_Parser
 
   #parse item description
   def self.parse_item_description(desc)
-    description = desc.css('div.content').css('div')[1].text.strip!
+    description = desc.css('div.content')
+    if(!description.empty?)
+      description = description.css('div')[1].text.strip!
+    end
     return description
   end
 
