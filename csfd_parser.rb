@@ -4,7 +4,7 @@ class Csfd_Parser
   #parse item type
   def self.parse_item_type(h1)
     type = h1.search('.film-type')
-    if(!type.empty?)
+    if !type.empty?
       type = type[0].text[1..-2].to_s
     else
       type = "TV film"
@@ -23,12 +23,12 @@ class Csfd_Parser
     end
 
     year = ""
-    if(origin.size > 1)
+    if origin.size > 1
       year = origin[1].to_s.strip
     end
 
     duration = ""
-    if(origin.size > 2)
+    if origin.size > 2
       duration = origin[2].to_s.strip
     end
 
@@ -75,7 +75,7 @@ class Csfd_Parser
   #parse original title
   def self.parse_item_original_title(names_li)
     original_title = ""
-    if(!names_li.empty?)
+    if !names_li.empty?
       names_li.each do |li|
         original_title = li.css('h3').text
         break;
@@ -87,7 +87,7 @@ class Csfd_Parser
   #parse item description
   def self.parse_item_description(desc)
     description = desc.css('div.content')
-    if(!description.empty?)
+    if !description.empty?
       description = description.css('div')[1].text.strip!
     end
     return description
@@ -122,7 +122,7 @@ class Csfd_Parser
     #parse IMDB url
     imdb_id = ""
     imdb_url = body.css('a[title="profil na IMDb.com"]')
-    if(!imdb_url.empty?)
+    if !imdb_url.empty?
       imdb_url = imdb_url[0]["href"].to_s
       imdb_id = imdb_url.match(/\/\w*\/$/).to_s
       imdb_id.gsub!(/\//,"").strip!

@@ -7,7 +7,7 @@ class Csfd_Downloader
 
     conn = Faraday.new(:url => 'http://www.csfd.cz') do |faraday|
       faraday.request  :url_encoded
-      faraday.response :logger
+      # faraday.response :logger
       faraday.adapter  Faraday.default_adapter
     end
 
@@ -35,14 +35,14 @@ class Csfd_Downloader
       #parse name
       content = box.search('.name')
       name = content.css('a').text
-      if(name.empty?)
+      if name.empty?
         name = content.text
       end
 
       #parse URL
       url = ""
       link = content.css('a')
-      if(!link.empty?)
+      if !link.empty?
         url = "http://www.csfd.cz" + link[0]["href"].to_s
       end
 
@@ -50,7 +50,7 @@ class Csfd_Downloader
       series = box.search('.series').text[1..-2]
       season = ""
       episode = ""
-      if(!series.nil?)
+      if !series.nil?
         season = series.match(/S\d*/).to_s
         episode = series.match(/E\d*/).to_s
       end
