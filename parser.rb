@@ -4,7 +4,7 @@ require_relative File.dirname(__FILE__) + '/imdb_parser.rb'
 
 class Parser
   #list of channels to be parsed
-  PARSE_LIST = ['JOJ']
+  PARSE_LIST = ['Jednotka']
 
   #specify day for which should be program parsed (0 today, 1 tomorrow ....)
   DAY = 1

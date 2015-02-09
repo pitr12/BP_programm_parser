@@ -24,7 +24,7 @@ class Imdb_Parser
       storyline = storyline.css('.inline[itemprop="description"]')
       if !storyline.empty?
         storyline = storyline[0].text.strip!
-        storyline.gsub!(/Written by\s*\S*/, "").strip!
+        storyline.gsub!(/Written by\s*\S*/, '')
       end
       return storyline
     end
@@ -112,6 +112,36 @@ class Imdb_Parser
       return filming_locations
     end
 
+    def self.parse_full_cast(id)
+      conn = Faraday.new(:url => 'http://www.imdb.com') do |faraday|
+        faraday.request  :retry
+        faraday.adapter  Faraday.default_adapter
+      end
+
+      response = conn.get do |req|
+        req.url "/title/#{id}/fullcredits"
+        req.headers['Accept-Language'] = 'en-US,en;q=0.8'
+      end
+
+      body = Nokogiri::HTML(response.body)
+
+      #Working Offline
+      # site = File.open('HP_cast.txt')
+      # body = Nokogiri::HTML(site)
+      full_cast = []
+
+      table = body.search('table.cast_list tr td.itemprop a')
+
+      if !table.empty?
+        table.each do |a|
+          full_cast << a.text.strip
+        end
+      end
+
+      return full_cast
+
+    end
+
     def self.parse_site_content(site, imdb_id)
       body = Nokogiri::HTML(site)
 
@@ -139,7 +169,7 @@ class Imdb_Parser
           director = director.css('a')[0].text  if(!director.empty?)
 
       #parse cast
-        cast = parse_cast(body)
+        cast = parse_full_cast(imdb_id)
 
       #parse StoryLine and Genres
       storyline = ""
@@ -191,8 +221,8 @@ class Imdb_Parser
   # site = download_main_page("tt1874735")
 
   #Working Offline
-      site = File.read("imdb_sudna_sien.txt")
-      imdb_data = parse_site_content(site, "tt1874735")
-      print_data(imdb_data)
+      # site = File.read("imdb_HP1.txt")
+      # imdb_data = parse_site_content(site, "tt0241527")
+      # print_data(imdb_data)
 end
 
