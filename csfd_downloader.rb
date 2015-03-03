@@ -6,7 +6,7 @@ class Csfd_Downloader
   def self.download_site(channel, day)
 
     conn = Faraday.new(:url => 'http://www.csfd.cz') do |faraday|
-      faraday.request  :url_encoded
+      faraday.request  :retry, max: 4
       # faraday.response :logger
       faraday.adapter  Faraday.default_adapter
     end

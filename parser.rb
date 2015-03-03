@@ -1,10 +1,12 @@
 require_relative File.dirname(__FILE__) + '/csfd_downloader.rb'
 require_relative File.dirname(__FILE__) + '/csfd_parser.rb'
 require_relative File.dirname(__FILE__) + '/imdb_parser.rb'
+require_relative File.dirname(__FILE__) + '/dbpedia_parser.rb'
+require_relative File.dirname(__FILE__) + '/freebase_parser.rb'
 
 class Parser
   #list of channels to be parsed
-  PARSE_LIST = ['Jednotka']
+  PARSE_LIST = ['HBO']
 
   #specify day for which should be program parsed (0 today, 1 tomorrow ....)
   DAY = 1
@@ -82,7 +84,11 @@ class Parser
 
       #print parsed data to output
       print_extended_content(extend_csfd_content) if (!extend_csfd_content.empty?)
-      Imdb_Parser.print_data(imdb_content) if(!imdb_content.empty?)
+      if(!imdb_content.empty?)
+        Imdb_Parser.print_data(imdb_content)
+        DbpediaParser.run_query(imdb_content[:title])
+        # FreebaseParser.run_query(imdb_content[:title])
+      end
 
       puts "\n\n\n\n\n"
       puts "-------------------------------------------------------------------------------------\n"

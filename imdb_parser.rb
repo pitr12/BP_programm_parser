@@ -149,6 +149,16 @@ class Imdb_Parser
         title = body.search('.itemprop[itemprop="name"]')
             title = title[0].text if(!title.empty?)
 
+      #parse original title
+      original_title = body.search('h1 span.title-extra')
+      if !original_title.empty?
+        original_title = original_title.text.gsub!(/\(original title\)/,'')
+        original_title.strip!
+        original_title = original_title[1..-2]
+      else
+        original_title = ""
+      end
+
       #parse production year
         year = body.search('.nobr')
             year = year[0].text[1..4] if(!year.empty?)
@@ -192,7 +202,7 @@ class Imdb_Parser
       locations = parse_filming_locations(imdb_id)
 
       imdb_data = {:title => title, :year => year, :description => description, :rating => rating, :director => director, :cast => cast, :storyline => storyline,
-                     :genres => genres, :countries => countries, :runtime => runtime, :filming_locations => locations}
+                     :genres => genres, :countries => countries, :runtime => runtime, :filming_locations => locations, :original_title => original_title}
 
       return imdb_data
 
@@ -202,6 +212,7 @@ class Imdb_Parser
     def self.print_data(data)
       puts "\n/////IMDB DATA//////"
       puts "Title: " + data[:title] if(!data[:title].empty?)
+      puts "Original title: " +data[:original_title] if !data[:original_title].empty?
       puts "Description: " + data[:description] if(!data[:description].empty?)
       puts "Rating: " + data[:rating] if(!data[:rating].empty?)
       puts "Year: " + data[:year] if(!data[:year].empty?)
@@ -218,11 +229,14 @@ class Imdb_Parser
       puts "\n\n"
     end
 
-  # site = download_main_page("tt1874735")
+  # site = download_main_page("tt0787986")
+  # File.open('imdb_poklady.txt', 'w') do |file|
+  #   file.write(site)
+  # end
 
   #Working Offline
-      # site = File.read("imdb_HP1.txt")
-      # imdb_data = parse_site_content(site, "tt0241527")
+      # site = File.read("imdb_poklady.txt")
+      # imdb_data = parse_site_content(site, "tt0787986")
       # print_data(imdb_data)
 end
 
