@@ -5,7 +5,7 @@ class DocumentaryMoviesParser
   @debug = 1
 
 #specify day for which should be program parsed (0 today, 1 tomorrow ....)
-  DAYS = [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
+  DAYS = [4,5,6,7,8,9,10,11,12,13,14,15,16,17]
 
 #list of all available channels to be downloaded
   PARSE_LIST = ['HBO','Nova','Prima','ČT1','ČT2','Markíza','JOJ','HBO2','Jednotka','Dvojka','AXN','Cinemax','FilmBox','Film+','CSfilm','MGM','HBO Comedy','Nova Cinema',
@@ -55,10 +55,10 @@ class DocumentaryMoviesParser
 
   global_list = []
 DAYS.each do |day|
-  puts "/////// DAY: " + day.to_s
+  puts "///////////////////////////////// DAY: " + day.to_s + " ////////////////////////////////"
   PARSE_LIST.each do |channel|
     puts "/////// Channel: " + channel
-    site = Csfd_Downloader.download_site(CHANNELS_LIST[channel],DAY)
+    site = Csfd_Downloader.download_site(CHANNELS_LIST[channel],day)
     global_list.concat parse_program_content(site)
     puts "\n"
 
