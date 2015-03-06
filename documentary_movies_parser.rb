@@ -171,11 +171,11 @@ class DocumentaryMoviesParser
     data = JSON.parse(file)
     output = []
 
-    data.each_with_index do |item,index|
+    data.each do |item|
+      puts "Processing: " + item["title"] if @debug == 1
       keywords = Alchemy.extract_keywords(item["desc"])
       new_item = {:title => item["title"], :desc => item["desc"], :url => item["url"], :keywords => keywords}
       output << new_item
-      break if index == 0
     end
 
     File.open("output.json",'w') do |file|
