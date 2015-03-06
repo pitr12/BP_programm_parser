@@ -1,5 +1,5 @@
 require_relative File.dirname(__FILE__) + '/csfd_downloader.rb'
-require_relative File.dirname(__FILE__) + '/alchemyapi_ruby/alchemy.rb'
+require_relative File.dirname(__FILE__) + '/alchemy.rb'
 require 'json'
 
 class DocumentaryMoviesParser
@@ -175,7 +175,7 @@ class DocumentaryMoviesParser
       keywords = Alchemy.extract_keywords(item["desc"])
       new_item = {:title => item["title"], :desc => item["desc"], :url => item["url"], :keywords => keywords}
       output << new_item
-      break if index == 5
+      break if index == 0
     end
 
     File.open("output.json",'w') do |file|
