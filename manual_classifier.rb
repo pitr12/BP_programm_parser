@@ -9,21 +9,33 @@ class ManualClassifier
     puts '________________________________________________________________________________________'
   end
 
-  def self.classify()
+  def self.print_content(item)
+    draw_big_line
+    puts "Title: " + item["title"]
+    draw_line
+    puts "Description: " + item["desc"]
+    draw_line
+    puts "Keywords: "
+    puts item["keywords"]
+    draw_line
+    puts "Please select category: "
+  end
+
+  def self.classify(counter)
+    counter += 1
+    puts "Id: " + counter.to_s
+    if File.zero?('output_new.json')
+      puts "END"
+      exit(1)
+    end
+
     file = File.read('output_new.json')
     data = JSON.parse(file)
 
     item = data.first
-      draw_big_line
-      puts "Title: " + item["title"]
-      draw_line
-      puts "Description: " + item["desc"]
-      draw_line
-      puts "Keywords: "
-      puts item["keywords"]
-      draw_line
-      puts "Please select category: "
-      category = gets.to_i
+    print_content(item)
+      category = gets.chomp
+      category = category.split(' ')
       puts "\n\n\n\n\n"
 
     final_output = []
@@ -42,8 +54,8 @@ class ManualClassifier
       file.write(JSON.pretty_generate(new_data))
     end
 
-    classify()
+    classify(counter)
   end
 end
 
-ManualClassifier.classify()
+ManualClassifier.classify(0)
