@@ -21,9 +21,7 @@ class ManualClassifier
     puts "Please select category: "
   end
 
-  def self.classify(counter)
-    counter += 1
-    puts "Id: " + counter.to_s
+  def self.classify()
     if File.zero?('output_new.json')
       puts "END"
       exit(1)
@@ -31,6 +29,7 @@ class ManualClassifier
 
     file = File.read('output_new.json')
     data = JSON.parse(file)
+    puts "Remaining: " +data.size.to_s
 
     item = data.first
     print_content(item)
@@ -54,8 +53,8 @@ class ManualClassifier
       file.write(JSON.pretty_generate(new_data))
     end
 
-    classify(counter)
+    classify()
   end
 end
 
-ManualClassifier.classify(0)
+ManualClassifier.classify()

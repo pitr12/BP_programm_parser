@@ -7,8 +7,8 @@ class DocumentaryMoviesParser
   @debug = 1 #enable debug
   @csfd_parser = 0 #enable parsing of CSFD urls
   @imdb_filter = 0 #enable filterng of items
-  @imdb_parser = 0 #enable IMDB parsing
-  @alchemy = 1 #enable AlchemyAPI keyword extraction
+  @imdb_parser = 1 #enable IMDB parsing
+  @alchemy = 0 #enable AlchemyAPI keyword extraction
 
 #specify day for which should be program parsed (0 today, 1 tomorrow ....)
   DAYS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
@@ -105,6 +105,7 @@ class DocumentaryMoviesParser
     if storyline.empty?
       return nil
     else
+      puts "Storyline"
       return item
     end
 
