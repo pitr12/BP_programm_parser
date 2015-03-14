@@ -22,13 +22,13 @@ class ManualClassifier
   end
 
   def self.classify()
-    if File.zero?('output_new.json')
+    file = File.read('output_new.json')
+    data = JSON.parse(file)
+
+    if data.size == 0
       puts "END"
       exit(1)
     end
-
-    file = File.read('output_new.json')
-    data = JSON.parse(file)
     puts "Remaining: " +data.size.to_s
 
     item = data.first

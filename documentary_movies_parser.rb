@@ -7,8 +7,9 @@ class DocumentaryMoviesParser
   @debug = 1 #enable debug
   @csfd_parser = 0 #enable parsing of CSFD urls
   @imdb_filter = 0 #enable filterng of items
-  @imdb_parser = 1 #enable IMDB parsing
+  @imdb_parser = 0 #enable IMDB parsing
   @alchemy = 0 #enable AlchemyAPI keyword extraction
+  @hist = 1 #enable histogram creation
 
 #specify day for which should be program parsed (0 today, 1 tomorrow ....)
   DAYS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
@@ -111,9 +112,8 @@ class DocumentaryMoviesParser
 
   end
 
-#parse links from CSFD
-  if @csfd_parser == 1
-      global_list = []
+  def self.parse_csfd_links
+    global_list = []
     DAYS.each do |day|
       puts "///////////////////////////////// DAY: " + day.to_s + " ////////////////////////////////"
       PARSE_LIST.each do |channel|
@@ -127,29 +127,27 @@ class DocumentaryMoviesParser
       sleep(5)
     end
 
-      File.open('documentary_movies_list.txt', 'a') do |file|
-        file.puts(global_list.uniq)
-      end
+    File.open('documentary_movies_list.txt', 'a') do |file|
+      file.puts(global_list.uniq)
+    end
   end
 
-#filter only those containing IMDB link
-  if @imdb_filter == 1
-      imdb_list = []
-      File.readlines('documentary_movies_list.txt').each do |line|
-        imdb_url = parse_imd_link(line)
+  def self.filter_imdb_links
+    imdb_list = []
+    File.readlines('documentary_movies_list.txt').each do |line|
+      imdb_url = parse_imd_link(line)
 
-        if !imdb_url.nil?
-          imdb_list << imdb_url
-        end
+      if !imdb_url.nil?
+        imdb_list << imdb_url
       end
+    end
 
-      File.open('documentary_movies_imdb_list.txt', 'a') do |file|
-        file.puts(imdb_list.uniq)
-      end
+    File.open('documentary_movies_imdb_list.txt', 'a') do |file|
+      file.puts(imdb_list.uniq)
+    end
   end
 
-#parse content from IMDB
-  if @imdb_parser == 1
+  def self.parse_imdb_content
     full_list = []
 
     File.readlines('documentary_movies_imdb_list.txt').each_with_index do |line,index|
@@ -166,8 +164,7 @@ class DocumentaryMoviesParser
     end
   end
 
-#extract keywords using AlchemyAPI
-  if @alchemy == 1
+  def self.extract_keywords
     file = File.read('imdb_content.json')
     data = JSON.parse(file)
     output = []
@@ -184,5 +181,13 @@ class DocumentaryMoviesParser
     end
   end
 
+  def self.create_histogram
+    
+  end
 
+  parse_csfd_links() if @csfd_parser == 1
+  filter_imdb_links() if @imdb_filter == 1
+  parse_imdb_content() if @imdb_parser == 1
+  extract_keywords() if @alchemy == 1
+  create_histogram() if @hist == 1
 end
