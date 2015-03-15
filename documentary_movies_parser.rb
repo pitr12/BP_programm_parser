@@ -182,7 +182,28 @@ class DocumentaryMoviesParser
   end
 
   def self.create_histogram
-    
+    data = JSON.parse(File.read('final_output.json'))
+    hist = []
+    30.times do
+     hist << 0
+    end
+
+    # data.each do |item|
+    #   item["category"].each do |category|
+    #     category = category.to_i
+    #     category -=1
+    #     hist[category.to_i] += 1
+    #   end
+    # end
+
+    #consider only first category
+    data.each do |item|
+      category = item["category"].first.to_i
+      category -=1
+      hist[category.to_i] += 1
+    end
+
+    puts hist
   end
 
   parse_csfd_links() if @csfd_parser == 1
