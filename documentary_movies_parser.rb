@@ -5,11 +5,12 @@ require 'json'
 class DocumentaryMoviesParser
 
   @debug = 1 #enable debug
-  @csfd_parser = 0 #enable parsing of CSFD urls
+  @csfd_program_parser = 0 #enable parsing of CSFD urls
   @imdb_filter = 0 #enable filterng of items
   @imdb_parser = 0 #enable IMDB parsing
   @alchemy = 0 #enable AlchemyAPI keyword extraction
-  @hist = 1 #enable histogram creation
+  @hist = 0 #enable histogram creation
+  @csfd_parser = 1 #parse all csfd documentary movies
 
 #specify day for which should be program parsed (0 today, 1 tomorrow ....)
   DAYS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
@@ -206,9 +207,27 @@ class DocumentaryMoviesParser
     puts hist
   end
 
-  parse_csfd_links() if @csfd_parser == 1
+  def self.parse_csfd_all
+    # (2..4).each do |num|
+      response = Faraday.get("http://www.csfd.cz/podrobne-vyhledavani/?type%5B0%5D=0&genre%5Btype%5D=2&genre%5Binclude%5D%5B0%5D=13&genre%5Binclude%5D%5B1%5D=14&genre%5Binclude%5D%5B2%5D=&genre%5Bexclude%5D%5B0%5D=&origin%5Btype%5D=2&origin%5Binclude%5D%5B0%5D=&origin%5Bexclude%5D%5B0%5D=&year_from=2008&year_to=2008&rating_from=&rating_to=&actor=&director=&composer=&screenwriter=&author=&cinematographer=&tag=&ok=Hledat&_form_=film")
+      site = Nokogiri::HTML(response.body)
+
+      arr = []
+      site.css('table.striped.films tbody tr td.name a').each do |a|
+        link = "http://www.csfd.cz" + a["href"]
+        arr << link
+      end
+
+      File.open('all_csfd_documents','a') do |file|
+        file.puts(arr)
+      end
+    # end
+  end
+
+  parse_csfd_links() if @csfd_program_parser == 1
   filter_imdb_links() if @imdb_filter == 1
   parse_imdb_content() if @imdb_parser == 1
   extract_keywords() if @alchemy == 1
   create_histogram() if @hist == 1
+  parse_csfd_all() if @csfd_parser == 1
 end

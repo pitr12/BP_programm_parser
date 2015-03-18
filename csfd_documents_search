@@ -1,0 +1,639 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="ČSFD.cz">
+
+
+	<title>Podrobné vyhledávání | ČSFD.cz</title>
+
+	<link rel="shortcut icon" href="http://img.csfd.cz/assets/b1360/images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="http://img.csfd.cz/assets/b1360/images/apple_touch_icon.png">
+
+
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css" type="text/css">
+	<link rel="stylesheet" href="http://img.csfd.cz/assets/b1360/modules/web/styles/styles.css" />
+	<link rel="stylesheet" type="text/css" href="http://img.csfd.cz/assets/b1360/styles/print.css" media="print">
+
+		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script> 
+	<script type="text/javascript"> if (window.jQuery === undefined) { document.write(decodeURI(
+			"%3Clink rel=\"stylesheet\" href=\"http://img.csfd.cz/assets/b1360/libs/jqueryui/themes/base/jquery-ui.css\" type=\"text/css\" /%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1360/libs/jquery/jquery.min.js\" type=\"text/javascript\">%3C/script%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1360/libs/jqueryui/jquery-ui.min.js\" type=\"text/javascript\">%3C/script%3E"
+		)); }
+	</script> 
+	<script type="text/javascript" charset="utf-8" src="http://img.csfd.cz/assets/b1360/modules/web/scripts/scripts.js"></script>
+
+	
+		<script type="text/javascript">
+		CSFD.app.action.id = ":Web:AdvancedSearch:default";
+		
+		
+		CSFD.app.visitor = {"country":[2]};
+		
+	</script>
+
+	
+	<meta property="og:site_name" content="ČSFD.cz">
+	<meta property="og:image" content="http://img.csfd.cz/assets/b1360/modules/web/images/facebook_csfd.png?1">
+	<meta property="og:description" content="ČSFD.cz">
+	<meta property="og:title" content="Podrobné vyhledávání">
+	<meta property="fb:app_id" content="260163667481043">
+
+	<link rel="canonical" href="http://www.csfd.cz/podrobne-vyhledavani/">
+	<link rel="search" type="application/opensearchdescription+xml" title="ČSFD.cz" href="http://img.csfd.cz/assets/b1360/modules/web/misc/opensearch.xml">
+
+	<meta name="application-name" content="ČSFD.cz">
+	<meta name="msapplication-tooltip" content="ČSFD.cz">
+	<meta name="msapplication-starturl" content="http://www.csfd.cz/">
+	<meta name="msapplication-navbutton-color" content="#BB0011">
+
+	<meta name="msapplication-task" content="name=Přihlášení;action-uri=/prihlaseni/;icon-uri=http://img.csfd.cz/assets/b1360/images/favicon.ico">
+	<meta name="msapplication-task" content="name=Novinky;action-uri=/novinky/;icon-uri=http://img.csfd.cz/assets/b1360/images/favicon.ico">
+	<meta name="msapplication-task" content="name=Žebříčky;action-uri=/zebricky/;icon-uri=http://img.csfd.cz/assets/b1360/images/favicon.ico">
+	<meta name="msapplication-task" content="name=Televize;action-uri=/televize/;icon-uri=http://img.csfd.cz/assets/b1360/images/favicon.ico">
+
+
+</head>
+
+<body class="no-js ap-web" id="ap-web-advancedsearch">
+	<script type="text/javascript">
+		$('body').removeClass('no-js').addClass('js');
+	</script>
+
+		<div id="ad-wrapper">
+
+<div id="bmone2n-19877.2.1.5" class="ui-advert ad-ibillboard ad-ibillboard-videobanner" data-code="19877.2.1.5">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/5/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/5/?typkodu=img&keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+		<div id="ad-leaderboard"><div class="ad-pmg ad-pmg-leaderboard" data-element-type="leaderboard">
+	
+<div id="bmone2n-19877.2.1.1" class="ui-advert ad-ibillboard ad-ibillboard-leaderboard" data-code="19877.2.1.1">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/1/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/1/?typkodu=img&keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		<div class="ad-pmg-skyscraper-left-wrapper">
+			<div id="ad-skyscraper-left"><div class="ad-pmg ad-pmg-skyscraper-left" data-element-type="skyscraper-left">
+	
+<div id="bmone2n-19877.2.1.2" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-left" data-code="19877.2.1.2">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/2/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/2/?typkodu=img&keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		</div>
+		<div id="ad-skyscraper-right"><div class="ad-pmg ad-pmg-skyscraper-right" data-element-type="skyscraper-right">
+	
+<div id="bmone2n-19877.2.1.7" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-right" data-code="19877.2.1.7">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/7/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/7/?typkodu=img&keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+	</div>
+
+
+	<div id="page-wrapper">
+		<div id="page-header">
+			<div id="logo">
+				<a href="/" title="ČSFD.cz">
+					<img src="http://img.csfd.cz/assets/b1360/images/logo.png" alt="ČSFD.cz" width="330" height="75">
+				</a>
+				<h2 class="hidden">Česko-Slovenská filmová databáze</h2>
+			</div>
+
+			
+	<div id="user-menu" class="unlogged">
+		<h3>Uživatelská zóna</h3>
+		<ul>
+			<li><a href="/prihlaseni/">Přihlásit</a></li>
+			<li><a href="/registrace/">Registrovat</a></li>
+			<li><a href="/registrace/ztracene-heslo/">Ztracené heslo</a></li>
+		</ul>
+	</div>
+
+
+	<div id="main-search">
+		<form action="/hledat/" method="get">
+			<div>
+				<input type="text" class="text" name="q" value="" id="mainSearch" size="20" placeholder="Hledat">
+				<input type="submit" class="submit" title="Hledat" value="">
+			</div>
+		</form>
+		<a class="advanced-search" href="/podrobne-vyhledavani/">podrobné vyhledávání &rarr;</a>
+	</div>
+
+
+			<ul id="main-menu" class="bottom-menu">
+				
+	<li><a href="/novinky/">Novinky</a></li>
+	<li><a href="/videa/">Videa</a></li>
+	<li><a href="/televize/">Televize</a></li>
+	<li><a href="/kino/">Kino</a></li>
+	<li><a href="/filmy-online/">Filmy online</a></li>
+	<li><a href="/dvd-a-bluray/">DVD &amp; Blu-ray</a></li>
+	<li><a href="/tvurci/">Tvůrci</a></li>
+	<li><a href="/zebricky/">Žebříčky</a></li>
+	<li><a href="/filmoteky/">Filmotéky</a></li>
+	<li><a href="/uzivatele/">Uživatelé</a></li>
+	<li><a href="/diskuze/">Diskuze</a></li>
+
+			</ul>
+
+				<div id="activity-message">
+	</div>
+
+		</div>
+
+
+		<div class="page-content" id="pg-web-advancedsearch">
+<h1>Podrobné vyhledávání</h1>
+
+<div class="navigation">
+		<ul>
+			<li class="selected">
+				<a href="/podrobne-vyhledavani/"><span>filmy</span></a>
+			</li>
+			<li class="last">
+				<a href="/podrobne-vyhledavani/tvurci/"><span>tvůrci</span></a>
+			</li>
+		</ul>
+</div>
+<form action="/podrobne-vyhledavani/" method="get" id="frm-film">
+<div id="filter" class="ct-general th-filter">
+	<div class="content">
+		<table>
+			<tr class="checkboxlist first">
+				<th><label>Typ:</label></th>
+				<td colspan="3"><div class="checkbox-list"><label><input type="checkbox" name="type[]" checked value="0">film</label><br><label><input type="checkbox" name="type[]" checked value="1">video film</label><br><label><input type="checkbox" name="type[]" checked value="2">TV film</label><br><label><input type="checkbox" name="type[]" checked value="3">TV seriál</label><br><label><input type="checkbox" name="type[]" checked value="4">TV pořad</label><br><label><input type="checkbox" name="type[]" checked value="5">divadelní záznam</label><br><label><input type="checkbox" name="type[]" checked value="6">koncert</label><br><label><input type="checkbox" name="type[]" checked value="7">studentský film</label><br><label><input type="checkbox" name="type[]" checked value="8">amatérský film</label><br><label><input type="checkbox" name="type[]" checked value="9">hudební videoklip</label><br></div></td>
+			</tr>
+			<tr>
+				<th><label for="frm-genre">Žánr:</label></th>
+				<td colspan="3"><div class="complex-select-box"><select name="genre[type]" id="frm-genre" class="type"><option value="2" selected>minimálně všechny zvolené:</option><option value="1">přesně a pouze zvolené:</option><option value="3">alespoň jeden ze zvolených:</option></select><div class="include"><select data-nette-empty-value="" name="genre[include][]"><option value="">- všechny -</option><option value="1">Akční</option><option value="3">Animovaný</option><option value="11">Dobrodružný</option><option value="13" selected>Dokumentární</option><option value="2">Drama</option><option value="10">Erotický</option><option value="26">Experimentální</option><option value="4">Fantasy</option><option value="20">Film-Noir</option><option value="21">Historický</option><option value="5">Horor</option><option value="22">Hudební</option><option value="28">IMAX</option><option value="39">Katastrofický</option><option value="9">Komedie</option><option value="14">Krátkometrážní</option><option value="18">Krimi</option><option value="23">Loutkový</option><option value="12">Muzikál</option><option value="16">Mysteriózní</option><option value="25">Podobenství</option><option value="27">Poetický</option><option value="30">Pohádka</option><option value="29">Povídkový</option><option value="31">Psychologický</option><option value="33">Publicistický</option><option value="35">Reality-TV</option><option value="40">Road movie</option><option value="6">Rodinný</option><option value="15">Romantický</option><option value="7">Sci-Fi</option><option value="36">Soutěžní</option><option value="32">Sportovní</option><option value="34">Talk-show</option><option value="38">Telenovela</option><option value="8">Thriller</option><option value="17">Válečný</option><option value="19">Western</option><option value="37">Životopisný</option></select><select data-nette-empty-value="" name="genre[include][]"><option value="">- všechny -</option><option value="1">Akční</option><option value="3">Animovaný</option><option value="11">Dobrodružný</option><option value="13">Dokumentární</option><option value="2">Drama</option><option value="10">Erotický</option><option value="26">Experimentální</option><option value="4">Fantasy</option><option value="20">Film-Noir</option><option value="21">Historický</option><option value="5">Horor</option><option value="22">Hudební</option><option value="28">IMAX</option><option value="39">Katastrofický</option><option value="9">Komedie</option><option value="14">Krátkometrážní</option><option value="18">Krimi</option><option value="23">Loutkový</option><option value="12">Muzikál</option><option value="16">Mysteriózní</option><option value="25">Podobenství</option><option value="27">Poetický</option><option value="30">Pohádka</option><option value="29">Povídkový</option><option value="31">Psychologický</option><option value="33">Publicistický</option><option value="35">Reality-TV</option><option value="40">Road movie</option><option value="6">Rodinný</option><option value="15">Romantický</option><option value="7">Sci-Fi</option><option value="36">Soutěžní</option><option value="32">Sportovní</option><option value="34">Talk-show</option><option value="38">Telenovela</option><option value="8">Thriller</option><option value="17">Válečný</option><option value="19">Western</option><option value="37">Životopisný</option></select></div><br><span class="exclude">…ale neobsahující:</span><div class="exclude"><select data-nette-empty-value="" name="genre[exclude][]"><option value="">- všechny -</option><option value="1">Akční</option><option value="3">Animovaný</option><option value="11">Dobrodružný</option><option value="13">Dokumentární</option><option value="2">Drama</option><option value="10">Erotický</option><option value="26">Experimentální</option><option value="4">Fantasy</option><option value="20">Film-Noir</option><option value="21">Historický</option><option value="5">Horor</option><option value="22">Hudební</option><option value="28">IMAX</option><option value="39">Katastrofický</option><option value="9">Komedie</option><option value="14">Krátkometrážní</option><option value="18">Krimi</option><option value="23">Loutkový</option><option value="12">Muzikál</option><option value="16">Mysteriózní</option><option value="25">Podobenství</option><option value="27">Poetický</option><option value="30">Pohádka</option><option value="29">Povídkový</option><option value="31">Psychologický</option><option value="33">Publicistický</option><option value="35">Reality-TV</option><option value="40">Road movie</option><option value="6">Rodinný</option><option value="15">Romantický</option><option value="7">Sci-Fi</option><option value="36">Soutěžní</option><option value="32">Sportovní</option><option value="34">Talk-show</option><option value="38">Telenovela</option><option value="8">Thriller</option><option value="17">Válečný</option><option value="19">Western</option><option value="37">Životopisný</option></select></div><script type="text/javascript">CSFD.runHook('complexSelectBox');</script></div></td>
+			</tr>
+			<tr>
+				<th><label for="frm-origin">Původ:</label></th>
+				<td colspan="3"><div class="complex-select-box"><select name="origin[type]" id="frm-origin" class="type"><option value="2" selected>minimálně všechny zvolené:</option><option value="1">přesně a pouze zvolené:</option><option value="3">alespoň jeden ze zvolených:</option></select><div class="include"><select data-nette-empty-value="" name="origin[include][]"><option value="">- všechny -</option><option value="3">Afghánistán</option><option value="4">Albánie</option><option value="5">Alžírsko</option><option value="6">Andorra</option><option value="7">Angola</option><option value="8">Antigua a Barbuda</option><option value="9">Argentina</option><option value="10">Arménie</option><option value="205">Aruba</option><option value="11">Austrálie</option><option value="185">Ázerbájdžán</option><option value="12">Bahamy</option><option value="13">Bahrajn</option><option value="14">Bangladéš</option><option value="15">Barbados</option><option value="16">Belgie</option><option value="17">Belize</option><option value="28">Bělorusko</option><option value="18">Benin</option><option value="19">Bhútán</option><option value="20">Bolívie</option><option value="21">Bosna a Hercegovina</option><option value="22">Botswana</option><option value="23">Brazílie</option><option value="24">Brunej</option><option value="25">Bulharsko</option><option value="26">Burkina Faso</option><option value="27">Burundi</option><option value="187">Čad</option><option value="190">Černá Hora</option><option value="1">Česko</option><option value="197">Československo</option><option value="195">Čína</option><option value="34">Dánsko</option><option value="31">Demokratická republika Kongo</option><option value="32">Dominika</option><option value="33">Dominikánská republika</option><option value="35">Džibutsko</option><option value="36">Egypt</option><option value="37">Ekvádor</option><option value="38">Eritrea</option><option value="39">Estonsko</option><option value="40">Etiopie</option><option value="211">Faerské ostrovy</option><option value="108">Federativní státy Mikronésie</option><option value="200">Fed. rep. Jugoslávie</option><option value="41">Fidži</option><option value="42">Filipíny</option><option value="43">Finsko</option><option value="44">Francie</option><option value="213">Francouzská Polynésie</option><option value="45">Gabon</option><option value="46">Gambie</option><option value="47">Ghana</option><option value="48">Grenada</option><option value="206">Grónsko</option><option value="49">Gruzie</option><option value="214">Guadeloupe</option><option value="50">Guatemala</option><option value="51">Guinea</option><option value="52">Guinea-Bissau</option><option value="53">Guyana</option><option value="54">Haiti</option><option value="55">Honduras</option><option value="196">Hong Kong</option><option value="29">Chile</option><option value="30">Chorvatsko</option><option value="56">Indie</option><option value="57">Indonésie</option><option value="59">Irák</option><option value="186">Írán</option><option value="58">Irsko</option><option value="60">Island</option><option value="61">Itálie</option><option value="62">Izrael</option><option value="63">Jamajka</option><option value="64">Japonsko</option><option value="65">Jemen</option><option value="66">Jihoafrická republika</option><option value="67">Jižní Korea</option><option value="68">Jordánsko</option><option value="201">Jugoslávie</option><option value="69">Kambodža</option><option value="70">Kamerun</option><option value="71">Kanada</option><option value="72">Kapverdy</option><option value="73">Katar</option><option value="74">Kazachstán</option><option value="75">Keňa</option><option value="76">Kiribati</option><option value="77">Kolumbie</option><option value="78">Komory</option><option value="79">Kongo</option><option value="208">Korea</option><option value="80">Kosovo</option><option value="81">Kostarika</option><option value="210">Kréta</option><option value="82">Kuba</option><option value="83">Kuvajt</option><option value="84">Kypr</option><option value="85">Kyrgyzstán</option><option value="86">Laos</option><option value="87">Lesotho</option><option value="88">Libanon</option><option value="90">Libérie</option><option value="89">Libye</option><option value="91">Lichtenštejnsko</option><option value="92">Litva</option><option value="93">Lotyšsko</option><option value="94">Lucembursko</option><option value="95">Madagaskar</option><option value="106">Maďarsko</option><option value="96">Makedonie</option><option value="97">Malajsie</option><option value="98">Malawi</option><option value="99">Maledivy</option><option value="100">Mali</option><option value="101">Malta</option><option value="102">Maroko</option><option value="103">Marshallovy ostrovy</option><option value="215">Martinik</option><option value="104">Mauricius</option><option value="105">Mauritánie</option><option value="216">Mayotte</option><option value="107">Mexiko</option><option value="109">Moldavsko</option><option value="110">Monako</option><option value="111">Mongolsko</option><option value="112">Mosambik</option><option value="113">Myanmar</option><option value="114">Namibie</option><option value="115">Nauru</option><option value="123">Německo</option><option value="116">Nepál</option><option value="117">Niger</option><option value="118">Nigérie</option><option value="119">Nikaragua</option><option value="120">Nizozemsko</option><option value="121">Norsko</option><option value="217">Nová Kaledonie</option><option value="122">Nový Zéland</option><option value="124">Omán</option><option value="133">Pákistán</option><option value="125">Palau</option><option value="202">Palestina</option><option value="126">Panama</option><option value="127">Papua-Nová Guinea</option><option value="128">Paraguay</option><option value="129">Peru</option><option value="130">Pobřeží slonoviny</option><option value="131">Polsko</option><option value="203">Portoriko</option><option value="132">Portugalsko</option><option value="134">Rakousko</option><option value="204">Rakousko-Uhersko</option><option value="135">Rovníková Guinea</option><option value="136">Rumunsko</option><option value="220">Ruské impérium</option><option value="137">Rusko</option><option value="138">Rwanda</option><option value="189">Řecko</option><option value="218">Saint-Pierre a Miquelon</option><option value="139">Salvador</option><option value="140">Samoa</option><option value="141">San Marino</option><option value="142">Saúdská Arábie</option><option value="143">Senegal</option><option value="144">Severní Korea</option><option value="145">Seychely</option><option value="146">Sierra Leone</option><option value="147">Singapur</option><option value="2">Slovensko</option><option value="148">Slovinsko</option><option value="149">Somálsko</option><option value="199">Sovětský svaz</option><option value="150">Spojené arabské emiráty</option><option value="151">Srbsko</option><option value="209">Srbsko a Černá Hora</option><option value="152">Středoafrická republika</option><option value="159">Súdán</option><option value="153">Surinam</option><option value="154">Svatá Lucie</option><option value="155">Svatý Kryštof a Nevis</option><option value="156">Svatý Tomáš a Princův ostrov</option><option value="157">Svatý Vincenc a Grenadiny</option><option value="158">Svazijsko</option><option value="160">Sýrie</option><option value="188">Šalamounovy ostrovy</option><option value="191">Španělsko</option><option value="192">Šrí Lanka</option><option value="193">Švédsko</option><option value="194">Švýcarsko</option><option value="171">Tádžikistán</option><option value="161">Tanzanie</option><option value="163">Thajsko</option><option value="162">Tchaj-wan</option><option value="212">Tibet</option><option value="164">Togo</option><option value="165">Tonga</option><option value="166">Trinidad a Tobago</option><option value="167">Tunisko</option><option value="168">Turecko</option><option value="169">Turkmenistán</option><option value="170">Tuvalu</option><option value="173">Uganda</option><option value="174">Ukrajina</option><option value="175">Uruguay</option><option value="172">USA</option><option value="176">Uzbekistán</option><option value="177">Vanuatu</option><option value="178">Vatikán</option><option value="179">Velká Británie</option><option value="180">Venezuela</option><option value="181">Vietnam</option><option value="198">Východní Německo</option><option value="182">Východní Timor</option><option value="219">Wallis a Futuna</option><option value="183">Zambie</option><option value="207">Západní Německo</option><option value="184">Zimbabwe</option></select></div><br><span class="exclude">…ale neobsahující:</span><div class="exclude"><select data-nette-empty-value="" name="origin[exclude][]"><option value="">- všechny -</option><option value="3">Afghánistán</option><option value="4">Albánie</option><option value="5">Alžírsko</option><option value="6">Andorra</option><option value="7">Angola</option><option value="8">Antigua a Barbuda</option><option value="9">Argentina</option><option value="10">Arménie</option><option value="205">Aruba</option><option value="11">Austrálie</option><option value="185">Ázerbájdžán</option><option value="12">Bahamy</option><option value="13">Bahrajn</option><option value="14">Bangladéš</option><option value="15">Barbados</option><option value="16">Belgie</option><option value="17">Belize</option><option value="28">Bělorusko</option><option value="18">Benin</option><option value="19">Bhútán</option><option value="20">Bolívie</option><option value="21">Bosna a Hercegovina</option><option value="22">Botswana</option><option value="23">Brazílie</option><option value="24">Brunej</option><option value="25">Bulharsko</option><option value="26">Burkina Faso</option><option value="27">Burundi</option><option value="187">Čad</option><option value="190">Černá Hora</option><option value="1">Česko</option><option value="197">Československo</option><option value="195">Čína</option><option value="34">Dánsko</option><option value="31">Demokratická republika Kongo</option><option value="32">Dominika</option><option value="33">Dominikánská republika</option><option value="35">Džibutsko</option><option value="36">Egypt</option><option value="37">Ekvádor</option><option value="38">Eritrea</option><option value="39">Estonsko</option><option value="40">Etiopie</option><option value="211">Faerské ostrovy</option><option value="108">Federativní státy Mikronésie</option><option value="200">Fed. rep. Jugoslávie</option><option value="41">Fidži</option><option value="42">Filipíny</option><option value="43">Finsko</option><option value="44">Francie</option><option value="213">Francouzská Polynésie</option><option value="45">Gabon</option><option value="46">Gambie</option><option value="47">Ghana</option><option value="48">Grenada</option><option value="206">Grónsko</option><option value="49">Gruzie</option><option value="214">Guadeloupe</option><option value="50">Guatemala</option><option value="51">Guinea</option><option value="52">Guinea-Bissau</option><option value="53">Guyana</option><option value="54">Haiti</option><option value="55">Honduras</option><option value="196">Hong Kong</option><option value="29">Chile</option><option value="30">Chorvatsko</option><option value="56">Indie</option><option value="57">Indonésie</option><option value="59">Irák</option><option value="186">Írán</option><option value="58">Irsko</option><option value="60">Island</option><option value="61">Itálie</option><option value="62">Izrael</option><option value="63">Jamajka</option><option value="64">Japonsko</option><option value="65">Jemen</option><option value="66">Jihoafrická republika</option><option value="67">Jižní Korea</option><option value="68">Jordánsko</option><option value="201">Jugoslávie</option><option value="69">Kambodža</option><option value="70">Kamerun</option><option value="71">Kanada</option><option value="72">Kapverdy</option><option value="73">Katar</option><option value="74">Kazachstán</option><option value="75">Keňa</option><option value="76">Kiribati</option><option value="77">Kolumbie</option><option value="78">Komory</option><option value="79">Kongo</option><option value="208">Korea</option><option value="80">Kosovo</option><option value="81">Kostarika</option><option value="210">Kréta</option><option value="82">Kuba</option><option value="83">Kuvajt</option><option value="84">Kypr</option><option value="85">Kyrgyzstán</option><option value="86">Laos</option><option value="87">Lesotho</option><option value="88">Libanon</option><option value="90">Libérie</option><option value="89">Libye</option><option value="91">Lichtenštejnsko</option><option value="92">Litva</option><option value="93">Lotyšsko</option><option value="94">Lucembursko</option><option value="95">Madagaskar</option><option value="106">Maďarsko</option><option value="96">Makedonie</option><option value="97">Malajsie</option><option value="98">Malawi</option><option value="99">Maledivy</option><option value="100">Mali</option><option value="101">Malta</option><option value="102">Maroko</option><option value="103">Marshallovy ostrovy</option><option value="215">Martinik</option><option value="104">Mauricius</option><option value="105">Mauritánie</option><option value="216">Mayotte</option><option value="107">Mexiko</option><option value="109">Moldavsko</option><option value="110">Monako</option><option value="111">Mongolsko</option><option value="112">Mosambik</option><option value="113">Myanmar</option><option value="114">Namibie</option><option value="115">Nauru</option><option value="123">Německo</option><option value="116">Nepál</option><option value="117">Niger</option><option value="118">Nigérie</option><option value="119">Nikaragua</option><option value="120">Nizozemsko</option><option value="121">Norsko</option><option value="217">Nová Kaledonie</option><option value="122">Nový Zéland</option><option value="124">Omán</option><option value="133">Pákistán</option><option value="125">Palau</option><option value="202">Palestina</option><option value="126">Panama</option><option value="127">Papua-Nová Guinea</option><option value="128">Paraguay</option><option value="129">Peru</option><option value="130">Pobřeží slonoviny</option><option value="131">Polsko</option><option value="203">Portoriko</option><option value="132">Portugalsko</option><option value="134">Rakousko</option><option value="204">Rakousko-Uhersko</option><option value="135">Rovníková Guinea</option><option value="136">Rumunsko</option><option value="220">Ruské impérium</option><option value="137">Rusko</option><option value="138">Rwanda</option><option value="189">Řecko</option><option value="218">Saint-Pierre a Miquelon</option><option value="139">Salvador</option><option value="140">Samoa</option><option value="141">San Marino</option><option value="142">Saúdská Arábie</option><option value="143">Senegal</option><option value="144">Severní Korea</option><option value="145">Seychely</option><option value="146">Sierra Leone</option><option value="147">Singapur</option><option value="2">Slovensko</option><option value="148">Slovinsko</option><option value="149">Somálsko</option><option value="199">Sovětský svaz</option><option value="150">Spojené arabské emiráty</option><option value="151">Srbsko</option><option value="209">Srbsko a Černá Hora</option><option value="152">Středoafrická republika</option><option value="159">Súdán</option><option value="153">Surinam</option><option value="154">Svatá Lucie</option><option value="155">Svatý Kryštof a Nevis</option><option value="156">Svatý Tomáš a Princův ostrov</option><option value="157">Svatý Vincenc a Grenadiny</option><option value="158">Svazijsko</option><option value="160">Sýrie</option><option value="188">Šalamounovy ostrovy</option><option value="191">Španělsko</option><option value="192">Šrí Lanka</option><option value="193">Švédsko</option><option value="194">Švýcarsko</option><option value="171">Tádžikistán</option><option value="161">Tanzanie</option><option value="163">Thajsko</option><option value="162">Tchaj-wan</option><option value="212">Tibet</option><option value="164">Togo</option><option value="165">Tonga</option><option value="166">Trinidad a Tobago</option><option value="167">Tunisko</option><option value="168">Turecko</option><option value="169">Turkmenistán</option><option value="170">Tuvalu</option><option value="173">Uganda</option><option value="174">Ukrajina</option><option value="175">Uruguay</option><option value="172">USA</option><option value="176">Uzbekistán</option><option value="177">Vanuatu</option><option value="178">Vatikán</option><option value="179">Velká Británie</option><option value="180">Venezuela</option><option value="181">Vietnam</option><option value="198">Východní Německo</option><option value="182">Východní Timor</option><option value="219">Wallis a Futuna</option><option value="183">Zambie</option><option value="207">Západní Německo</option><option value="184">Zimbabwe</option></select></div><script type="text/javascript">CSFD.runHook('complexSelectBox');</script></div></td>
+			</tr>
+			<tr>
+				<th><label for="frm-year_from">Rok:</label></th>
+				<td class="multi"><select name="year_from" id="frm-year_from"><option value="" selected>-vše-</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option><option value="1936">1936</option><option value="1935">1935</option><option value="1934">1934</option><option value="1933">1933</option><option value="1932">1932</option><option value="1931">1931</option><option value="1930">1930</option><option value="1929">1929</option><option value="1928">1928</option><option value="1927">1927</option><option value="1926">1926</option><option value="1925">1925</option><option value="1924">1924</option><option value="1923">1923</option><option value="1922">1922</option><option value="1921">1921</option><option value="1920">1920</option><option value="1919">1919</option><option value="1918">1918</option><option value="1917">1917</option><option value="1916">1916</option><option value="1915">1915</option><option value="1914">1914</option><option value="1913">1913</option><option value="1912">1912</option><option value="1911">1911</option><option value="1910">1910</option><option value="1909">1909</option><option value="1908">1908</option><option value="1907">1907</option><option value="1906">1906</option><option value="1905">1905</option><option value="1904">1904</option><option value="1903">1903</option><option value="1902">1902</option><option value="1901">1901</option><option value="1900">1900</option><option value="1899">1899</option><option value="1898">1898</option><option value="1897">1897</option><option value="1896">1896</option><option value="1895">1895</option><option value="1894">1894</option><option value="1893">1893</option><option value="1892">1892</option><option value="1891">1891</option><option value="1890">1890</option><option value="1889">1889</option><option value="1888">1888</option><option value="1887">1887</option><option value="1886">1886</option><option value="1885">1885</option><option value="1884">1884</option><option value="1883">1883</option><option value="1882">1882</option><option value="1881">1881</option><option value="1880">1880</option><option value="1879">1879</option><option value="1878">1878</option></select> <label for="frm-year_to">až</label> <select name="year_to" id="frm-year_to"><option value="">-vše-</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000" selected>2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option><option value="1936">1936</option><option value="1935">1935</option><option value="1934">1934</option><option value="1933">1933</option><option value="1932">1932</option><option value="1931">1931</option><option value="1930">1930</option><option value="1929">1929</option><option value="1928">1928</option><option value="1927">1927</option><option value="1926">1926</option><option value="1925">1925</option><option value="1924">1924</option><option value="1923">1923</option><option value="1922">1922</option><option value="1921">1921</option><option value="1920">1920</option><option value="1919">1919</option><option value="1918">1918</option><option value="1917">1917</option><option value="1916">1916</option><option value="1915">1915</option><option value="1914">1914</option><option value="1913">1913</option><option value="1912">1912</option><option value="1911">1911</option><option value="1910">1910</option><option value="1909">1909</option><option value="1908">1908</option><option value="1907">1907</option><option value="1906">1906</option><option value="1905">1905</option><option value="1904">1904</option><option value="1903">1903</option><option value="1902">1902</option><option value="1901">1901</option><option value="1900">1900</option><option value="1899">1899</option><option value="1898">1898</option><option value="1897">1897</option><option value="1896">1896</option><option value="1895">1895</option><option value="1894">1894</option><option value="1893">1893</option><option value="1892">1892</option><option value="1891">1891</option><option value="1890">1890</option><option value="1889">1889</option><option value="1888">1888</option><option value="1887">1887</option><option value="1886">1886</option><option value="1885">1885</option><option value="1884">1884</option><option value="1883">1883</option><option value="1882">1882</option><option value="1881">1881</option><option value="1880">1880</option><option value="1879">1879</option><option value="1878">1878</option></select></td>
+				<th class="rating"><label for="frm-rating_from">Hodnocení:</label></th>
+				<td class="multi rating"><select name="rating_from" id="frm-rating_from"><option value="" selected>-vše-</option><option value="100">100 %</option><option value="99">99 %</option><option value="98">98 %</option><option value="97">97 %</option><option value="96">96 %</option><option value="95">95 %</option><option value="94">94 %</option><option value="93">93 %</option><option value="92">92 %</option><option value="91">91 %</option><option value="90">90 %</option><option value="89">89 %</option><option value="88">88 %</option><option value="87">87 %</option><option value="86">86 %</option><option value="85">85 %</option><option value="84">84 %</option><option value="83">83 %</option><option value="82">82 %</option><option value="81">81 %</option><option value="80">80 %</option><option value="79">79 %</option><option value="78">78 %</option><option value="77">77 %</option><option value="76">76 %</option><option value="75">75 %</option><option value="74">74 %</option><option value="73">73 %</option><option value="72">72 %</option><option value="71">71 %</option><option value="70">70 %</option><option value="69">69 %</option><option value="68">68 %</option><option value="67">67 %</option><option value="66">66 %</option><option value="65">65 %</option><option value="64">64 %</option><option value="63">63 %</option><option value="62">62 %</option><option value="61">61 %</option><option value="60">60 %</option><option value="59">59 %</option><option value="58">58 %</option><option value="57">57 %</option><option value="56">56 %</option><option value="55">55 %</option><option value="54">54 %</option><option value="53">53 %</option><option value="52">52 %</option><option value="51">51 %</option><option value="50">50 %</option><option value="49">49 %</option><option value="48">48 %</option><option value="47">47 %</option><option value="46">46 %</option><option value="45">45 %</option><option value="44">44 %</option><option value="43">43 %</option><option value="42">42 %</option><option value="41">41 %</option><option value="40">40 %</option><option value="39">39 %</option><option value="38">38 %</option><option value="37">37 %</option><option value="36">36 %</option><option value="35">35 %</option><option value="34">34 %</option><option value="33">33 %</option><option value="32">32 %</option><option value="31">31 %</option><option value="30">30 %</option><option value="29">29 %</option><option value="28">28 %</option><option value="27">27 %</option><option value="26">26 %</option><option value="25">25 %</option><option value="24">24 %</option><option value="23">23 %</option><option value="22">22 %</option><option value="21">21 %</option><option value="20">20 %</option><option value="19">19 %</option><option value="18">18 %</option><option value="17">17 %</option><option value="16">16 %</option><option value="15">15 %</option><option value="14">14 %</option><option value="13">13 %</option><option value="12">12 %</option><option value="11">11 %</option><option value="10">10 %</option><option value="9">9 %</option><option value="8">8 %</option><option value="7">7 %</option><option value="6">6 %</option><option value="5">5 %</option><option value="4">4 %</option><option value="3">3 %</option><option value="2">2 %</option><option value="1">1 %</option><option value="0">0 %</option></select> <label for="frm-rating_to">až</label> <select name="rating_to" id="frm-rating_to"><option value="" selected>-vše-</option><option value="100">100 %</option><option value="99">99 %</option><option value="98">98 %</option><option value="97">97 %</option><option value="96">96 %</option><option value="95">95 %</option><option value="94">94 %</option><option value="93">93 %</option><option value="92">92 %</option><option value="91">91 %</option><option value="90">90 %</option><option value="89">89 %</option><option value="88">88 %</option><option value="87">87 %</option><option value="86">86 %</option><option value="85">85 %</option><option value="84">84 %</option><option value="83">83 %</option><option value="82">82 %</option><option value="81">81 %</option><option value="80">80 %</option><option value="79">79 %</option><option value="78">78 %</option><option value="77">77 %</option><option value="76">76 %</option><option value="75">75 %</option><option value="74">74 %</option><option value="73">73 %</option><option value="72">72 %</option><option value="71">71 %</option><option value="70">70 %</option><option value="69">69 %</option><option value="68">68 %</option><option value="67">67 %</option><option value="66">66 %</option><option value="65">65 %</option><option value="64">64 %</option><option value="63">63 %</option><option value="62">62 %</option><option value="61">61 %</option><option value="60">60 %</option><option value="59">59 %</option><option value="58">58 %</option><option value="57">57 %</option><option value="56">56 %</option><option value="55">55 %</option><option value="54">54 %</option><option value="53">53 %</option><option value="52">52 %</option><option value="51">51 %</option><option value="50">50 %</option><option value="49">49 %</option><option value="48">48 %</option><option value="47">47 %</option><option value="46">46 %</option><option value="45">45 %</option><option value="44">44 %</option><option value="43">43 %</option><option value="42">42 %</option><option value="41">41 %</option><option value="40">40 %</option><option value="39">39 %</option><option value="38">38 %</option><option value="37">37 %</option><option value="36">36 %</option><option value="35">35 %</option><option value="34">34 %</option><option value="33">33 %</option><option value="32">32 %</option><option value="31">31 %</option><option value="30">30 %</option><option value="29">29 %</option><option value="28">28 %</option><option value="27">27 %</option><option value="26">26 %</option><option value="25">25 %</option><option value="24">24 %</option><option value="23">23 %</option><option value="22">22 %</option><option value="21">21 %</option><option value="20">20 %</option><option value="19">19 %</option><option value="18">18 %</option><option value="17">17 %</option><option value="16">16 %</option><option value="15">15 %</option><option value="14">14 %</option><option value="13">13 %</option><option value="12">12 %</option><option value="11">11 %</option><option value="10">10 %</option><option value="9">9 %</option><option value="8">8 %</option><option value="7">7 %</option><option value="6">6 %</option><option value="5">5 %</option><option value="4">4 %</option><option value="3">3 %</option><option value="2">2 %</option><option value="1">1 %</option><option value="0">0 %</option></select></td>
+			</tr>
+		</table>
+		<div class="ui-collapsible">
+			<h3 class="title">Další volby</h3>
+			<div class="content">
+				<table>
+					<tr class="no-padding">
+						<th><label for="frm-actor">Herci:</label></th>
+						<td colspan="3"><input type="text" name="actor" size="32" id="frm-actor" value=""><script type="text/javascript" charset="utf-8">$("#frm-actor").tokenInput("/autocomplete/actor/",	{"hintText":"zadej jm\u00e9no herce nebo here\u010dky","prePopulate":[]});</script></td>
+					</tr>
+					<tr class="no-padding">
+						<th><label for="frm-director">Režiséři:</label></th>
+						<td colspan="3"><input type="text" name="director" size="32" id="frm-director" value=""><script type="text/javascript" charset="utf-8">$("#frm-director").tokenInput("/autocomplete/director/",	{"hintText":"zadej jm\u00e9no re\u017eis\u00e9ra","prePopulate":[]});</script></td>
+					</tr>
+					<tr class="no-padding">
+						<th><label for="frm-composer">Skladatelé:</label></th>
+						<td colspan="3"><input type="text" name="composer" size="32" id="frm-composer" value=""><script type="text/javascript" charset="utf-8">$("#frm-composer").tokenInput("/autocomplete/composer/",	{"hintText":"zadej jm\u00e9no skladatele","prePopulate":[]});</script></td>
+					</tr>
+					<tr class="no-padding">
+						<th><label for="frm-screenwriter">Scenáristé:</label></th>
+						<td colspan="3"><input type="text" name="screenwriter" size="32" id="frm-screenwriter" value=""><script type="text/javascript" charset="utf-8">$("#frm-screenwriter").tokenInput("/autocomplete/screenwriter/",	{"hintText":"zadej jm\u00e9no scen\u00e1risty","prePopulate":[]});</script></td>
+					</tr>
+					<tr class="no-padding">
+						<th><label for="frm-author">Autoři předlohy:</label></th>
+						<td colspan="3"><input type="text" name="author" size="32" id="frm-author" value=""><script type="text/javascript" charset="utf-8">$("#frm-author").tokenInput("/autocomplete/author/",	{"hintText":"zadej jm\u00e9no autora p\u0159dlohy","prePopulate":[]});</script></td>
+					</tr>
+					<tr>
+						<th><label for="frm-cinematographer">Kameramani:</label></th>
+						<td colspan="3"><input type="text" name="cinematographer" size="32" id="frm-cinematographer" value=""><script type="text/javascript" charset="utf-8">$("#frm-cinematographer").tokenInput("/autocomplete/cinematographer/",	{"hintText":"zadej jm\u00e9no kameramana","prePopulate":[]});</script></td>
+					</tr>
+					<tr id="tagcontrol">
+						<th><label for="frm-tag">Tagy:</label></th>
+						<td colspan="3"><input type="text" name="tag" size="32" id="frm-tag" value=""><script type="text/javascript" charset="utf-8">$("#frm-tag").tokenInput("/autocomplete/tag/",	{"hintText":"zadej n\u00e1zev tagu","prePopulate":[]});</script></td>
+					</tr>
+					<tr class="checkboxlist no-border">
+						<th><label>Pouze:</label></th>
+						<td colspan="3"><div><label><input type="checkbox" name="conditions[]" value="with_photos">s galerií</label><br><label><input type="checkbox" name="conditions[]" value="with_comments">s komentáři</label><br><label><input type="checkbox" name="conditions[]" value="in_cinemas">běží v kinech</label><br><label><input type="checkbox" name="conditions[]" value="on_dvd">vyšlo na DVD</label><br><label><input type="checkbox" name="conditions[]" value="with_collection">s filmotékou</label><br><label><input type="checkbox" name="conditions[]" value="with_videos">s videi</label><br><label><input type="checkbox" name="conditions[]" value="with_trivia">se zajímavostmi</label><br><label><input type="checkbox" name="conditions[]" checked value="on_tv">poběží v TV</label><br><label><input type="checkbox" name="conditions[]" value="on_bluray">vyšlo na Blu-ray</label><br><label><input type="checkbox" name="conditions[]" value="with_bazaar">s bazarem</label><br><label><input type="checkbox" name="conditions[]" value="with_awards">s oceněními</label></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script type="text/javascript">CSFD.runHook("collapsible", []);</script>
+	</div>
+	<div class="footer">
+		<input type="submit" name="ok" id="frm-ok" value="Hledat">
+		<a class="reset" data-confirm="Opravdu chceš resetovat všechny zvolené parametry?" href="/podrobne-vyhledavani/">resetovat volby</a>
+	</div>
+</div>
+<div><input type="hidden" name="_form_" id="frm-_form_" value="film"><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]--></div>
+</form>
+
+
+<div id="films" class="ct-general th-1 results">
+	<div class="header">
+		<h2>Nalezené filmy</h2>
+		<div class="controls"><div class="orderer select">
+<form action="/podrobne-vyhledavani/?do=pof-ordererSelectForm-submit" method="post" id="frm-pof-ordererSelectForm">
+
+
+
+	<label for="frm-pof-ordererSelectForm-order"></label>
+
+	<select name="order" id="frm-pof-ordererSelectForm-order" class="submitter"><option value="rating_count">seřadit podle počtu hodnocení</option><option value="rating_average">seřadit od nejlepšího po nejhorší</option><option value="rating_average_asc">seřadit od nejhoršího po nejlepší</option><option value="year">seřadit od nejnovějšího po nejstarší</option><option value="year_asc">seřadit od nejstaršího po nejnovější</option><option value="fanclub_count">seřadit podle počtu fanoušků</option></select>
+
+
+
+	
+
+	
+		<noscript><input type="submit" name="ok" id="frm-pof-ordererSelectForm-ok" value="OK"></noscript>
+	
+
+
+
+<input type="hidden" name="params" id="frm-pof-ordererSelectForm-params" value='a:20:{s:6:"action";s:7:"default";s:3:"seo";N;s:2:"id";N;s:6:"_form_";s:4:"film";s:5:"actor";s:0:"";s:6:"author";s:0:"";s:15:"cinematographer";s:0:"";s:8:"composer";s:0:"";s:10:"conditions";a:1:{i:0;s:5:"on_tv";}s:8:"director";s:0:"";s:5:"genre";a:3:{s:7:"exclude";a:1:{i:0;s:0:"";}s:7:"include";a:2:{i:0;s:2:"13";i:1;s:0:"";}s:4:"type";s:1:"2";}s:2:"ok";s:6:"Hledat";s:6:"origin";a:3:{s:7:"exclude";a:1:{i:0;s:0:"";}s:7:"include";a:1:{i:0;s:0:"";}s:4:"type";s:1:"2";}s:11:"rating_from";s:0:"";s:9:"rating_to";s:0:"";s:12:"screenwriter";s:0:"";s:3:"tag";s:0:"";s:4:"type";a:10:{i:0;s:1:"0";i:1;s:1:"1";i:2;s:1:"2";i:3;s:1:"3";i:4;s:1:"4";i:5;s:1:"5";i:6;s:1:"6";i:7;s:1:"7";i:8;s:1:"8";i:9;s:1:"9";}s:9:"year_from";s:0:"";s:7:"year_to";s:4:"2000";}'><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+</div>
+</div>
+	</div>
+	<div class="content">
+
+
+
+<div class="paginator text lazy">
+		<span class="button">|&lt; první</span>
+		<span class="button">&lt; předchozí</span>
+	<span class="page page-1">1</span>
+		<a class="button" href="/podrobne-vyhledavani/strana-2/?_form_=film&actor=&author=&cinematographer=&composer=&conditions%5B0%5D=on_tv&director=&genre%5Bexclude%5D%5B0%5D=&genre%5Binclude%5D%5B0%5D=13&genre%5Binclude%5D%5B1%5D=&genre%5Btype%5D=2&ok=Hledat&origin%5Bexclude%5D%5B0%5D=&origin%5Binclude%5D%5B0%5D=&origin%5Btype%5D=2&rating_from=&rating_to=&screenwriter=&tag=&type%5B0%5D=0&type%5B1%5D=1&type%5B2%5D=2&type%5B3%5D=3&type%5B4%5D=4&type%5B5%5D=5&type%5B6%5D=6&type%5B7%5D=7&type%5B8%5D=8&type%5B9%5D=9&year_from=&year_to=2000" rel="nofollow">další &gt;</a>
+</div>
+
+
+		<table class="striped films">
+			<thead>
+				<tr>
+					<th>Film</th>
+					<th>Původ</th>
+					<th>Žánr</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="name"><a href="/film/225585-cestomanie/" class="film c1">Cestománie</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1999)</span></td>
+					<td class="origin">Česko</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/231589-jak-se-to-dela/" class="film c1">How It's Made</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1999)</span></td>
+					<td class="origin">Kanada</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/250932-objektiv/" class="film c1">Objektiv</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1987)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Publicistický / Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/225194-pod-poklickou/" class="film c2">Pod pokličkou</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2000)</span></td>
+					<td class="origin">Česko</td>
+					<td class="genre">Dokumentární / Rodinný</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/242950-kalendarium/" class="film c2">Kalendárium</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1993)</span></td>
+					<td class="origin">Česko</td>
+					<td class="genre">Dokumentární / Historický</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/215262-ceskoslovensky-filmovy-tydenik/" class="film c1">Československý filmový týždenník</a> <span class="film-year">(1954)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Publicistický</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/226166-hledani-ztraceneho-casu/" class="film c1">Hledání ztraceného času</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1991)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/178058-tajemstvi-2-svetove-valky/" class="film c1">Secrets of World War II</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1998)</span></td>
+					<td class="origin">Velká Británie</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/235401-cosmos/" class="film c1">Cosmos</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1980)</span></td>
+					<td class="origin">USA</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/229310-deset-stoleti-architektury/" class="film c1">Deset století architektury</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1997)</span></td>
+					<td class="origin">Česko</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/46216-sprizneni-volbou/" class="film c1">Spřízněni volbou</a> <span class="film-year">(1968)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/280703-dobrodruzstvi-vedy-a-techniky/" class="film c2">Dobrodružství vědy a techniky</a> <span class="film-year">(1997)</span></td>
+					<td class="origin">Německo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/263836-nas-venkov/" class="film c2">Náš venkov</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2000)</span></td>
+					<td class="origin">Česko</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/316345-postrehy-odjinud/" class="film c2">Postřehy odjinud</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1993)</span></td>
+					<td class="origin">Česko</td>
+					<td class="genre">Dokumentární / Publicistický</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/263857-stoleti-letani-pribeh-vitezstvi-cloveka-nad-vzduchem/" class="film c1" title="The Century of Flight: The Epic Story of Man’s Victory in the Air">The Century of Flight: The Epic Story of …</a> <span class="film-year">(1997)</span></td>
+					<td class="origin">Velká Británie</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/251154-pocesku/" class="film c1">Počesku</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(2000)</span></td>
+					<td class="origin">Česko</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/195954-letem-svetem/" class="film c1">Letom svetom</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1994)</span></td>
+					<td class="origin">Velká Británie</td>
+					<td class="genre">Dokumentární / Dobrodružný / Reality-TV</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/277945-planeta-zahad/" class="film c1">Planeta záhad</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1996)</span></td>
+					<td class="origin">Česko</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/249345-mnichov-1938/" class="film c1">Mnichov 1938</a> <span class="film-year">(1968)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Krátkometrážní / Historický</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/74671-tajemstvi-valky/" class="film c1">Sworn to Secrecy: Secrets of War</a> <span class="film-year">(1998)</span></td>
+					<td class="origin">USA</td>
+					<td class="genre">Dokumentární / Válečný / Historický</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/269849-semena-nenavisti/" class="film c2">Semena nenávisti</a> <span class="film-year">(1979)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Historický</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/229546-jdi-za-stestim/" class="film c2">Jdi za štěstím</a> <span class="film-year">(1979)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Krátkometrážní</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/311506-time-team-dobove-vykopavky/" class="film c1">Time Team</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1994)</span></td>
+					<td class="origin">Velká Británie</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/83993-studena-valka/" class="film c1">Cold War</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1998)</span></td>
+					<td class="origin">USA / Velká Británie</td>
+					<td class="genre">Dokumentární / Historický</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/230548-z-lasky/" class="film c2">Z lásky</a> <span class="film-year">(1987)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/283672-architektura-interieru/" class="film c1">Grand Designs</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1999)</span></td>
+					<td class="origin">Velká Británie</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/264591-lekarsti-detektivove/" class="film c1">Medical Detectives</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1996)</span></td>
+					<td class="origin">USA</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/257679-deti-bez-lasky/" class="film c1">Děti bez lásky</a> <span class="film-year">(1963)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/288047-kouzelny-svet-karla-zemana/" class="film c1">Kouzelný svět Karla Zemana</a> <span class="film-year">(1962)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Krátkometrážní</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/263195-hura-ze-skoly/" class="film c2">Mám rád školu</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1997)</span></td>
+					<td class="origin">Francie</td>
+					<td class="genre">Dokumentární / Rodinný</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/229639-novy-pribeh-stare-reky/" class="film c1">Nový příběh staré řeky</a> <span class="film-year">(1962)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/277659-encyklopedia-slovenskych-obci/" class="film c2">Encyklopédia slovenských obcí</a> <span class="film-year">(1992)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/285881-cs-spartakiada-1980/" class="film c1">Čs. spartakiáda 1980</a> <span class="film-type">(TV film)</span> <span class="film-year">(1980)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Sportovní</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/264621-rekonstrukce-zlocinu/" class="film c1">Crime Stories</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1998)</span></td>
+					<td class="origin">USA</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/77566-nevyjasnene-zahady/" class="film c2">Unsolved Mysteries</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1987)</span></td>
+					<td class="origin">USA</td>
+					<td class="genre">Drama / Krimi / Mysteriózní / Horor / Thriller / Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/291891-lidska-prava-v-cssr/" class="film c2">Lidská práva v ČSSR</a> <span class="film-year">(1987)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/366615-ziva-panorama/" class="film c2">Živá panoráma</a> <span class="film-type">(TV pořad)</span> <span class="film-year">(1998)</span></td>
+					<td class="origin">Slovensko</td>
+					<td class="genre">Dokumentární / Hudební</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/285875-dejiny-ceskoslovenske-kinematografie-1-cast-obdobi-nemeho-filmu/" class="film c1">Dějiny čs. kinematografie I.</a> <span class="film-year">(1967)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/267408-generace/" class="film c2">Generace</a> <span class="film-year">(1968)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Krátkometrážní</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/293787-365-dni-navratu/" class="film c1">365 dní návratu</a> <span class="film-year">(1991)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Krátkometrážní</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/330792-48-hodin/" class="film c2">48 Hours</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1988)</span></td>
+					<td class="origin">USA</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/293285-jurassica/" class="film c3">Jurassica</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1999)</span></td>
+					<td class="origin">Velká Británie</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/268833-leta-rozhodnuti/" class="film c2">Léta rozhodnutí</a> <span class="film-year">(1967)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Krátkometrážní</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/294682-davis-cup-1980/" class="film c1">Davis cup 1980</a> <span class="film-year">(1981)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Sportovní</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/349463-sluzebni-cesta-podporucika-sveraka/" class="film c2">Služební cesta podporučíka Svěráka</a> <span class="film-year">(1989)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Krátkometrážní</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/360496-orlik-vodni-dilo/" class="film c1">Orlík - vodní dílo</a> <span class="film-year">(1964)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární / Krátkometrážní</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/194453-100-jahre-der-countdown/" class="film c2">100 rokov svedectiev</a> <span class="film-type">(TV seriál)</span> <span class="film-year">(1999)</span></td>
+					<td class="origin">Německo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/208070-ke-brehum-iwo-jimy/" class="film c1">To the Shores of Iwo Jima</a> <span class="film-year">(1945)</span></td>
+					<td class="origin">USA</td>
+					<td class="genre">Dokumentární / Válečný</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/331359-prerod-mostecka/" class="film c2">Přerod Mostecka</a> <span class="film-year">(1977)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Dokumentární</td>
+				</tr>
+				<tr>
+					<td class="name"><a href="/film/286096-cesty-k-sousedum/" class="film c2">Cesty k sousedům</a> <span class="film-year">(1966)</span></td>
+					<td class="origin">Československo</td>
+					<td class="genre">Krátkometrážní / Dokumentární</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+
+
+<div class="paginator text lazy">
+		<span class="button">|&lt; první</span>
+		<span class="button">&lt; předchozí</span>
+	<span class="page page-1">1</span>
+		<a class="button" href="/podrobne-vyhledavani/strana-2/?_form_=film&actor=&author=&cinematographer=&composer=&conditions%5B0%5D=on_tv&director=&genre%5Bexclude%5D%5B0%5D=&genre%5Binclude%5D%5B0%5D=13&genre%5Binclude%5D%5B1%5D=&genre%5Btype%5D=2&ok=Hledat&origin%5Bexclude%5D%5B0%5D=&origin%5Binclude%5D%5B0%5D=&origin%5Btype%5D=2&rating_from=&rating_to=&screenwriter=&tag=&type%5B0%5D=0&type%5B1%5D=1&type%5B2%5D=2&type%5B3%5D=3&type%5B4%5D=4&type%5B5%5D=5&type%5B6%5D=6&type%5B7%5D=7&type%5B8%5D=8&type%5B9%5D=9&year_from=&year_to=2000" rel="nofollow">další &gt;</a>
+</div>
+	</div>
+	<div class="footer"></div>
+</div>
+
+<div class="ad-pmg ad-pmg-square" data-element-type="square">
+	
+<div id="bmone2n-19877.2.1.4" class="ui-advert ad-ibillboard ad-ibillboard-square" data-code="19877.2.1.4">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/4/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/4/?typkodu=img&keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+			<div class="clear"></div>
+		</div>
+
+		<div id="page-footer">
+			<p>Česko-Slovenská filmová databáze © 2001-2015 <strong>POMO Media Group s.r.o.</strong> Všechna práva vyhrazena.</p>
+				<p>
+		<a href="/provozovatel-a-redakce/">Provozovatel a redakce</a> | <a href="/reklama-a-marketing/">Reklama a marketing</a> |
+		 <a href="/kontakt/">Napište nám</a> |
+		Server hosting zajišťuje <a href="http://www.vshosting.cz">VSHosting s.r.o.</a>
+	</p>
+	<p>
+		Doporučujeme: <a href="http://www.supito.cz">překlady</a>
+	</p>
+
+		</div>
+
+	</div>
+
+	<!-- load ads data -->
+<script type="text/javascript" src="//img.csfd.cz/ads/pmg/data.js"></script>
+<script type="text/javascript">
+	CSFD.ads.provider.pmg.load();
+</script>
+<script type="text/javascript" src="http://go.cz.bbelements.com/bb/bb_one2n.js" onerror="CSFD.ads.blocked = true"></script>
+<script type="text/javascript">
+	try {
+		var bbkeywords = '';
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.addPosition("19877.2.1.5", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.addPosition("19877.2.1.1", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.addPosition("19877.2.1.2", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.addPosition("19877.2.1.7", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.4")) bmone2n.addPosition("19877.2.1.4", '');
+		bmone2n.getAd('go.cz.bbelements.com', bbkeywords, '' + (typeof(bburlparam) == 'string' ? '&' + bburlparam : ''), 'utf-8');
+	}
+	catch (e) {}
+</script>
+<div id="bmone2t-19877.2.1.5" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.makeAd("19877.2.1.5"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.1" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.makeAd("19877.2.1.1"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.2" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.makeAd("19877.2.1.2"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.7" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.makeAd("19877.2.1.7"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.4" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.4")) bmone2n.makeAd("19877.2.1.4"); } catch (e) {} </script></div>
+<script type="text/javascript"> try { bmone2n.moveAd(); } catch (e) {} </script>
+
+		<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+		var pp_gemius_identifier = '.Xo70CM6eCnBhv6vp5QQNcR77xEWf47KiIqfXU6rmdf.e7';
+		// lines below shouldn't be edited
+		function gemius_pending(i) { window[i] = window[i] || function() { var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+		gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+		(function(d,t) { try { var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+		gt.setAttribute('defer','defer'); gt.src=l+'://spir.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) { }})(document,'script');
+		//--><!]]>
+	</script>
+
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-11601932-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>
