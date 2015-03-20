@@ -1,0 +1,707 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="Dnes již legendární film bratří Lumiérů, kteří sestrojili první kameru a kopírku v jednom.  Děj je velice jednoduchý. Statická kamera stojí na nádraží a sleduje přijíždějící vlak. Když vlak zastaví, začnou vystupovat a nastupovat cestující.">
+	<meta name="keywords" content="příjezd vlaku na nádraží v la ciotat, arrivée d'un train à la ciotat, l'">
+
+
+	<title>Příjezd vlaku na nádraží v La Ciotat / Arrivée d'un train à la Ciotat, L' (1895) | ČSFD.cz</title>
+
+	<link rel="shortcut icon" href="http://img.csfd.cz/assets/b1360/images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="http://img.csfd.cz/assets/b1360/images/apple_touch_icon.png">
+
+
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css" type="text/css">
+	<link rel="stylesheet" href="http://img.csfd.cz/assets/b1360/modules/web/styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="http://img.csfd.cz/assets/b1360/styles/print.css" media="print">
+
+		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script> 
+	<script type="text/javascript"> if (window.jQuery === undefined) { document.write(decodeURI(
+			"%3Clink rel=\"stylesheet\" href=\"http://img.csfd.cz/assets/b1360/libs/jqueryui/themes/base/jquery-ui.css\" type=\"text/css\" /%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1360/libs/jquery/jquery.min.js\" type=\"text/javascript\">%3C/script%3E"+
+            "%3Cscript src=\"http://img.csfd.cz/assets/b1360/libs/jqueryui/jquery-ui.min.js\" type=\"text/javascript\">%3C/script%3E"
+		)); }
+	</script> 
+	<script type="text/javascript" charset="utf-8" src="http://img.csfd.cz/assets/b1360/modules/web/scripts/scripts.js"></script>
+
+	
+		<script type="text/javascript">
+		CSFD.app.action.id = ":Web:Film:default";
+		CSFD.app.action.data = {"id":137068,"genre":[13,14],"origin":[44],"year":1895,"creators":[9737,18391]};
+		
+		CSFD.app.visitor = {"country":[2]};
+		
+	</script>
+
+	
+	<meta property="og:site_name" content="ČSFD.cz">
+	<meta property="og:image" content="http://img.csfd.cz/files/images/film/photos/158/513/158513266_8ca110.jpg?w370h370">
+	<meta property="og:image" content="http://img.csfd.cz/files/images/film/posters/157/813/157813910_c328d4.jpg?w370h370">
+	<meta property="og:image" content="http://img.csfd.cz/assets/b1360/modules/web/images/facebook_csfd.png?1">
+	<meta property="og:description" content="Dnes již legendární film bratří Lumiérů, kteří sestrojili první kameru a kopírku v jednom.  Děj je velice jednoduchý. Statická kamera stojí na nádraží a sleduje přijíždějící vlak. Když vlak zastaví, začnou vystupovat a nastupovat cestující.">
+	<meta property="og:title" content="Příjezd vlaku na nádraží v La Ciotat / Arrivée d'un train à la Ciotat, L' (1895)">
+	<meta property="og:type" content="movie">
+	<meta property="fb:app_id" content="260163667481043">
+
+<link rel="canonical" href="http://www.csfd.cz/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/">
+	<link rel="search" type="application/opensearchdescription+xml" title="ČSFD.cz" href="http://img.csfd.cz/assets/b1360/modules/web/misc/opensearch.xml">
+
+	<meta name="application-name" content="ČSFD.cz">
+	<meta name="msapplication-tooltip" content="ČSFD.cz">
+	<meta name="msapplication-starturl" content="http://www.csfd.cz/">
+	<meta name="msapplication-navbutton-color" content="#BB0011">
+
+	<meta name="msapplication-task" content="name=Přihlášení;action-uri=/prihlaseni/;icon-uri=http://img.csfd.cz/assets/b1360/images/favicon.ico">
+	<meta name="msapplication-task" content="name=Novinky;action-uri=/novinky/;icon-uri=http://img.csfd.cz/assets/b1360/images/favicon.ico">
+	<meta name="msapplication-task" content="name=Žebříčky;action-uri=/zebricky/;icon-uri=http://img.csfd.cz/assets/b1360/images/favicon.ico">
+	<meta name="msapplication-task" content="name=Televize;action-uri=/televize/;icon-uri=http://img.csfd.cz/assets/b1360/images/favicon.ico">
+
+
+</head>
+
+<body class="no-js th-1 ap-web" id="ap-web-film">
+	<script type="text/javascript">
+		$('body').removeClass('no-js').addClass('js');
+	</script>
+
+		<div id="ad-wrapper">
+
+<div id="bmone2n-19877.2.1.5" class="ui-advert ad-ibillboard ad-ibillboard-videobanner" data-code="19877.2.1.5">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/5/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/5/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+		<div id="ad-leaderboard">
+<div class="ad-pmg ad-pmg-leaderboard" data-element-type="leaderboard">
+	
+<div id="bmone2n-19877.2.1.1" class="ui-advert ad-ibillboard ad-ibillboard-leaderboard" data-code="19877.2.1.1">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/1/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/1/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		<div class="ad-pmg-skyscraper-left-wrapper">
+			<div id="ad-skyscraper-left">
+<div class="ad-pmg ad-pmg-skyscraper-left" data-element-type="skyscraper-left">
+	
+<div id="bmone2n-19877.2.1.2" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-left" data-code="19877.2.1.2">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/2/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/2/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+		</div>
+		<div id="ad-skyscraper-right">
+<div class="ad-pmg ad-pmg-skyscraper-right" data-element-type="skyscraper-right">
+	
+<div id="bmone2n-19877.2.1.7" class="ui-advert ad-ibillboard ad-ibillboard-skyscraper-right" data-code="19877.2.1.7">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/7/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/7/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+</div>
+	</div>
+
+
+	<div id="page-wrapper">
+		<div id="page-header">
+			<div id="logo">
+				<a href="/" title="ČSFD.cz">
+					<img src="http://img.csfd.cz/assets/b1360/images/logo.png" alt="ČSFD.cz" width="330" height="75">
+				</a>
+				<h2 class="hidden">Česko-Slovenská filmová databáze</h2>
+			</div>
+
+			
+	<div id="user-menu" class="unlogged">
+		<h3>Uživatelská zóna</h3>
+		<ul>
+			<li><a href="/prihlaseni/">Přihlásit</a></li>
+			<li><a href="/registrace/">Registrovat</a></li>
+			<li><a href="/registrace/ztracene-heslo/">Ztracené heslo</a></li>
+		</ul>
+	</div>
+
+
+	<div id="main-search">
+		<form action="/hledat/" method="get">
+			<div>
+				<input type="text" class="text" name="q" value="" id="mainSearch" size="20" placeholder="Hledat">
+				<input type="submit" class="submit" title="Hledat" value="">
+			</div>
+		</form>
+		<a class="advanced-search" href="/podrobne-vyhledavani/">podrobné vyhledávání →</a>
+	</div>
+
+
+			<ul id="main-menu" class="bottom-menu">
+				
+	<li><a href="/novinky/">Novinky</a></li>
+	<li><a href="/videa/">Videa</a></li>
+	<li><a href="/televize/">Televize</a></li>
+	<li><a href="/kino/">Kino</a></li>
+	<li><a href="/filmy-online/">Filmy online</a></li>
+	<li><a href="/dvd-a-bluray/">DVD &amp; Blu-ray</a></li>
+	<li><a href="/tvurci/">Tvůrci</a></li>
+	<li><a href="/zebricky/">Žebříčky</a></li>
+	<li><a href="/filmoteky/">Filmotéky</a></li>
+	<li><a href="/uzivatele/">Uživatelé</a></li>
+	<li><a href="/diskuze/">Diskuze</a></li>
+
+			</ul>
+
+				<div id="activity-message">
+	</div>
+
+		</div>
+
+
+		<div class="page-content" id="pg-web-film" itemscope itemtype="http://schema.org/Movie">
+
+
+
+<div id="main">
+	<div id="profile" class="ct-general th ui-profile">
+
+		<div class="content">
+			<div id="poster" class="image">
+					<img src="//img.csfd.cz/files/images/film/posters/157/813/157813910_c328d4.jpg?h180" alt="poster" class="film-poster" width="121" height="180">
+			</div>
+			<div class="info">
+				<ul class="links">
+				</ul>
+				<h1 itemprop="name">
+						Arrivée d'un train à la Ciotat, L'
+						
+					
+				</h1>
+
+				<ul class="names">
+					<li>
+						<img src="//img.csfd.cz/files/images/flags/159/571/159571898_ce0ce5.gif" alt="CZ název">
+						<h3>Příjezd vlaku na nádraží v La Ciotat</h3>
+<span class="name-source">(festivalový název)</span>
+					</li>
+					<li>
+						<img src="//img.csfd.cz/files/images/flags/159/572/159572086_463ca5.gif" alt="EN název">
+						<h3>Arrival of the Mail Train, The</h3>
+								
+							
+					</li>
+				</ul>
+				<script type="text/javascript">CSFD.runHook("filmHideNames", []);</script>
+
+				<p class="genre">Dokumentární / Krátkometrážní</p>
+				
+				
+				
+
+				
+				
+
+				<p class="origin">Francie, 1895, 1 min</p>
+
+				<div class="creators">
+					<div>
+						<h4>Režie:</h4>
+						<span data-truncate="60">
+							<a href="/tvurce/9737-louis-lumiere/">Louis Lumière</a>, <a href="/tvurce/18391-auguste-lumiere/">Auguste Lumière</a>
+						</span>
+					</div>
+					<script type="text/javascript">CSFD.runHook("truncate", []);</script>
+				</div>
+				<script type="text/javascript">CSFD.runHook("filmShowCreators", []);</script>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="footer"></div>
+	</div>
+
+	<script type="text/javascript">CSFD.runHook("filmPosters", []);</script>
+
+	<div id="plots" class="ct-related">
+		<div class="header">
+			<h3>Obsah
+			</h3>
+		</div>
+		<div class="content">
+			<ul>
+				<li>
+					<div data-truncate="570">
+							<span class="dot icon icon-bullet hidden"></span>
+
+						Dnes již legendární film bratří Lumiérů, kteří sestrojili první kameru a kopírku v jednom.  Děj je velice jednoduchý. Statická kamera stojí na nádraží a sleduje přijíždějící vlak. Když vlak zastaví, začnou vystupovat a nastupovat cestující.<span class="source user">(<a href="/uzivatel/96116-radimfiser/">RadimFišer</a>)</span>
+
+					</div>
+				</li>
+			</ul>
+			<script type="text/javascript">CSFD.runHook("truncate", []);</script>
+		</div>
+	</div>
+	<script type="text/javascript">CSFD.runHook("filmPlots", []);</script>
+
+	<div class="ct-general th with-navigation default">
+<div class="navigation">
+		<ul>
+			<li class="comments default selected">
+				<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/"><span>komentáře</span></a>
+			</li>
+			<li class="trivia">
+				<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/zajimavosti/"><span>zajímavosti</span></a>
+			</li>
+			<li class="awards disabled">
+<span>ocenění</span>			</li>
+			<li class="videos disabled">
+<span>videa</span>			</li>
+			<li class="photos">
+				<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/galerie/"><span>galerie</span></a>
+			</li>
+			<li class="reviews disabled">
+<span>ext. recenze</span>			</li>
+			<li class="collection">
+				<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/filmoteka/"><span>ve filmotéce</span></a>
+			</li>
+			<li class="bazaar">
+				<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/bazar/"><span>v bazaru</span></a>
+			</li>
+			<li class="forum last">
+				<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/diskuze/"><span>diskuze</span></a>
+			</li>
+		</ul>
+</div>
+<div class="header">
+	<h2>Komentáře uživatelů k filmu <span class="count">(101)</span>
+</h2>
+	<div class="controls">
+		<div class="orderer select">
+<form action="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/?do=pof-ordererSelectForm-submit" method="post" id="frm-pof-ordererSelectForm">
+
+
+
+	<label for="frm-pof-ordererSelectForm-order"></label>
+
+	<select name="order" id="frm-pof-ordererSelectForm-order" class="submitter"><option value="points">seřadit podle počtu bodů uživatele</option>
+<option value="datetime">seřadit od nejnovějších po nejstarší</option>
+<option value="rating">seřadit podle hodnocení</option></select>
+
+
+
+	
+
+	
+		<noscript><input type="submit" name="ok" id="frm-pof-ordererSelectForm-ok" value="OK"></noscript>
+	
+
+
+
+<input type="hidden" name="params" id="frm-pof-ordererSelectForm-params" value='a:6:{s:2:"id";s:6:"137068";s:3:"seo";s:36:"prijezd-vlaku-na-nadrazi-v-la-ciotat";s:6:"action";s:7:"default";s:13:"watchlistForm";N;s:14:"collectionForm";N;s:10:"bazaarForm";N;}'><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]-->
+</form>
+</div>
+
+	</div>
+</div>
+
+<div class="ad">
+<div class="ad-pmg ad-pmg-stripe" data-element-type="stripe">
+	
+</div>
+</div>
+
+<script type="text/javascript">CSFD.runHook("collapsible", []);</script>
+
+<div class="content" style="padding-top: 0">
+	<ul class="ui-posts-list">
+		<li id="comment-560776">
+			<div class="info">
+				<a href="/uzivatel/33300-angelangie/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/33300-angelangie/">AngelAngie</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">
+			<p class="post">Opět jeden z nejznámějších snímků.<span class="date desc">(29.8.2008)</span></p>
+		</li>
+		<li id="comment-9638064">
+			<div class="info">
+				<a href="/uzivatel/1636-david-82/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/1636-david-82/">DaViD´82</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/3.gif" class="rating" width="24" alt="***">
+			<p class="post">Teaser trailer na kinematografii.<span class="date desc">(28.1.2014)</span></p>
+		</li>
+		<li id="comment-294862">
+			<div class="info">
+				<a href="/uzivatel/44-edas/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/44-edas/">EdaS</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">
+			<p class="post"><em>Popular legend has it that, when this film was shown, the first-night audience fled the café in terror, fearing being run over by the "approaching" train. This legend has since been identified as promotional embellishment, though there is evidence to suggest that people were astounded at the capabilities of the Lumières' cinématographe.</em> zdroj:<a href="http://www.imdb.com/title/tt0000012/trivia">http://www.imdb.com/title/tt0000012/trivia</a><span class="date desc">(13.5.2007)</span></p>
+		</li>
+		<li id="comment-652327">
+			<div class="info">
+				<a href="/uzivatel/34562-flipper/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/34562-flipper/">Flipper</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/3.gif" class="rating" width="24" alt="***">
+			<p class="post">Pripomenulo mi to čakanie na vlak, ktorým chodím do školy. Ako tak pozerám, vlaky na Slovensku podstúpili veľmi malý krok vpred od roku 1895... hamba...<span class="date desc">(21.12.2008)</span></p>
+		</li>
+		<li id="comment-27880">
+			<div class="info">
+				<a href="/uzivatel/1144-dwi/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/1144-dwi/">dwi</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">
+			<p class="post">Pro diváky tehdejší doby asi nejvíce šokující film a spolu s Pokropeným kropičem nejvíce kopírovaný. Svým způsobem snímání vzbuzoval rozruch mezi obecenstvem, které vyskakovalo ze svých sedadel. Z povzdálí se blížící každou sekundou mohutnější vlak vzbuzoval pocit, že diváci skončí pod jeho koly. Tak silná byla z počátku kinematografie. Lumiér zde využil všech možností svého kinematografu. Sleduje vlak od nejmenší skvrny na obzoru až po jeho blízkou detailnost. Kamera zůstává ve statické poloze, takže pouze předměty mění svoji polohu. Můžeme zde zahlédnout i starou paní Lumiérovou ve skotské pláštěnce.<span class="date desc">(11.9.2003)</span></p>
+		</li>
+		<li id="comment-9251570">
+			<div class="info">
+				<a href="/uzivatel/304094-jara-cimrman-jr/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/304094-jara-cimrman-jr/">Jara.Cimrman.jr</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">
+			<p class="post">Nespatřuji nic mimořádného na tom, že na nádraží přijel vlak, ale když stejný vlak přijel poprvé do kina, tak začalo být jasné, že v pohyblivých obrázcích se skrývá velký potenciál.<span class="date desc">(1.3.2013)</span></p>
+		</li>
+		<li id="comment-726477">
+			<div class="info">
+				<a href="/uzivatel/6880-hellboy/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/6880-hellboy/">Hellboy</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">
+			<p class="post">Typický Lumierovský dokument, je dost zajímavé to vidět, ale nějak rozumně to ohodnotit a zdůvodnit už je velmi obtížné. Co na tom také hodnotit, když kamera je statická, zvuk pochopitelně není a trvá to ani ne minutu... Snad leda to, že je to koukatelné a je to výborný dobový dokument. <em>Odchod z továrny</em> je v tomto směru ale ještě lepší. ___ Mylný komentář: <strong>dwi</strong> - tohle není stránka o Urban legends. Zajímavý komentář: <strong>Radko</strong>. Vtipný komentář: <strong>gr8 escape</strong>. Nepochopitelný komentář: <strong>Klobouček</strong>.<span class="date desc">(21.2.2009)</span></p>
+		</li>
+		<li id="comment-601327">
+			<div class="info">
+				<a href="/uzivatel/20857-skejpr/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/20857-skejpr/">Skejpr</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">
+			<p class="post">Aneb jak bratři Lumiérové objevili sílu celku, polodetailu i detailu v jedné minutě.<span class="date desc">(22.10.2008)</span></p>
+		</li>
+		<li id="comment-8802524">
+			<div class="info">
+				<a href="/uzivatel/130487-thedarknig/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/130487-thedarknig/">TheDarKnig</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">
+			<p class="post">začátek, takhle to pánové a dámy začalo...<span class="date desc">(5.3.2012)</span></p>
+		</li>
+		<li id="comment-169575">
+			<div class="info">
+				<a href="/uzivatel/15159-fabienne/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/15159-fabienne/">Fabienne</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">
+			<p class="post">Sedmá múza se plnou parou řítí do světa. Nastupovat!<span class="date desc">(18.5.2006)</span></p>
+		</li>
+		<li id="comment-9919656">
+			<div class="info">
+				<a href="/uzivatel/147128-ninadel/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/147128-ninadel/">NinadeL</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">
+			<p class="post">Byly jednou jedny dějiny filmu a ty vždycky začínaly na nádraží v La Ciotat.<span class="date desc">(16.11.2014)</span></p>
+		</li>
+		<li id="comment-402570">
+			<div class="info">
+				<a href="/uzivatel/4097-radko/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/4097-radko/">Radko</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">
+			<p class="post">Zaujímavé je, že existujú dve rôzne verzie tohto filmu, pričom obe sú označené ako Lumiérovský film č. 653. Jedna sa nachádza napr. na <a href="http://www.youtube.com/watch?v=1dgLEDdFddk">http://www.youtube.com/watch?v=1dgLEDdFddk</a> a druhá na <a href="http://www.youtube.com/watch?v=v6i3uccnZhQ">http://www.youtube.com/watch?v=v6i3uccnZhQ</a>
+             Evidentne ide o dva rôzne vlaky, iné prostredia. Ďalšia do očí bijúca odlišnosť je rodová: kým v prvá verzia je takmer výhradne mužská, v druhom je počet žien s dlhánskymi sukňami a klobúkmi oveľa vyšší.<span class="date desc">(29.12.2007)</span></p>
+		</li>
+		<li id="comment-783833">
+			<div class="info">
+				<a href="/uzivatel/136152-petaspur/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/136152-petaspur/">petaspur</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/3.gif" class="rating" width="24" alt="***">
+			<p class="post">První emocí, které film vzbudil byl strach. Strach z něčeho tak obyčejného, jako je dvojrozměrný vlak přijíždějící na nádraží. Už tehdy se dalo tušit, že se na kinematografické cestě do neznáma skrývá obrovský potenciál.<span class="date desc">(23.4.2009)</span></p>
+		</li>
+		<li id="comment-9224399">
+			<div class="info">
+				<a href="/uzivatel/354546-tom-lachtan/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/354546-tom-lachtan/">Tom_Lachtan</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">
+			<p class="post">nikdy nezapomeňme vzdát hold těm, díky kterým se na film můžeme s takovým obdivem dívat<span class="date desc">(10.2.2013)</span></p>
+		</li>
+		<li id="comment-432632">
+			<div class="info">
+				<a href="/uzivatel/65590-hippyman/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/65590-hippyman/">hippyman</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/3.gif" class="rating" width="24" alt="***">
+			<p class="post">v hlavní roli vlak, ve vedlejší cestující... :) dobře postavená kamera. 60%<span class="date desc">(10.2.2008)</span></p>
+		</li>
+		<li id="comment-183901">
+			<div class="info">
+				<a href="/uzivatel/30435-liborek/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/30435-liborek/">liborek_</a></h5>
+			
+			<p class="post">V raných letech kinematografie byl Příjezd vlaku najnapodobovanějším námětem. Je to pochopitelné, už při první projekci vzbuzoval tento snímeček šokantní reakce a údiv. Postupem doby se už však podobný styl lidem zajídal a bylo jasné, že tohle je slepá ulička. Pokud jde o kopírování jako takové (ne jen přebírání námětů, ale skutečnou krádež), tak pan Lumiér v tom byl sám mistr. Bez rozpaků kopíroval např. Méliésovu Cestu na Měsíc a dál prodával s tím, že nedělá nic nekalého, protože kinematograf je vlastně jeho vynález a takže i ten film (který jím byl pořízen) patří svým způsobem jemu... Autorství v té době ještě nikomu nic neříkalo.<span class="date desc">(13.7.2006)</span></p>
+		</li>
+		<li id="comment-8329987">
+			<div class="info">
+				<a href="/uzivatel/47644-pluhy/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/47644-pluhy/">Pluhy</a></h5>
+			
+			<p class="post">...a tím to celé začalo!<span class="date desc">(18.2.2011)</span></p>
+		</li>
+		<li id="comment-619833">
+			<div class="info">
+				<a href="/uzivatel/82466-webb/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/82466-webb/">Webb</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">
+			<p class="post">příjezd vlaku, nástup a výstup cestujicích se zavazadly....<span class="date desc">(14.11.2008)</span></p>
+		</li>
+		<li id="comment-9513518">
+			<div class="info">
+				<a href="/uzivatel/318680-madsbender/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/318680-madsbender/">Madsbender</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">
+			<p class="post">Kompozične dokonalý notoricky známy záber prichádzajúceho vlaku, vezúceho babičku Lumiérovú.<span class="date desc">(18.10.2013)</span></p>
+		</li>
+		<li id="comment-9847181">
+			<div class="info">
+				<a href="/uzivatel/149894-mat-ilda/komentare/">všechny komentáře uživatele</a>
+			</div>
+			<h5 class="author"><a href="/uzivatel/149894-mat-ilda/">mat.ilda</a></h5>
+			<img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">
+			<p class="post">Mezník v sladkých útěcích od reality pro příštích minimálně sto dvacet let... a sám tak věcný.<span class="date desc">(30.8.2014)</span></p>
+		</li>
+	</ul>
+	
+<div class="paginator text">
+		<span class="button previous">&lt;&lt; předchozí</span>
+
+			<span class="current">1</span>
+			<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/strana-2/">2</a>
+			<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/strana-3/">3</a>
+			<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/strana-4/">4</a>
+			<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/strana-5/">5</a>
+			<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/strana-6/">6</a>
+
+		<a class="next" href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/strana-2/">následující &gt;&gt;</a>
+</div>
+
+</div>
+
+<div class="footer">
+	<a href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/?all=1">zobrazit všechny komentáře</a>
+</div>
+
+<div class="ad-pmg ad-pmg-rectangle" data-element-type="rectangle">
+	
+<div id="bmone2n-19877.2.1.14" class="ui-advert ad-ibillboard ad-ibillboard-rectangle" data-code="19877.2.1.14">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/14/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/14/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+	</div>
+</div>
+
+
+<div id="sidebar">
+	<div id="rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+		<h2 class="average">79%</h2>
+		<meta itemprop="worstRating" content="0">
+		<meta itemprop="bestRating" content="100">
+		<meta itemprop="ratingValue" content="79">
+		<meta itemprop="ratingCount" content="922">
+	</div>
+
+	<script type="text/javascript">CSFD.runHook("filmRating", []);</script>
+
+	<div id="ratings" class="ct-related ui-profile-user-list">
+		<h3 class="header">Hodnocení uživatelů</h3>
+		<div class="content">
+				<ul>
+					<li>
+<a href="/uzivatel/38-cival/">Cival</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/390-houdini/">Houdini</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/474-tsunamix/">Tsunami_X</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/2008-matty/">Matty</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/75-gouryella/">gouryella</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/3.gif" class="rating" width="24" alt="***">						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/33300-angelangie/">AngelAngie</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/5.gif" class="rating" width="40" alt="*****">						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/1636-david-82/">DaViD´82</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/3.gif" class="rating" width="24" alt="***">						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/6167-pohrobek/">Pohrobek</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/3.gif" class="rating" width="24" alt="***">						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/51363-bluntman/">Bluntman</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/4.gif" class="rating" width="32" alt="****">						<div class="clear"></div>
+					</li>
+					<li>
+<a href="/uzivatel/10159-kiddo/">kiddo</a><img src="http://img.csfd.cz/assets/b1360/images/rating/stars/3.gif" class="rating" width="24" alt="***">						<div class="clear"></div>
+					</li>
+				</ul>
+				<div class="clear"></div>
+
+				<div class="count">
+					<a id="rating-count-link" rel="nofollow" href="/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/?expandUserList=1">všechna hodnocení</a><br>(922)
+				</div>
+		</div>
+	</div>
+
+	<div id="fanclub" class="ct-related ui-profile-user-list">
+		<h3 class="header">Fanklub filmu</h3>
+		<div class="content">
+				<div class="not-found">žádní fanoušci</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+
+
+	<script type="text/javascript">CSFD.runHook("filmPrivateNote", []);</script>
+
+	<div id="share">
+		<ul>
+			<li class="plusone">
+				<div class="g-plusone" data-size="medium" data-count="false" data-href="http://www.csfd.cz/film/137068-prijezd-vlaku-na-nadrazi-v-la-ciotat/"></div>
+				<script type="text/javascript">
+					window.___gcfg = { lang: 'cs'};
+
+					(function() {
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = 'https://apis.google.com/js/plusone.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					})();
+				</script>
+			</li>
+			<li>
+				<a href="http://twitter.com/intent/tweet?text=Arriv%C3%A9e%20d%27un%20train%20%C3%A0%20la%20Ciotat%2C%20L%27%20-%20http%3A%2F%2Fwww.csfd.cz%2Ffilm%2F137068%2F" data-width="550" data-height="350" title="Sdílet na Twitteru">
+					<img src="http://img.csfd.cz/assets/b1360/images/share/twitter.png" alt="Sdílet na Twitteru">
+				</a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.csfd.cz%2Ffilm%2F137068-prijezd-vlaku-na-nadrazi-v-la-ciotat%2F" title="Sdílet na Facebooku">
+					<img src="http://img.csfd.cz/assets/b1360/images/share/facebook.png" alt="Sdílet na Facebooku">
+				</a>
+			</li>
+			<li>
+				<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.csfd.cz%2Ffilm%2F137068-prijezd-vlaku-na-nadrazi-v-la-ciotat%2F&amp;layout=button_count&amp;show_faces=false&amp;width=95&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21&amp;locale=cs_CZ" scrolling="no" frameborder="0" height="21" width="95" allowtransparency="true"></iframe>
+			</li>
+		</ul>
+		<ul class="links">
+			<li>
+				<a href="http://www.imdb.com/title/tt0000012/" data-ga-event="imdb-film|click|unlogged" title="profil na IMDb.com">
+					<img src="http://img.csfd.cz/assets/b1360/images/blank.gif" class="imdb" alt="IMDb">
+				</a>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+
+<div class="ad-pmg ad-pmg-square" data-element-type="square">
+	
+<div id="bmone2n-19877.2.1.4" class="ui-advert ad-ibillboard ad-ibillboard-square" data-code="19877.2.1.4">
+	<noscript>
+		<div style="display: inline"><a href="http://go.cz.bbelements.com/please/redirect/19877/2/1/4/"><img src="http://go.cz.bbelements.com/please/showit/19877/2/1/4/?typkodu=img&amp;keywords=" style="border-width: 0" alt=""></a></div>
+	</noscript>
+</div>
+
+</div>
+
+
+	<script type="text/javascript">CSFD.runHook("filmSimilar", []);</script>
+
+
+</div>
+			<div class="clear"></div>
+		</div>
+
+		<div id="page-footer">
+			<p>Česko-Slovenská filmová databáze © 2001-2015 <strong>POMO Media Group s.r.o.</strong> Všechna práva vyhrazena.</p>
+				<p>
+		<a href="/provozovatel-a-redakce/">Provozovatel a redakce</a> | <a href="/reklama-a-marketing/">Reklama a marketing</a> |
+		 <a href="/kontakt/">Napište nám</a> |
+		Server hosting zajišťuje <a href="http://www.vshosting.cz">VSHosting s.r.o.</a>
+	</p>
+	<p>
+		Doporučujeme: <a href="http://www.supito.cz">překlady</a>
+	</p>
+
+		</div>
+
+	</div>
+
+	<!-- load ads data -->
+<script type="text/javascript" src="//img.csfd.cz/ads/pmg/data.js"></script>
+<script type="text/javascript">
+	CSFD.ads.provider.pmg.load();
+</script>
+<script type="text/javascript" src="http://go.cz.bbelements.com/bb/bb_one2n.js" onerror="CSFD.ads.blocked = true"></script>
+<script type="text/javascript">
+	try {
+		var bbkeywords = '';
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.addPosition("19877.2.1.5", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.addPosition("19877.2.1.1", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.addPosition("19877.2.1.2", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.addPosition("19877.2.1.7", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.14")) bmone2n.addPosition("19877.2.1.14", '');
+			if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.4")) bmone2n.addPosition("19877.2.1.4", '');
+		bmone2n.getAd('go.cz.bbelements.com', bbkeywords, '' + (typeof(bburlparam) == 'string' ? '&' + bburlparam : ''), 'utf-8');
+	}
+	catch (e) {}
+</script>
+<div id="bmone2t-19877.2.1.5" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.5")) bmone2n.makeAd("19877.2.1.5"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.1" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.1")) bmone2n.makeAd("19877.2.1.1"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.2" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.2")) bmone2n.makeAd("19877.2.1.2"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.7" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.7")) bmone2n.makeAd("19877.2.1.7"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.14" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.14")) bmone2n.makeAd("19877.2.1.14"); } catch (e) {} </script></div>
+<div id="bmone2t-19877.2.1.4" style="display:none"><script type="text/javascript"> try { if (CSFD.ads.provider.ibillboard.isCode("19877.2.1.4")) bmone2n.makeAd("19877.2.1.4"); } catch (e) {} </script></div>
+<script type="text/javascript"> try { bmone2n.moveAd(); } catch (e) {} </script>
+
+		<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+		var pp_gemius_identifier = '.Xo70CM6eCnBhv6vp5QQNcR77xEWf47KiIqfXU6rmdf.e7';
+		// lines below shouldn't be edited
+		function gemius_pending(i) { window[i] = window[i] || function() { var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+		gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+		(function(d,t) { try { var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+		gt.setAttribute('defer','defer'); gt.src=l+'://spir.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) { }})(document,'script');
+		//--><!]]>
+	</script>
+
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-11601932-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>
