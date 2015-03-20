@@ -208,8 +208,8 @@ class DocumentaryMoviesParser
   end
 
   def self.parse_csfd_all
-    # (2..4).each do |num|
-      response = Faraday.get("http://www.csfd.cz/podrobne-vyhledavani/?type%5B0%5D=0&genre%5Btype%5D=2&genre%5Binclude%5D%5B0%5D=13&genre%5Binclude%5D%5B1%5D=14&genre%5Binclude%5D%5B2%5D=&genre%5Bexclude%5D%5B0%5D=&origin%5Btype%5D=2&origin%5Binclude%5D%5B0%5D=&origin%5Bexclude%5D%5B0%5D=&year_from=2008&year_to=2008&rating_from=&rating_to=&actor=&director=&composer=&screenwriter=&author=&cinematographer=&tag=&ok=Hledat&_form_=film")
+    # (2..10).each do |num|
+      response = Faraday.get("http://www.csfd.cz/podrobne-vyhledavani/?type%5B0%5D=0&type%5B1%5D=1&type%5B2%5D=2&type%5B3%5D=3&type%5B4%5D=4&type%5B5%5D=5&type%5B6%5D=6&type%5B7%5D=7&type%5B8%5D=8&type%5B9%5D=9&genre%5Btype%5D=2&genre%5Binclude%5D%5B0%5D=13&genre%5Binclude%5D%5B1%5D=&genre%5Bexclude%5D%5B0%5D=&origin%5Btype%5D=3&origin%5Binclude%5D%5B0%5D=&origin%5Bexclude%5D%5B0%5D=&year_from=2015&year_to=2020&rating_from=&rating_to=&actor=&director=&composer=&screenwriter=&author=&cinematographer=&tag=&ok=Hledat&_form_=film")
       site = Nokogiri::HTML(response.body)
 
       arr = []
