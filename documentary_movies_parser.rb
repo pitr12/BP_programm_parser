@@ -7,11 +7,11 @@ class DocumentaryMoviesParser
   @debug = 1 #enable debug
   @csfd_program_parser = 0 #enable parsing of CSFD urls
   @imdb_filter = 0 #enable filterng of items
-  @imdb_parser = 0 #enable IMDB parsing
+  @imdb_parser = 1 #enable IMDB parsing
   @alchemy = 0 #enable AlchemyAPI keyword extraction
   @hist = 0 #enable histogram creation
   @csfd_parser = 0 #parse all csfd documentary movies
-  @csfd_filter = 1 #filter links containing csfd description
+  @csfd_filter = 0 #filter links containing csfd description
 
 #specify day for which should be program parsed (0 today, 1 tomorrow ....)
   DAYS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
@@ -87,15 +87,22 @@ class DocumentaryMoviesParser
 
 
   def self.parse_imdb_content_from_url(url)
-    response = Faraday.get(url)
+    url = url.gsub(/http:\/\/www\.imdb\.com/,'')
 
+    conn = Faraday.new(:url => 'http://www.imdb.com') do |faraday|
+      faraday.request  :retry, max: 4
+      faraday.adapter  Faraday.default_adapter
+    end
+
+    response = conn.get "#{url}"
     body = Nokogiri::HTML(response.body)
 
     #parse title
-    title = body.search('.itemprop[itemprop="name"]')
-    title = title[0].text if(!title.empty?)
+    title = ""
+    title_t = body.search('.itemprop[itemprop="name"]')
+    title = title_t[0].text if(!title_t.empty?)
 
-    #parse StoryLine and Genres
+    #parse StoryLine
     storyline = ""
     titlestoryline = body.search('div#titleStoryLine')
     if !titlestoryline.empty?
@@ -103,14 +110,8 @@ class DocumentaryMoviesParser
     end
 
 
-    item = {:title => title, :desc => storyline, :url => url}
-
-    if storyline.empty?
-      return nil
-    else
-      puts "Storyline"
-      return item
-    end
+    item = {:title => title, :desc => storyline}
+    return item
 
   end
 
@@ -150,19 +151,42 @@ class DocumentaryMoviesParser
   end
 
   def self.parse_imdb_content
-    full_list = []
+    file = File.read('all_documents_csfd_output.json')
+    data = JSON.parse(file)
 
-    File.readlines('documentary_movies_imdb_list.txt').each_with_index do |line,index|
-      puts index.to_s + " GET " + line.to_s if @debug == 1
-      item = parse_imdb_content_from_url(line)
+    start = 0
+    end_t = start + 100
 
-      if !item.nil?
-        full_list << item
+
+    (start..end_t).each do |index|
+      item = data[index]
+      imdb_title = ""
+      imdb_desc = ""
+
+      if item["imdb_url"] != ""
+        puts index.to_s + " GET " + item["imdb_url"] if @debug == 1
+        result = parse_imdb_content_from_url(item["imdb_url"])
+
+        if !result.nil?
+          imdb_title = result[:title]
+          imdb_desc = result[:desc]
+        end
       end
-    end
 
-    File.open("imdb_content.json",'w') do |file|
-      file.write(full_list.to_json)
+      item[:imdb_title] = imdb_title
+      item[:imdb_desc] = imdb_desc
+
+      final_output = []
+      if !File.zero?('all_documents_imdb_output.json')
+        file2 = File.read('all_documents_imdb_output.json')
+        final_output = JSON.parse(file2)
+      end
+      final_output << item
+
+      File.open('all_documents_imdb_output.json','w') do |file|
+        file.write(JSON.pretty_generate(final_output))
+      end
+      sleep(1.5)
     end
   end
 
@@ -225,9 +249,16 @@ class DocumentaryMoviesParser
     # end
   end
 
-  def self.parse_csfd_descripton_and_imd_link(url)
-    puts "GET " +url.to_s
-    response = Faraday.get(url)
+  def self.parse_csfd_descripton_and_imd_link(url,index)
+    puts index.to_s + " GET " +url.to_s
+    url = url.gsub(/http:\/\/www\.csfd\.cz/,'')
+
+    conn = Faraday.new(:url => 'http://www.csfd.cz') do |faraday|
+      faraday.request  :retry, max: 4
+      faraday.adapter  Faraday.default_adapter
+    end
+
+    response = conn.get "#{url}"
     site = Nokogiri::HTML(response.body)
     # site = Nokogiri::HTML(File.open('./downloaded_pages/csfd_prijezd.txt'))
 
@@ -261,31 +292,26 @@ class DocumentaryMoviesParser
       arr << line
     end
 
-    if arr.size == 0
-      exit 1
+    start = 4004
+    end_t = start + 20000
+
+    arr[start..end_t].each_with_index do |url,index|
+      item = parse_csfd_descripton_and_imd_link(url,index)
+
+      final_output = []
+      if !File.zero?('all_documents_csfd_output.json')
+        file2 = File.read('all_documents_csfd_output.json')
+        final_output = JSON.parse(file2)
+      end
+      final_output << item
+
+      File.open('all_documents_csfd_output.json','w') do |file|
+        file.write(JSON.pretty_generate(final_output))
+      end
+
+      sleep(2)
     end
-
-    url = arr.first
-    item = parse_csfd_descripton_and_imd_link(url)
-
-    final_output = []
-    if !File.zero?('all_documents_csfd_output.json')
-      file2 = File.read('all_documents_csfd_output.json')
-      final_output = JSON.parse(file2)
-    end
-    final_output << item
-
-    File.open('all_documents_csfd_output.json','w') do |file|
-      file.write(JSON.pretty_generate(final_output))
-    end
-
-    new_arr = arr[1..-1]
-
-    File.open('all_csfd_documents_processed','w') do |file|
-      file.puts(new_arr)
-    end
-
-    filter_csfd_links()
+    puts "END #{start}..#{end_t}"
 
   end
 
