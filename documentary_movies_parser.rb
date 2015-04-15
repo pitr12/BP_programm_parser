@@ -11,7 +11,7 @@ class DocumentaryMoviesParser
   @alchemy = 0 #enable AlchemyAPI keyword extraction
   @hist = 0 #enable histogram creation
   @csfd_parser = 0 #parse all csfd documentary movies
-  @csfd_filter = 0 #filter links containing csfd description
+  @csfd_filter = 0 #process csfd links to csfd output file
 
 #specify day for which should be program parsed (0 today, 1 tomorrow ....)
   DAYS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
@@ -154,8 +154,8 @@ class DocumentaryMoviesParser
     file = File.read('all_documents_csfd_output.json')
     data = JSON.parse(file)
 
-    start = 0
-    end_t = start + 100
+    start = 55927
+    end_t = start + 1
 
 
     (start..end_t).each do |index|
@@ -171,6 +171,8 @@ class DocumentaryMoviesParser
           imdb_title = result[:title]
           imdb_desc = result[:desc]
         end
+
+        sleep(1.75)
       end
 
       item[:imdb_title] = imdb_title
@@ -186,24 +188,26 @@ class DocumentaryMoviesParser
       File.open('all_documents_imdb_output.json','w') do |file|
         file.write(JSON.pretty_generate(final_output))
       end
-      sleep(1.5)
     end
   end
 
   def self.extract_keywords
-    file = File.read('imdb_content.json')
+    file = File.read('all_documents_imdb_output.json')
     data = JSON.parse(file)
     output = []
 
+
     data.each do |item|
-      puts "Processing: " + item["title"] if @debug == 1
-      keywords = Alchemy.extract_keywords(item["desc"])
-      new_item = {:title => item["title"], :desc => item["desc"], :url => item["url"], :keywords => keywords}
-      output << new_item
+      if item["imdb_desc"] != ""
+        puts "Processing: " + item["imdb_title"] if @debug == 1
+        keywords = Alchemy.extract_keywords(item["imdb_desc"])
+        item["keywords"] = keywords
+        output << item
+      end
     end
 
-    File.open("output.json",'w') do |file|
-      file.write(output.to_json)
+    File.open("test_data.json",'w') do |file|
+      file.write(JSON.pretty_generate(output))
     end
   end
 
@@ -292,8 +296,8 @@ class DocumentaryMoviesParser
       arr << line
     end
 
-    start = 4004
-    end_t = start + 20000
+    start = 40003
+    end_t = start + 15928
 
     arr[start..end_t].each_with_index do |url,index|
       item = parse_csfd_descripton_and_imd_link(url,index)
@@ -309,7 +313,7 @@ class DocumentaryMoviesParser
         file.write(JSON.pretty_generate(final_output))
       end
 
-      sleep(2)
+      sleep(1.5)
     end
     puts "END #{start}..#{end_t}"
 
