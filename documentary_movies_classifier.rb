@@ -6,11 +6,20 @@ require 'yaml'
 class DocumentaryMoviesClassifier
   @debug = 1
   @training = 0
+  @training_vec = 1
+
+  def self.remove_stop_words(text)
+    text = text.split.delete_if{|x| @stop_words.include?(x.downcase)}.join(' ') #remove stop words
+    text = text.gsub(/[^A-Za-z0-9\s]/i, '')  #remove punctuation
+    return text
+  end
+
   def self.convert_movie_to_vector(movie)
     size = @global_dictionary.size
     vector = Array.new(size,0)
 
-    movie["keywords"].each do |keyword|
+    features = remove_stop_words(movie["imdb_desc"]).split
+    features.each do |keyword|
       if @global_dictionary.include? keyword
         vector[@global_dictionary_hash[keyword]] = 1
       else
@@ -23,6 +32,15 @@ class DocumentaryMoviesClassifier
     return vector
   end
 
+  def self.get_training_result(index, prediction)
+    if @training_data[index]["categories"].first.class == String
+      return true if @training_data[index]["categories"].include? prediction.to_i.to_s
+    else
+      return true if @training_data[index]["categories"].include? prediction.to_i
+    end
+    return false
+  end
+
   # ------------    MY DATA   ------------------------------------------------------------
 
   @global_dictionary = []
@@ -31,28 +49,50 @@ class DocumentaryMoviesClassifier
   end
   @global_dictionary_hash = Hash[@global_dictionary.map.with_index.to_a]
 
-  puts "Global dictionary created! \n\n" if @debug == 1
+  @stop_words = []
+  File.readlines('english-stop-words').each do |line|
+    @stop_words << line.chomp
+  end
 
-  if @training == 1
+  @training_data = JSON.parse(File.read('classifier_input/training_data.json'))
+  @test_data = JSON.parse(File.read('classifier_input/test_data.json'))
+
+    puts "Global dictionary created! \n\n" if @debug == 1
+
+  if @training_vec == 1
     puts "Creating vectors for training set..." if @debug == 1
     feature_vectors = []
     labels = []
-    JSON.parse(File.read('final_output.json')).each do |movie|
+    JSON.parse(File.read('classifier_input/training_data.json')).each do |movie|
+      movie["categories"].each_with_index do |item, index|
       vector = convert_movie_to_vector(movie)
       feature_vectors << vector
-
-      labels << movie["category"].first.to_i
+      labels << movie["categories"][index].to_i
+      end
     end
     puts "Vectors and labels for training set created! \n\n" if @debug == 1
   end
 
+  puts "Creating vectors for training-test set..." if @debug == 1
+  training_test_vectors = []
+  JSON.parse(File.read('classifier_input/training_data.json')).each do |movie|
+      vector = convert_movie_to_vector(movie)
+      training_test_vectors << vector
+  end
+  puts "Vectors and labels for training-test set created! \n\n" if @debug == 1
+
   puts "Creating vectors for testing set..." if @debug == 1
   test_vectors = []
-  JSON.parse(File.read('test_data.json')).each do |movie|
-    vector = convert_movie_to_vector(movie)
-    test_vectors << vector
+  test_labels = []
+  JSON.parse(File.read('classifier_input/test_data.json')).each do |movie|
+    movie["categories"].each_with_index do |item, index|
+      vector = convert_movie_to_vector(movie)
+      test_vectors << vector
+      test_labels << movie["categories"][index].to_i
+    end
   end
   puts "Vectors and labels for testing set created! \n\n" if @debug == 1
+
 
   if @training == 1
     # Define kernel parameters
@@ -62,7 +102,7 @@ class DocumentaryMoviesClassifier
     pa.degree = 1
     pa.coef0 = 0
     pa.eps= 0.001
-    pa.cache_size = 10 # MB
+    pa.cache_size = 100 # MB
     pa.probability = 1
     #pa.nu = 1.5
 
@@ -71,9 +111,8 @@ class DocumentaryMoviesClassifier
     # Add documents to the training set
     puts "Creating examples..." if @debug == 1
     examples = feature_vectors.map {|ary| Libsvm::Node.features(ary) }
-    puts "Examples created! \n\n" if @debug == 1
-
     sp.set_examples(labels, examples)
+    puts "Examples created! \n\n" if @debug == 1
   end
 
 
@@ -89,31 +128,36 @@ class DocumentaryMoviesClassifier
       pa.kernel_type = kernels[j]
       puts "Training model..." if @debug == 1
       m = Libsvm::Model.train(sp, pa)
-      # m.save('smv_train.model') # save model
+      m.save('smv_train.model') # save model
       puts "Training finished! \n\n" if @debug == 1
     end
 
      m = Libsvm::Model.load('smv_train.model') #load model
-    ec = 0
 
-    # puts "Predicting on training data..." if @debug == 1
-    # # Test kernel performance on the training set
-    # labels.each_index { |i|
-    #   pred, probs = m.predict_probability(Libsvm::Node.features(feature_vectors[i]))
-    #   # puts "Index: #{i}, Prediction: #{pred}, True label: #{labels[i]}, Kernel: #{kernel_names[j]}"
-    #   ec += 1 if labels[i] != pred
-    # }
-    # # puts "Kernel #{kernel_names[j]} made #{ec} errors on the training set \n\n"
-
-    puts "Predicting on testing data..." if @debug == 1
-    # Test kernel performance on the test set
-    ec = 0
-    test_vectors.each_with_index { |vector,i|
-      pred, probs = m.predict_probability(Libsvm::Node.features(vector))
-      puts "Index: #{i}, \t Prediction: #{pred}, Probs: #{probs}"
+    correct_count = 0
+    puts "Predicting on training data..." if @debug == 1
+    # Test kernel performance on the training set
+    training_test_vectors.each_with_index { |item,i|
+      pred, probs = m.predict_probability(Libsvm::Node.features(item))
+       puts "Index: #{i}, Prediction: #{pred}"
+       result = get_training_result(i,pred)
+       puts result
+       correct_count += 1 if result == true
     }
-    #puts "Kernel #{kernel_names[j]} made #{ec} errors on the test set \n\n"
-    puts "Test data prediction finished!" if @debug == 1
+
+    puts "CORRECT: " +correct_count.to_s + " / " +@training_data.size.to_s
+
+    # puts "Kernel #{kernel_names[j]} made #{ec} errors on the training set \n\n"
+
+    # puts "Predicting on testing data..." if @debug == 1
+    # # Test kernel performance on the test set
+    # ec = 0
+    # test_vectors.each_with_index { |vector,i|
+    #   pred, probs = m.predict_probability(Libsvm::Node.features(vector))
+    #   puts "Index: #{i}, \t Prediction: #{pred}, Probs: #{probs}"
+    # }
+    # #puts "Kernel #{kernel_names[j]} made #{ec} errors on the test set \n\n"
+    # puts "Test data prediction finished!" if @debug == 1
 
     break
   }
