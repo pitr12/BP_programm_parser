@@ -6,7 +6,11 @@ require 'yaml'
 class DocumentaryMoviesClassifier
   @debug = 1
   @training = 0
-  @training_vec = 1
+  @training_vec = 0
+
+  CATEGORIES = {0 => 1,	1=>6,	2=>8,	3=>9,	4=>23, 5=>29,	6=>21,	7=>30,	8=>3,	9=>25,	10=>12,
+                11=>20,	12=>24,	13=>19,	14=>14,	15=>10,	16=>16,	17=>26,	18=>18,	19=>27,	20=>28,
+                21=>2,	22=>13,	23=>17,	24=>7, 25=>22,	26=>11,	27=>5,	28=>15,	29=>4}
 
   def self.remove_stop_words(text)
     text = text.split.delete_if{|x| @stop_words.include?(x.downcase)}.join(' ') #remove stop words
@@ -33,12 +37,12 @@ class DocumentaryMoviesClassifier
   end
 
   def self.get_training_result(index, prediction)
-    if @training_data[index]["categories"].first.class == String
-      return true if @training_data[index]["categories"].include? prediction.to_i.to_s
-    else
-      return true if @training_data[index]["categories"].include? prediction.to_i
-    end
-    return false
+      categories = @training_data[index]["categories"]
+
+      categories.each_with_index do |item,index|
+        categories[index] = item.to_i
+      end
+      return (@training_data[index]["categories"] & prediction).any?
   end
 
   # ------------    MY DATA   ------------------------------------------------------------
@@ -71,27 +75,45 @@ class DocumentaryMoviesClassifier
       end
     end
     puts "Vectors and labels for training set created! \n\n" if @debug == 1
-  end
 
-  puts "Creating vectors for training-test set..." if @debug == 1
-  training_test_vectors = []
-  JSON.parse(File.read('classifier_input/training_data.json')).each do |movie|
-      vector = convert_movie_to_vector(movie)
-      training_test_vectors << vector
-  end
-  puts "Vectors and labels for training-test set created! \n\n" if @debug == 1
 
-  puts "Creating vectors for testing set..." if @debug == 1
-  test_vectors = []
-  test_labels = []
-  JSON.parse(File.read('classifier_input/test_data.json')).each do |movie|
-    movie["categories"].each_with_index do |item, index|
-      vector = convert_movie_to_vector(movie)
-      test_vectors << vector
-      test_labels << movie["categories"][index].to_i
+    puts "Creating vectors for training-test set..." if @debug == 1
+    training_test_vectors = []
+    JSON.parse(File.read('classifier_input/training_data.json')).each do |movie|
+        vector = convert_movie_to_vector(movie)
+        training_test_vectors << vector
     end
+    puts "Vectors and labels for training-test set created! \n\n" if @debug == 1
+
+    # training_test_vectors.each_with_index do |vector,index|
+    #   File.open("classifier_input/vectors/vector_#{index}",'w') do |file|
+    #     file.puts(vector)
+    #   end
+    # end
   end
-  puts "Vectors and labels for testing set created! \n\n" if @debug == 1
+
+  puts "Loading vectors for training-test set..." if @debug == 1
+  training_test_vectors = []
+  (0..334).each do |index|
+    vector = []
+    File.readlines("classifier_input/vectors/vector_#{index}").each do |line|
+      vector << line
+    end
+    training_test_vectors << vector
+  end
+  puts "Vectors for training-test set loaded! \n\n" if @debug == 1
+
+  # puts "Creating vectors for testing set..." if @debug == 1
+  # test_vectors = []
+  # test_labels = []
+  # JSON.parse(File.read('classifier_input/test_data.json')).each do |movie|
+  #   movie["categories"].each_with_index do |item, index|
+  #     vector = convert_movie_to_vector(movie)
+  #     test_vectors << vector
+  #     test_labels << movie["categories"][index].to_i
+  #   end
+  # end
+  # puts "Vectors and labels for testing set created! \n\n" if @debug == 1
 
 
   if @training == 1
@@ -139,6 +161,14 @@ class DocumentaryMoviesClassifier
     # Test kernel performance on the training set
     training_test_vectors.each_with_index { |item,i|
       pred, probs = m.predict_probability(Libsvm::Node.features(item))
+
+      pred = []
+      probs_sorted = probs.sort
+      pred << CATEGORIES[probs.index(probs_sorted[-1])]
+      pred << CATEGORIES[probs.index(probs_sorted[-2])]
+      pred << CATEGORIES[probs.index(probs_sorted[-3])]
+
+
        puts "Index: #{i}, Prediction: #{pred}"
        result = get_training_result(i,pred)
        puts result
