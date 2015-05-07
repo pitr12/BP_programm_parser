@@ -1,3 +1,5 @@
 .idea/
 smv_train.model
 smv_train2.model
+classifier_input/training_data.csv
+cross_*

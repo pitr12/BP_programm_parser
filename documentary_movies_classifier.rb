@@ -5,7 +5,7 @@ require 'yaml'
 
 class DocumentaryMoviesClassifier
   @debug = 1
-  @training = 0
+  @training = 1
   @training_vec = 0
 
   CATEGORIES = {0 => 1,	1=>6,	2=>8,	3=>9,	4=>23, 5=>29,	6=>21,	7=>30,	8=>3,	9=>25,	10=>12,
@@ -45,6 +45,10 @@ class DocumentaryMoviesClassifier
       return (@training_data[index]["categories"] & prediction).any?
   end
 
+  def self.get_test_result(categories, prediction)
+    return (categories & prediction).any?
+  end
+
   # ------------    MY DATA   ------------------------------------------------------------
 
   @global_dictionary = []
@@ -58,62 +62,117 @@ class DocumentaryMoviesClassifier
     @stop_words << line.chomp
   end
 
-  @training_data = JSON.parse(File.read('classifier_input/training_data.json'))
-  @test_data = JSON.parse(File.read('classifier_input/test_data.json'))
+  # @training_data = JSON.parse(File.read('classifier_input/training_data.json'))
+  # @test_data = JSON.parse(File.read('classifier_input/test_data.json'))
 
     puts "Global dictionary created! \n\n" if @debug == 1
 
-  if @training_vec == 1
-    puts "Creating vectors for training set..." if @debug == 1
-    feature_vectors = []
-    labels = []
-    JSON.parse(File.read('classifier_input/training_data.json')).each do |movie|
-      movie["categories"].each_with_index do |item, index|
-      vector = convert_movie_to_vector(movie)
-      feature_vectors << vector
-      labels << movie["categories"][index].to_i
-      end
-    end
-    puts "Vectors and labels for training set created! \n\n" if @debug == 1
+  # if @training_vec == 1
+  #   puts "Creating vectors for training set..." if @debug == 1
+  #   feature_vectors = []
+  #   labels = []
+  #   JSON.parse(File.read('classifier_input/training_data.json')).each do |movie|
+  #     movie["categories"].each_with_index do |item, index|
+  #     vector = convert_movie_to_vector(movie)
+  #     feature_vectors << vector
+  #     labels << movie["categories"][index].to_i
+  #     end
+  #   end
+  #   puts "Vectors and labels for training set created! \n\n" if @debug == 1
+  #
+  #
+  #   puts "Creating vectors for training-test set..." if @debug == 1
+  #   training_test_vectors = []
+  #   JSON.parse(File.read('classifier_input/training_data.json')).each do |movie|
+  #       vector = convert_movie_to_vector(movie)
+  #       training_test_vectors << vector
+  #   end
+  #   puts "Vectors and labels for training-test set created! \n\n" if @debug == 1
+  #
+  #   # training_test_vectors.each_with_index do |vector,index|
+  #   #   File.open("classifier_input/vectors/vector_#{index}",'w') do |file|
+  #   #     file.puts(vector)
+  #   #   end
+  #   # end
+  # end
 
-
-    puts "Creating vectors for training-test set..." if @debug == 1
-    training_test_vectors = []
-    JSON.parse(File.read('classifier_input/training_data.json')).each do |movie|
-        vector = convert_movie_to_vector(movie)
-        training_test_vectors << vector
-    end
-    puts "Vectors and labels for training-test set created! \n\n" if @debug == 1
-
-    # training_test_vectors.each_with_index do |vector,index|
-    #   File.open("classifier_input/vectors/vector_#{index}",'w') do |file|
-    #     file.puts(vector)
-    #   end
-    # end
-  end
-
-  puts "Loading vectors for training-test set..." if @debug == 1
-  training_test_vectors = []
-  (0..334).each do |index|
-    vector = []
-    File.readlines("classifier_input/vectors/vector_#{index}").each do |line|
-      vector << line
-    end
-    training_test_vectors << vector
-  end
-  puts "Vectors for training-test set loaded! \n\n" if @debug == 1
+  # puts "Loading vectors for training-test set..." if @debug == 1
+  # training_test_vectors = []
+  # (0..334).each do |index|
+  #   vector = []
+  #   File.readlines("classifier_input/vectors/vector_#{index}").each do |line|
+  #     vector << line
+  #   end
+  #   training_test_vectors << vector
+  # end
+  # puts "Vectors for training-test set loaded! \n\n" if @debug == 1
 
   # puts "Creating vectors for testing set..." if @debug == 1
   # test_vectors = []
-  # test_labels = []
   # JSON.parse(File.read('classifier_input/test_data.json')).each do |movie|
-  #   movie["categories"].each_with_index do |item, index|
-  #     vector = convert_movie_to_vector(movie)
-  #     test_vectors << vector
-  #     test_labels << movie["categories"][index].to_i
-  #   end
+  #   vector = convert_movie_to_vector(movie)
+  #   test_vectors << vector
   # end
   # puts "Vectors and labels for testing set created! \n\n" if @debug == 1
+
+  if @training == 1
+    puts "Loading training vectors..." if @debug == 1
+    training_vectors = []
+    training_labels = []
+    (1..170).each do |index|
+      vector = []
+      File.readlines("classifier_input/vectors/#{index}").each do |line|
+        vector << line
+      end
+
+      File.readlines("classifier_input/labels/#{index}").each do |category|
+        training_vectors << vector
+        training_labels << category.chomp.to_i
+      end
+    end
+
+    (201..350).each do |index|
+      vector = []
+      File.readlines("classifier_input/vectors/#{index}").each do |line|
+        vector << line
+      end
+
+      File.readlines("classifier_input/labels/#{index}").each do |category|
+        training_vectors << vector
+        training_labels << category.chomp.to_i
+      end
+    end
+    puts "Vectors for training-test set loaded! \n\n" if @debug == 1
+
+    puts "number of labels:"
+    puts training_labels.size
+
+    puts "\n\n"
+  end
+
+  puts "Loading test vectors..." if @debug == 1
+  test_vectors = []
+  test_labels = []
+  (171..200).each do |index|
+    vector = []
+    File.readlines("classifier_input/vectors/#{index}").each do |line|
+      vector << line
+    end
+
+    test_vectors << vector
+
+    categories = []
+    File.readlines("classifier_input/labels/#{index}").each do |category|
+      categories << category.chomp.to_i
+    end
+
+    test_labels << categories
+  end
+  puts "Vectors for test set loaded! \n\n" if @debug == 1
+
+  puts "test labels:"
+  puts test_labels.inspect
+  puts "\n\n"
 
 
   if @training == 1
@@ -132,11 +191,19 @@ class DocumentaryMoviesClassifier
 
     # Add documents to the training set
     puts "Creating examples..." if @debug == 1
-    examples = feature_vectors.map {|ary| Libsvm::Node.features(ary) }
-    sp.set_examples(labels, examples)
+    ec = 0
+    examples = training_vectors.map {|ary|
+      puts "Example: " +ec.to_s
+      ec += 1
+      Libsvm::Node.features(ary)
+    }
     puts "Examples created! \n\n" if @debug == 1
+    puts "Setting examples..." if @debug == 1
+    sp.set_examples(training_labels, examples)
+    puts "Examples set! \n\n" if @debug == 1
   end
 
+  # exit(1)
 
   # We're not sure which Kernel will perform best, so let's give each a try
   kernels = [ Libsvm::KernelType::LINEAR, Libsvm::KernelType::POLY, Libsvm::KernelType::RBF, Libsvm::KernelType::SIGMOID ]
@@ -150,16 +217,41 @@ class DocumentaryMoviesClassifier
       pa.kernel_type = kernels[j]
       puts "Training model..." if @debug == 1
       m = Libsvm::Model.train(sp, pa)
-      m.save('smv_train.model') # save model
       puts "Training finished! \n\n" if @debug == 1
+      puts "Saving model! \n\n" if @debug == 1
+      m.save('cross_validation_6.model') # save model
+      puts "Model saved! \n\n" if @debug == 1
+    else
+      puts "Loading model!" if @debug == 1
+      m = Libsvm::Model.load('cross_validation_6.model') #load model
+      puts "Model loaded! \n\n" if @debug == 1
     end
 
-     m = Libsvm::Model.load('smv_train.model') #load model
+    # correct_count = 0
+    # puts "Predicting on training data..." if @debug == 1
+    # # Test kernel performance on the training set
+    # training_test_vectors.each_with_index { |item,i|
+    #   pred, probs = m.predict_probability(Libsvm::Node.features(item))
+    #
+    #   pred = []
+    #   probs_sorted = probs.sort
+    #   pred << CATEGORIES[probs.index(probs_sorted[-1])]
+    #   pred << CATEGORIES[probs.index(probs_sorted[-2])]
+    #   pred << CATEGORIES[probs.index(probs_sorted[-3])]
+    #
+    #
+    #    puts "Index: #{i}, Prediction: #{pred}"
+    #    result = get_training_result(i,pred)
+    #    puts result
+    #    correct_count += 1 if result == true
+    # }
+    #
+    # puts "CORRECT: " +correct_count.to_s + " / " +@training_data.size.to_s
 
     correct_count = 0
-    puts "Predicting on training data..." if @debug == 1
+    puts "Predicting on testing data..." if @debug == 1
     # Test kernel performance on the training set
-    training_test_vectors.each_with_index { |item,i|
+    test_vectors.each_with_index { |item,i|
       pred, probs = m.predict_probability(Libsvm::Node.features(item))
 
       pred = []
@@ -169,26 +261,15 @@ class DocumentaryMoviesClassifier
       pred << CATEGORIES[probs.index(probs_sorted[-3])]
 
 
-       puts "Index: #{i}, Prediction: #{pred}"
-       result = get_training_result(i,pred)
-       puts result
-       correct_count += 1 if result == true
+      puts "Index: #{i}, Prediction: #{pred}, True_labels: #{test_labels[i]}"
+
+
+      result = get_test_result(test_labels[i],pred)
+      puts result
+      correct_count += 1 if result == true
     }
 
-    puts "CORRECT: " +correct_count.to_s + " / " +@training_data.size.to_s
-
-    # puts "Kernel #{kernel_names[j]} made #{ec} errors on the training set \n\n"
-
-    # puts "Predicting on testing data..." if @debug == 1
-    # # Test kernel performance on the test set
-    # ec = 0
-    # test_vectors.each_with_index { |vector,i|
-    #   pred, probs = m.predict_probability(Libsvm::Node.features(vector))
-    #   puts "Index: #{i}, \t Prediction: #{pred}, Probs: #{probs}"
-    # }
-    # #puts "Kernel #{kernel_names[j]} made #{ec} errors on the test set \n\n"
-    # puts "Test data prediction finished!" if @debug == 1
-
+    puts "CORRECT: " +correct_count.to_s + " / 30"
     break
   }
 end
