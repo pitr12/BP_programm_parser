@@ -119,7 +119,7 @@ class DocumentaryMoviesClassifier
     puts "Loading training vectors..." if @debug == 1
     training_vectors = []
     training_labels = []
-    (1..170).each do |index|
+    (1..140).each do |index|
       vector = []
       File.readlines("classifier_input/vectors/#{index}").each do |line|
         vector << line
@@ -131,7 +131,7 @@ class DocumentaryMoviesClassifier
       end
     end
 
-    (201..350).each do |index|
+    (171..350).each do |index|
       vector = []
       File.readlines("classifier_input/vectors/#{index}").each do |line|
         vector << line
@@ -153,7 +153,7 @@ class DocumentaryMoviesClassifier
   puts "Loading test vectors..." if @debug == 1
   test_vectors = []
   test_labels = []
-  (171..200).each do |index|
+  (141..170).each do |index|
     vector = []
     File.readlines("classifier_input/vectors/#{index}").each do |line|
       vector << line
@@ -219,11 +219,11 @@ class DocumentaryMoviesClassifier
       m = Libsvm::Model.train(sp, pa)
       puts "Training finished! \n\n" if @debug == 1
       puts "Saving model! \n\n" if @debug == 1
-      m.save('cross_validation_6.model') # save model
+      m.save('cross_validation_7.model') # save model
       puts "Model saved! \n\n" if @debug == 1
     else
       puts "Loading model!" if @debug == 1
-      m = Libsvm::Model.load('cross_validation_6.model') #load model
+      m = Libsvm::Model.load('cross_validation_7.model') #load model
       puts "Model loaded! \n\n" if @debug == 1
     end
 
